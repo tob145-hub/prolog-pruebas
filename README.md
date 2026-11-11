@@ -39,4 +39,4 @@ El costo de cada consulta a la API figura en el `manifiesto.json` de cada ejecuc
 
 ## Cita
 
-DOI de la versión congelada (Zenodo): [Falta: DOI].
+DOI de la versión congelada (Zenodo): https://doi.org/10.5281/zenodo.24135347.
