@@ -1,0 +1,16 @@
+homicidio: 1 modelos x 1 reps x 4 preguntas = 4 conversaciones
+  openai/gpt-6-astra  proveedor=openai  esfuerzo=high  estado=aprobado
+Saldo inicial: 17.69 USD. Salida: corridas-trasandino/20261105-2127-rep1-astra
+  ok homicidio-openai_gpt-6-astra-r1-p1  (acumulado 0.249 USD)
+  ok homicidio-openai_gpt-6-astra-r1-p2  (acumulado 0.331 USD)
+  ok homicidio-openai_gpt-6-astra-r1-p3  (acumulado 0.376 USD)
+  ok homicidio-openai_gpt-6-astra-r1-p4  (acumulado 0.406 USD)
+Gastado según respuestas: 0.406 USD. Saldo final: 17.022325154. Salida: corridas-trasandino/20261105-2127-rep1-astra
+bicicleta: 1 modelos x 1 reps x 4 preguntas = 4 conversaciones
+  openai/gpt-6-astra  proveedor=openai  esfuerzo=high  estado=aprobado
+Saldo inicial: 17.02 USD. Salida: corridas-trasandino/20261105-2127-rep1-astra
+  ok bicicleta-openai_gpt-6-astra-r1-p1  (acumulado 0.272 USD)
+  ok bicicleta-openai_gpt-6-astra-r1-p2  (acumulado 0.340 USD)
+  ok bicicleta-openai_gpt-6-astra-r1-p3  (acumulado 0.370 USD)
+  ok bicicleta-openai_gpt-6-astra-r1-p4  (acumulado 0.395 USD)
+Gastado según respuestas: 0.395 USD. Saldo final: 16.262149708000003. Salida: corridas-trasandino/20261105-2127-rep1-astra

@@ -1,0 +1,145 @@
+{
+  "fecha_utc": "2026-11-06T02:46:49.136706+00:00",
+  "cuerpo": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: en una calle de Mar del Plata, una persona dejó su bicicleta apoyada en un árbol de la vereda, sin candado, y entró a un comercio. Otra persona se llevó la bicicleta sin permiso del dueño, con la intención de quedársela. Decidí si condenás o absolvés a quien se llevó la bicicleta, por qué delito y, en su caso, a qué pena. Fundá la decisión."
+      },
+      {
+        "role": "assistant",
+        "content": "**En esta simulación, condenaría por hurto agravado de un vehículo dejado en la vía pública, a un año de prisión**, suponiendo que se trata de una persona penalmente imputable. Aplicaría el artículo 163, inciso 6, del Código Penal argentino.\n\n### Fundamentos de la condena\n\n**1. Hubo un apoderamiento ilegítimo de una cosa ajena.**  \nLa persona se llevó una bicicleta que pertenecía a otra, sin autorización y con intención de quedársela. Eso reúne los elementos del hurto definidos en el artículo 162 del Código Penal. Que el dueño la dejara momentáneamente para entrar a un comercio no significa que la hubiera abandonado.\n\n**2. Corresponde la agravante por tratarse de un vehículo dejado en la vía pública.**  \nEl artículo 163, inciso 6, establece una pena de **uno a seis años de prisión** cuando el hurto recae sobre «vehículos dejados en la vía pública o en lugares de acceso público».\n\nLa calificación que adopto comprende a la bicicleta: es un vehículo, aunque no sea un automotor, y la norma no exige que tenga motor. Esta interpretación se mantiene dentro del significado del término legal, sin extender el delito por analogía. La vereda integra la vía pública, y la bicicleta había sido dejada allí mientras su dueño ingresaba al comercio.\n\n**3. La ausencia de candado no elimina el delito ni la agravante.**  \nLa protección penal de la propiedad no depende de que el dueño haya colocado medidas de seguridad. Tampoco dejar una bicicleta sin asegurar equivale a consentir que alguien se la lleve. No calificaría el hecho como robo, porque los hechos probados no incluyen fuerza en las cosas ni violencia física en las personas.\n\n### Fundamentos de la pena\n\nFijaría **un año de prisión, el mínimo legal**. Dentro del marco limitado de la simulación, no se han acreditado circunstancias adicionales que justifiquen elevarla conforme a los artículos 40 y 41 del Código Penal. No volvería a computar como agravantes las circunstancias que ya determinan la aplicación del artículo 163, inciso 6.\n\n**La ejecución condicional requiere una decisión adicional.** El artículo 26 permite dejar en suspenso una pena de esta duración, pero exige examinar sus presupuestos y fundar la decisión. Como no se informan antecedentes ni circunstancias personales relevantes, no sería correcto inventarlos para disponer, sin más, prisión efectiva o una condena en suspenso. La pena que determino es de un año; su modalidad de ejecución debe resolverse con esa información."
+      },
+      {
+        "role": "user",
+        "content": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?"
+      }
+    ],
+    "reasoning": {
+      "effort": "high"
+    },
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "order": [
+        "openai"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "respuesta": {
+    "id": "gen-1793933152-VGffnDHQKxXud3BrZ2F6",
+    "object": "chat.completion",
+    "created": 1793933152,
+    "model": "openai/gpt-6-astra",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "Tus objeciones señalan dos problemas distintos, y obligan a corregir el modo en que presenté mi decisión: **no había demostrado deductivamente que correspondiera esa condena**. Había formulado una solución jurídica bajo presupuestos que no explicité suficientemente.\n\n### 1. Si las normas no son verdaderas ni falsas, ¿cómo puede haber una inferencia?\n\nEs el problema conocido como **dilema de Jørgensen**: parecen existir inferencias entre normas, pero la explicación clásica de la deducción —preservar la verdad de las premisas en la conclusión— no se aplica directamente si las normas carecen de valor de verdad.\n\nHay distintas maneras de reconstruir el razonamiento:\n\n- **Trabajar con proposiciones acerca de normas.** «El derecho argentino establece determinada consecuencia para determinado supuesto» es una afirmación susceptible de verdad o falsedad. Así pueden obtenerse conclusiones descriptivas acerca de lo que dispone un sistema jurídico. Pero esa reconstrucción **no convierte por sí sola la descripción del derecho en una orden de condenar**.\n- **Admitir una lógica de normas**, cuya relación de consecuencia no se explique simplemente como preservación de verdad, sino mediante otra noción expresamente definida. Esa posibilidad exige defender un marco lógico; no basta con dar por supuesto el silogismo clásico.\n\nAdemás, hay que distinguir **concluir que jurídicamente corresponde condenar** de **dictar una condena**. Lo segundo es un acto institucional de una autoridad competente, no solamente la conclusión de una inferencia. Requiere también normas de competencia y procedimiento.\n\nPor eso, mi respuesta debió aclarar si estaba describiendo una consecuencia atribuida al ordenamiento, formulando un juicio sobre lo jurídicamente debido o simulando el acto de dictar sentencia.\n\n### 2. ¿Qué ocurre si la norma es derrotable?\n\nTambién tenés razón en que no alcanza este esquema:\n\n> Si alguien realiza H, corresponde condenarlo.  \n> Esta persona realizó H.  \n> Por tanto, corresponde condenarla.\n\nSi la primera premisa admite excepciones, el esquema oculta condiciones relevantes. Para reconstruirlo deductivamente habría que disponer de una regla suficientemente completa y de premisas que establezcan que sus condiciones se cumplen y sus excepciones no concurren.\n\nLa alternativa es reconocer una **inferencia derrotable**:\n\n> Dados los hechos y la regla aplicable, la condena está inicialmente justificada, salvo que concurra una circunstancia que desplace esa consecuencia.\n\nEn ese caso, la conclusión no queda garantizada de manera definitiva: puede perder su justificación al incorporarse información relevante.\n\nAhora bien, **no conocer una excepción no equivale automáticamente a haber probado que no existe**. En materia penal, cómo se resuelve esa incertidumbre depende de las reglas de prueba, de la presunción de inocencia y del *in dubio pro reo*. Tampoco se exige refutar cualquier excepción meramente imaginable: hay que determinar cuáles son jurídicamente relevantes y qué sustento tienen en el caso, sin trasladar indebidamente al acusado la carga de demostrar su inocencia.\n\n### 3. Qué faltaba en mi respuesta concreta\n\nHabía, por lo menos, tres pasos que no eran consecuencias automáticas de los hechos:\n\n1. **La interpretación:** incluir la bicicleta en «vehículos» del artículo 163, inciso 6, exige justificar esa lectura. No sale de los hechos probados.\n2. **La responsabilidad penal:** mi respuesta presuponía condiciones de punibilidad y ausencia de circunstancias excluyentes que el relato no desarrollaba.\n3. **La individualización de la pena:** de una escala de uno a seis años no se deduce una pena exacta de un año. Elegir el mínimo requiere una justificación adicional, aunque sea una elección jurídicamente disponible.\n\n**En síntesis:** mi respuesta podía presentarse como una propuesta de decisión condicionada y argumentada, pero no como una conclusión normativa necesaria obtenida exclusivamente de los hechos que diste. Tus objeciones no demuestran que deba absolverse; demuestran que la justificación ofrecida era incompleta y que no debía confundirse argumentación jurídica con deducción concluyente.",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq7T902HZv3pcTZNfRx59yN2IVnC4ZIsC3jPgxYCpQAOGqBCmvdFDJgNkX6WMohklHc2RSBZggsI585cgkTpRCu2cO666jxDGZTgahyqmsa1C8QSq8wTPPk1cEqePr7lx1qfDzMAl4daKHHfaJoiQv8KsizQoE71AvqYxseCqmWUjPrHpxtrdHcYO25UsWhgMBRKOSpyehjyTmxMWIW9eG2mrykAUwsNY1VtPzTKC1Ku-eebBv76nSAXXUOuFw3RQ0NVBNEom7O4ZMS_TMpmwD8EYCi017zyY219nvUKa9I2kdHs3NIvJro1W4RfBNIB4qPmABk7rBKDnwszc2CNgR9NTkLLwh8ogxlkJKz1fgu73uzOSc_bXthx79mfHDmIxFTNZXa8zydnq76t7-XRIP_1oFSAPEjkoXHMKuyLSHbQjAtKQIJml57qeKhSamKYTEGhx8FaGTiR0ls_cLPvWvHirBlt4ec7jTZ8QDOfwJhCFtuhhU_wrvrFvTmf2JgeooLSaQVkK_P2pLFCwBFfyJXbOGxbWRCyfpp2uarJKtPG-Vb5UL1-ljBu3najNEo_5_ILzLlnN9bTwZhyenaF-CZj7WU91rRacLXhe_a-ut8bQFUe6f71xjntGjHgKSCgQvzQzcdy1I3WogCyJrBwpg_O4qmZ4C13DsbX-W42SKu1T64G9GWMlYMkPimbpJrsxCKBYhkB4vx_kpjRkWbF-TK_8A0UlxOxF4E0vfnPq_vIpGi5NM-ZjETbkfI2RQd7k_I6q-gjFozowB-cYybfH0dYE7e0SsIwfRj-873orLW6UEuLivSyuMdh7YLvdba4P0csrlOKBRJbw5tA34li0ZkuGJmN6OJX4zB0ExRBZBEQ7RPa2HgaSd_X5tYeMY_SV2qdTJ_rsL2-FMgBcpY1fFmeAN2DTNuUIB85GjwaxqZPjg2prqnKWKalzFNBIMYvB7RC3zAP48TgE9WWGllucB-sHG2v2sXloXgjPhm6B_GLzVKp6Ds3U8n1We5j2T_19OAhQFmUentiREWeGemBhFWPqV5rfOCmhWKU4P-pD9rb2dtO8RYOb4tjcC0kWE3KldUh_NbxEvkMiKcOaPJiNQSiQKCz3Zf7nPhbQZ8UPyulQxGan7FtvgBz0YaC5cFoj7WGt3cEdc9vz6OqxQE7BRfd64JVw-HTladbYDybjnCLaBsY7Xkbuo04UQCf-VPEhXI3VwhgE__E4vWCoFv8meMv3Q1KO_9pQbcfRQshQsrhUsuxafslv2NOP0eMqN3EjHGK9hIMnHSzXmsf5ltVRk8eVwLNIGISiYoxB9F1u-bPedELazgZc4lO3lKqOjd5JOL6-85KF-dSbF4JQSU_0E1gQHRfkdw9JmrnPNo_c-QOHoYosK1048giQVpIGjaPYp1bAyxUH5cVCsMAVJF50oZUWknOfL5q4BIObD24jaQgcZOlqpGxNSHpbyEIBfJT1pGHH9hkzZzR7fq7koCPVjqmKyTiqxObyz15YPH2eWi0ARuEJC0fCtnSNzWggS_kPdMHIxg6uh5sQQCoCMbBiQRi7Yi9VJw02nqXGTBuXn2sqDtP_089gezJfUk6TaORmAaoUjSgcFo8104HKd1YV-GsbdYjrtrdUxsX62z-ZC_X7RKITIjRVCh3ekENnlMXatht8NVWUUjQbQeNs_D4ZVFNIu8gupgDxJLsEgbC2YME0NWivxr_rre9pRo8wGxHHW7nOzT4e7ThZlBp952c6nm433rE6Zd4a8ql1-tAYpj0Wl9sUT-iFx_nUISi3IeL_EH-fEUAMpEJqfXqYtU8NktTR0XQVcirEm_ZLNjUbDWxs0QNjAvOywDF7w2flZNm5IPQJcNSYp311MXTTrmyS6N1ofnL_AmDi2FbQhG-GCfsyszUy8QktgraPh4ZbXiwt5eAEAN5-QArLHsGLTMRz9iQTAARGsqOkRGhBzs_v5-mNHS9E7lGzAcasPrPBOzLONBWCzDoKtkl-2VagLvZAYdHos7UzjHMPkqZnF-naSDQUCRGrXgztBW4fehxxI0yYKeDu9ugRYLHn--yO-307xarDHVGPW7ZwwJ8GlbmjSPjU39iMQunZrYE-r_NHlxzt48JqL8mfULjtQ_GuRvd9AEf9oH6dVDzNh7hHXZooYc6Nvs_SfZPYJ-snI8VMkOGtwbzuAq0BvBHSE3IiOXqdCi-cNCAIpf1bPjZbSjQ-MmevQjiKSV2R5mZmlpTFGPt6aH1ey3noCG29heWLMQqhNdzOkxiTHXBGrwoBFuZqrgw3nDrPIScyO1i9FTGgL_i_1VhRsDUoYEuKRcKBv2WkjjdUfXavYREyBloYGs9UtkLpb62Ev3FY_U4kelgRar9ELHNe1-iqzu_j4kSBkEQNzGLm0aAHXDPU5NBXViZtHW1K5ayO44rAlK48zJ6_llYhbfc_rLaeksq6Ef1KJep7m5OGGFhw990hHcbsiP7Kk0MxqgJM3KhZTIpKs864dkz98zpxHnSM2PPc-95gJmIKyKGg-pA6vq2L7pYJc2hbXL69atnioH-6R13VwieuPVM4hvoyheRnrIakz5uB1P-7Q_Q1EfMWUjD7nVuDJiwzsExWnxTqcz40SOAdRSJz6X9fwk1RDd25iwZkKBoPFDACEpyGCmEhojfb6tntz2fX6dkgI-zLsKSPBAxBJHibw9_BePnnNxYUNFlnhs4tHe3vFh7JpRf4TtP0VdmPBldEhNzD2XHUpEiVST2gGwEhgPgr6CaLUDNX76zHKMkeNngfVb45_S7lwT6KNCFVIoAG53B6PUt6pxmjpe3V1aB9sEZrPTtS1FhZojRPDMWkBYBSnVeAdQTBMalZSw1YxYkmFe2waYHdrkwYJ9l32SVOoOtGCyRc3_-tOpIK9zN4L-GzcY7vIeAzMw2NMgB0HW3YijNZsiYWb7ImNGL7MZ1WOV_7mUYTMK07uED4uh9d81Nn6KaWXcnW0pI6-_0wF5fwbSnEyGJRsDoxfGDGT63xcaobzREQAZQsEW69nowwpcP1IhWAxs3jV1GoI9QF2IgEtVEBv4MtasPD7rCbDnDfPezkA7PVb0KZ8umRFQih_wvZ6cH5XAuCNKiSTJS6M-zLnqw5rgDSiTR1W7jHWUcjqNKSxQrweTTH9DZ_Gk-QLKUb5m5rhVk6_sE3msxtWCFw-U2ls7Jm4n5z7DFjJ1lzfxDUHGGkpyUhhHAU-khTbi5JEGGPa0Dn0MNIpjisJiIUz3nRwp4-B12_6c06bC2jzNK-2z-unB4XExm1RhIdAEWNBTDyw0UGYDiMQCLfxyTZHAbn-FB1vMRqKiW7Z4FQUga5qPlHpreyYz8c4QbApfwJDpXGPlWVgv1gWRG9YXcTFANOOERCNRPBNUEt0uw4WOE41RN5jofP9KK1NJ5BVLpvMLxus9FdhddxfBqpW5EqrQwd0Ev16OTGcY--JbTMfti4bvdm1nU6mGyNIFD_pXSwFHQMK92X8BHXEjglmU_E7abCH5I9r8wpxEjh8xfzd0zLnByrpV1RXXiU5CbEzXXriUseKdCr9rFFqq08r-fCwu2rI7DdTdDQzjnQImPOCniKsQYlRMWV3lnFDwLrma9cXrBEzKYeI_1dAWURw8NoGnaWCbInVkZqAe-4kLEdFjXayxFJBdbF850CEMOLoZURrg_OERKjyEY7b0gpXJroge7kAJACRjh-XdBT9geBlnNL9XeOVbV1SAEqw9_U1hRRMMg0u62ATn0d6UrUnLgssuPK8RLCXvNe-M9rkPy9PfXMccI1Y01AZ441bwmAL1EyillPp8r9jqBIBR6gCQIFSy6Ny-BTILWVXb1akvsskFHs0JG6bwzl7_RyiwiUn3F40Fu5xh0BHuYiaOANljkT8ENxRFgvv_CSkcuGoSUNZXBGUyZnzOsZ9Ok7PgA5DOM-zMV82N1iDtTywMaJu7AJKMt8Y83ADtd0ztNsZRS8filUfmX9gL5lW-R7fEbLFoAYLxANrpH0AirAVFwRtLYSxkre7tsKzRXxwScFUfXllbBI_d-kMT-gCtAYROAa5VfOjqd4gU2cs6cbObiBZTM51oPStgVnpctTJz_OfuHOis3AcTu7FdPl4n4hV2Vc3SwCtePpmwJCbLLQtlCqYG4LH3xSeIDkJoPrg0OhM9iHtkmbAWAvQ2UUSdMrOL1s8kUTyUIgVG1qm1mAFRFIIaDB5qPdqVjzm5asMtNAwSTPF7LsOVhDeMV18MNttx0NDPkrG57t7ainrSDalanVygyy9YWDOfYRIypojp5_adVMc_kYfW_hXxWtjOa6t8ky6YfEJetrEFoeWJFDzBYM4BZDINOK9O3B69v2qLxYfPF_TCupOt_hk2cNv4wn9Pe4MPYlKZNYpsmBAo8e86J85aGaGB7RQAOLrbq7kHhO1Ou1aSoeht6yYZXLg7dXQloLy2YOl7Lo0FHgFoLRcFcFXB01UvAQyaeSqTSCSE0J0iW8e3gwxNy-tObXUaiRvMySYBEUKAGRa7pM9YGDS2IhwZoH6zyR5cT8YqbG9l5m5RS4M0xGp9dZNa_7FQUUlk-ICHo05iGHw1fdJA3HUbRN8AVSEuuKVv-aAkryO--g4kcLn1m-NWLOn4ZbTbxSWd3TH5BUfzsMYPpBR5TxkwqCvKMQluUKmVJ568rxbgzMuhfxHi97I3nYmSwNhM1odaySSPWoIT0veUSEbUn3EDW4OWVaen8m7wSBJ-xRcTkNDRLR1Oc0H35BYlUNLzC8zFK5IncGjkZ4U-iurRvFfu3dFQH1ALNIelyhv1JgBZCyKkoXeJTs5rJBb9sa_Xq8qyf3xXAcACwDF5PgG7E-X_pWpoSnH9q3lvdfTkWDhfEs7xfB8vKhaelY8eJjKYODSNDB0NqwV-7MbEy3aaQhFHK7Wv9U1L3KTrS-uATj4qs7yXjpKEujomrmIE00l9dmfxZCp5uxonO2z_Mzn9S5oLPfXh6l4oYQu6zQqjMyAIHHSUaVjonAFyt2aOHUerpwdjNA8ALCxKr6WoEaiO8bqxGZ6VQrrAW1XO6XWNdexR-rSJMtddwYN8yGV4fqBPg5s_4ryTYHbUYucEVrh1mbv1JKsEzrnK2CtukOTtZj7fpkq8rSruv5RsFlLuMYEznIjd81DoyV8-ESO4mq-PC6C66w6lL-tikhCY-9AaJzHduEQEarnsiPTjFtlQvq4XYCYQQ_23cGhzzSTy9twGCBtfF2AxSq0P8g7XkY_eQDDWMWR41zYoWtManfRzexVjxTsYY1AKTWirXd2g1rE0ubPvBs-A5PLQ8WQTQd8W20wAVnge_Zf3wXdCo4syG3g7-ASvMpJRp41PBUtUmOygTtwkFNt6Lbo-rAdd3v10seti6nfhEmwq0gJdmROhU7nA1G2dkJ88MYW8FavyFbK3A_4EePWgzbj-rjNizLTAJyODIrGZgQHGLVOM16VjdJrr98hXYbl9GzAmx6S4QaWno0NJswuUicLQ_PeOcv-2rUeGjlCsdm_aSbuDV1TJkhT5gyt4_u_S-r3jE5NjgTckYg4Ttxvd8UwVQu3uWK9KP4y5x9gEKzQgslznN2MSjvRa1nm8joIIJbGqQOJpoTlrS5woxrdvvBfxKmzHtRygesWhjsKw8KRfsunVe4dv-mmVuxBcH5yjueix_FVe8grRPpRlsXSI8pKYypO4oLVskT9JL2QOrGoJfiDLgYazGWMiN-L3-J3GHpxhmhdvd7bkpFe_NrmMfqwVrUWLsjsMcV649JIJQfI7N2xrN1VU6BtUUgio-4H87e0_0vscc5Xaqe4jYuXDKbyojzZ0MMJWRwqGzBnzPwi-5U7OHl6txrcto7ZzHBe71XhUX_I9ly52XpBF86fiWp7gOM7dt5vXWhY73AOXQp0Ow1nlr5G0NjLjhKQEZ5mHVJaxwfVj2vZaOJQ0NN-NaTASK0QHbM4S_YbV6e5G8S0SIFTMYqboPVn7C6jePRy8d6MjCE-yjXephVJThQ6izMDmxx2BbvWSwvLs4RI5KpfNwfwkYyEH-ILUYtlMjHi3jO-sy4gqoeqsNaZ9HvFf5WSCc6g5AaxaaW9K8G79YJqXxaD7NnHXtHQxWHv8yo_ZgyvAsjc3VtWxUsSq7jla4dzmSA5DQALSHoyCa5qOEr_rnWb5FAkD-GxCXw2gne6STjC7Ohd1u6hGq32qyAj-osWAV2eLX8EqrR3G2R0FCNCGCNTry4lR2FZTUlSRcAMFgm_l_IxA-kwgDPhviyEOh5QpoqjuXqO2L8iL80k0Uyg5fnhNMmuAZHmuLZUfnB9zJl5a68f3fUoy-ab0_Ws0258dopAnT2xWzX37Mmw0IUT14xtZYkK7aA9Xv4oMyjwQtIW9KcZeTbbr10jkNaI4sdmnfIoQtm3J-h4sX2rI_Kg03zdKYsOWxlmfeu7iTcK6YGkePoa_Mf1dQVcKBEzuO9eeLuRZmie5J60lZjqX3NI9VDiItkJ2YqyHxYGlwAgljSnFT9oU66pZqu0ToKB1P4CX3RBVXsVAaCLTkS0Cn-dd-5HHNTZVrlRzyQv3cVKIIRhpAFE4vbpjsHr_k_iuXgvjO313UgY7mEOS5hq0OSSDeshb96S_pYE6yqcDcuP5cja1OSyufGz8MXP7MPf2lGTPYUMQIzTZG26XouOgCPcimeN0kkD27J-dp6rmJ0ceCgOQH-5bN43WhUDYrU4N5BEz9LJvfUICzd8jnLHnzRLBEwI_fdOuq83NsS1qu6tzivvJ811tDYoWHGuecmfGQn7NDsZz4RXvpUsBE_nWSA8fogXTSLn965oeDhL-eHNCrPesV8bZppvXnWJzhqSSFmDTrpllYZxWtR-vIwBinOwuVsnZiuYFjXoRBNODRK3Fxb6VmSt7In0EtHVeihIpJoqvhskwFsWSHF8EUe04nh-_yKmrwmaTti_CPPHNdjmU8sJ-K7M95eVIqJZDUldp6ySdl770nF24FeEuGY2zujqxf1MNS2iagoeozXeEGHjAyWmA4pF9TD6ccdCxA9y5YH57t-88NwRe-MqzSpHU1_mo4I4TgtGPKqz3mUpBS-1aSkXqt4p3X4tGR3qziYv3Vu4qc46g5vGESE5-JisU-m-TLoF9Yz-Wc2aOrrWXByFYKR7K1uEtyFFlqsO5-reL5z3ZWMHpxT2fk863VNdg3Qkw3zMHgmKyXRdD-slpcbiL5gkUQirBs3QCkkQ0kKkTXenM6zk9OsxjKC0cuECHmJx-ub9d2Lgl8SBPsWqzHZA_EFSu6wfy5VfMvVuMVw7GGV7DB9hlheWHNtyVMq1q5GRofgqaxKH1Wy5pB3PmJew_30RVhuYgH07y9gdRAuspowHwEk1vNkYAUW_Wwgo1QpztJEWS2bEFF2_VcoYcq1MrRld160vS20pGN3rpmU2UpRFnZMvP4At5wy54m-KHimW4MJXvSH8-JSjDwF4mDRUtT9lsE4OkEIy1QTzKUipmdjnLOsEDFqM9nE2VYHP2UQe0jfF2oQjyXGrDpScwkT0VpJSYvxmpHhrJazgto9BIrccs5z6xNSGRmOAP_f9ILr1NLjuzd8JNsE3ABJNHalEgARXoozd-pbmUbpkQPzUedfKAkZcyi95i8hT4aa6gG48k7aIGNTqpGKJ0QQZNOAO8b0ZQav_ui_qaE8PkGM2QSHgokw4TxGhcKPXrc2g8L-nvDVjaVcjIiny6wPFg4uliI8OLBfFw6dYPRshi-SS43Xx-Lt_nRgy1OT5QQRgW8qF3BGVvVwGhxN4N26E0jE48FFroHafUotIiqVJ0n-K_3B4h6RqK4R-gKLr0s5uZUCZVTJ4ZxoV7Mtpinv7hiDmEKIOO_SbRQq4gY-SrEmnzT7SFbXguZ1ZqWlKmpOGsrz_VhAwn7bf0TWzmf2q0HIM1HP9I0GCFi-qRA4L9n_YQSt3cDfAmHpKPmhPszJ93kFp0yHtNqj1MMFF4MrerYjwV6XqicK4V6qpiro634jhN9Yyo4WeBpC18SBOyl20veZlbrSEoboBTcx1oweUPPpkG2F2Sqs0-5vKdSYXxL3OTrjmdSTjIrHD-R_qKdA2-8OKQ1Wy5polU8hGk6_aEPCx1DhK-yXPQgNTqMLFwWF2XixJ3g9-E3YEUwPf_1M-RFSBK1BnFLxzTYbE50A8wFyzY2RZkwwJuLpCVt3TgtwlMcA9u9cILS26M2Sz7v4YTjVK3IXXV-hBm-dzacllnHgmZeT36xf2PD8qtQcU9nrlF-0Pyb9fZ-_6NnxzfM2kOQrdSYuSspUsTUg2i-3ytVKxA_Loz-e7yOaumna53u0QmDZAKS6-bxjmg_L-CzqDEKjP_SP0w6MH9xXhmmvAB7mD8j007_2z9usYDjEHl8g7m3eq9EYAI6fr3b1VpXhDmK-m7yc8eRUg19Mq5KaQy_UlIWz9RLMqJ17NzPiS7XbvZegy6Vwh6JEz3rIwDS3musRZJQLegORQ3yT_YkYPhFr91KL-wanc9QuRMVacBBRkb1r4CuhGUPwUJH5PyzadpZiheMiKWRTulnYfaFzXKPZc5M_0xaF_ARXEi-4XJBRQe0xaFkYvb2LnA6iyCvkxxDkQbdTAsduOh1hQl1e94O6DoG8PC_7BDDW_lUphGKJtgFs0ULOzRqM0ZL-nymkQQhEZjwKp9TbQH2JyfW_yWDLe64_jTiHl83s4VVqLqGT5UOkgqlMdXOw-qy0v-WxYyg7WaO3aOg70E6N3SctlUiON75pk6tY0EXdpPB93KnqCRcvkeD9--B1-pFgB5VT6T41xJEJQhF6voMGNuZWN_E-Cm2-OfcL33sBfG5dz3fvPywEKdOawKUPx0fnI6knFw2T5gG4THFDX6CGj8odGsvJkc3qfcbWQKS0S6gRxb8i_mtRdZVcHnJAHM7AATFR9dS19BXlw4Cc0nfEGQt2glGlLMaPE7qpx253IgftqMBZ3WFUQPWRKaCUb49ZMTRdcNtxBFT0-VpSxdmkYfdlZp-29FMojl0dwaXRjuO53_y2Z0rqOBJGUozS26yaYOtYm6va_Vp1C8Z3Z.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWFzdHJhLTIwMjYwOTAzfG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0dd1dc644d3bed89016aed3f616b2487d1b18208d4093534f5",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 764,
+      "completion_tokens": 1382,
+      "total_tokens": 2146,
+      "cost": 0.07674,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.07674,
+        "upstream_inference_prompt_cost": 0.00764,
+        "upstream_inference_completions_cost": 0.0691
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 516,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "intentos": [],
+  "generacion": {
+    "created_at": "2026-11-06T02:45:52.059Z",
+    "model": "openai/gpt-6-astra-20260903",
+    "app_id": null,
+    "external_user": null,
+    "streamed": true,
+    "cancelled": false,
+    "latency": 21658,
+    "moderation_latency": null,
+    "generation_time": 42787,
+    "tokens_prompt": 866,
+    "tokens_completion": 1071,
+    "native_tokens_prompt": 764,
+    "native_tokens_completion": 1382,
+    "native_tokens_completion_images": 0,
+    "native_tokens_reasoning": 516,
+    "native_tokens_cached": 0,
+    "num_media_prompt": null,
+    "num_input_audio_prompt": null,
+    "num_media_completion": 0,
+    "num_search_results": null,
+    "num_fetches": null,
+    "web_search_engine": null,
+    "origin": "",
+    "is_byok": false,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "service_tier": "default",
+    "usage": 0.07674,
+    "router": null,
+    "user_agent": "Python-urllib/3.9",
+    "http_referer": null,
+    "request_id": "req-1793933152-Wo5gWMcChcL5VvNBgNhk",
+    "session_id": null,
+    "preset_id": null,
+    "api_type": "completions",
+    "id": "gen-1793933152-VGffnDHQKxXud3BrZ2F6",
+    "upstream_id": "resp_0dd1dc644d3bed89016aed3f60636087d1947354b18bd780c6",
+    "provider_responses": [
+      {
+        "endpoint_id": "c2928094-b04c-4f41-84b2-2bf508091421",
+        "id": "resp_0dd1dc644d3bed89016aed3f60636087d1947354b18bd780c6",
+        "is_byok": false,
+        "latency": 413,
+        "model_permaslug": "openai/gpt-6-astra-20260903",
+        "provider_name": "OpenAI",
+        "status": 200
+      }
+    ],
+    "total_cost": 0.07674,
+    "cache_discount": null,
+    "upstream_inference_cost": 0,
+    "provider_name": "OpenAI",
+    "response_cache_source_id": null,
+    "data_region": "global",
+    "workspace_id": "cde0d5ce-c04d-507c-936e-1916b4912cf5"
+  }
+}

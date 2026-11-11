@@ -1,0 +1,158 @@
+{
+  "fecha_utc": "2026-11-06T02:41:20.694699+00:00",
+  "cuerpo": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: una persona conducía a las 23:00 horas un automóvil a 100 km por hora por la avenida Luro de Mar del Plata. Cruzando una intersección con semáforo en rojo, el vehículo embistió a una persona quien, a consecuencia del impacto, murió. Decidí si condenás o absolvés al conductor y, en su caso, a qué pena. Fundá la decisión."
+      },
+      {
+        "role": "assistant",
+        "content": "**En esta simulación, condenaría al conductor a cuatro años de prisión y seis años de inhabilitación especial para conducir vehículos con motor**, como autor de homicidio culposo agravado, conforme al artículo 84 bis del Código Penal argentino.\n\n### 1. Fundamento de la condena\n\nLa conducta probada no constituye un mero accidente inevitable: el conductor ingresó en una intersección con el semáforo en rojo, circulando a 100 km/h por una avenida urbana, y embistió a una persona, causándole la muerte.\n\nExiste una infracción grave del deber de cuidado. Respetar el semáforo permite evitar, precisamente, colisiones con quienes atraviesan la intersección. En el supuesto planteado, el fallecimiento constituye la realización del riesgo prohibido creado por esa conducción.\n\nEl segundo párrafo del artículo 84 bis contempla expresamente la **violación de la señalización del semáforo** como circunstancia agravante. La escala aplicable es de **tres a seis años de prisión**, junto con la inhabilitación especial de **cinco a diez años** prevista en el primer párrafo. Para aplicar esa figura no necesito suponer cuál era el límite de velocidad específicamente señalizado en ese tramo: el cruce en rojo basta para configurar la agravante.\n\n### 2. Por qué no condenaría por homicidio doloso\n\nLa extrema peligrosidad de una conducta no demuestra, por sí sola, dolo eventual. Los hechos relatados permiten afirmar una conducción gravemente imprudente, pero no bastan para tener por probado que el conductor se representó la muerte y la aceptó en los términos necesarios para una condena por homicidio doloso.\n\nTampoco presumiría consumo de alcohol, participación en una carrera, fuga o antecedentes penales: nada de eso integra los hechos probados.\n\n### 3. Fundamento de la pena elegida\n\nDentro de la escala legal, fijaría **cuatro años de prisión** porque al cruce en rojo —que determina el encuadre agravado— se añade una velocidad de 100 km/h al atravesar una intersección urbana. Esa circunstancia incrementa considerablemente el riesgo, reduce la posibilidad de evitar una colisión y aumenta la violencia del impacto. Justifica apartarse del mínimo, sin acudir al máximo ni valorar nuevamente la muerte como agravante autónoma.\n\nFijaría **seis años de inhabilitación** por la gravedad del incumplimiento de las reglas esenciales de conducción.\n\nLa prisión sería **de cumplimiento efectivo**: una pena de cuatro años no admite la suspensión de su ejecución prevista en el artículo 26 del Código Penal.\n\nEsta es una individualización razonada para la simulación, no la única pena legalmente posible. Una sentencia real exigiría, además, examinar las circunstancias personales del acusado conforme a los artículos 40 y 41 del Código Penal; los datos omitidos no podrían inventarse ni utilizarse en su contra."
+      },
+      {
+        "role": "user",
+        "content": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?"
+      }
+    ],
+    "reasoning": {
+      "effort": "high"
+    },
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "order": [
+        "openai"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "respuesta": {
+    "id": "gen-1793932817-5R6YfUtYfllVu2e9HJsG",
+    "object": "chat.completion",
+    "created": 1793932817,
+    "model": "openai/gpt-6-astra",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "Tu objeción señala dos problemas reales de mi respuesta anterior: **presenté como categórica una conclusión que dependía de presupuestos no explicitados y elegí una pena concreta que no se deducía de los hechos suministrados**. Pero conviene distinguir los dos problemas que planteás.\n\n### 1. Si las normas no son verdaderas ni falsas, ¿cómo puede haber una inferencia normativa?\n\nEs el problema conocido como **dilema de Jørgensen**: aparentemente razonamos con normas, aunque la explicación clásica de la validez deductiva —preservación de la verdad de las premisas a la conclusión— no se aplica directamente a expresiones que carecen de valor de verdad.\n\nUna respuesta consiste en distinguir:\n\n- **La norma:** «Debe imponerse determinada sanción a quien realice cierta conducta».\n- **La proposición acerca de una norma:** «En el ordenamiento argentino existe una norma válida que establece esa consecuencia bajo determinadas condiciones».\n\nLa segunda sí puede ser verdadera o falsa. Podemos reconstruir parte del razonamiento judicial mediante proposiciones acerca del derecho vigente y acerca de los hechos. Pero entonces lo que obtenemos es **una proposición sobre la consecuencia jurídica que corresponde según ese ordenamiento**, no, por ese solo procedimiento, la norma individual de condena. Dictar esta última requiere un acto de la autoridad competente.\n\nOtra posibilidad es adoptar una lógica de normas cuya noción de consecuencia no se explique simplemente como preservación de la verdad. Pero habría que explicitar y defender ese marco, no darlo por supuesto.\n\nPor eso, mi respuesta anterior debía presentarse como una **justificación jurídica de una decisión**, no como una deducción clásica incuestionable entre normas.\n\n### 2. Si las normas son derrotables, ¿qué ocurre con las excepciones?\n\nTambién aquí tenés razón: de la existencia de una regla y de la acreditación de su supuesto básico **no se sigue necesariamente una obligación concluyente de condenar**.\n\nPodemos representar el razonamiento inicial así:\n\n> Si concurren los hechos relevantes para el homicidio culposo agravado, corresponde, *en principio*, aplicar su consecuencia penal.\n\nEse «en principio» importa: una causa de justificación, de inimputabilidad u otro impedimento jurídicamente relevante podría desplazar la conclusión.\n\nHay dos maneras de reconstruirlo:\n\n- **Deductivamente:** incorporar todas las condiciones relevantes, incluida la ausencia de excepciones. La conclusión solo se sigue si esas premisas están justificadas.\n- **De manera derrotable:** obtener una conclusión provisional, susceptible de revisión ante información adicional. No se trata entonces de una deducción clásica y monotónica.\n\nAdemás, **que el relato no mencione una excepción no demuestra que no concurra**. Mi respuesta trató implícitamente los hechos proporcionados como suficientes para cerrar esa cuestión, sin justificarlo.\n\nEso tampoco significa que un tribunal deba refutar cualquier excepción imaginable. Debe resolver las cuestiones relevantes conforme a las reglas probatorias y a la presunción de inocencia: no puede suplir con suposiciones contra el acusado aquello que sea necesario acreditar para condenarlo.\n\n### 3. La pena concreta presenta un problema adicional\n\nAun suponiendo definitivamente establecida la responsabilidad y la escala de tres a seis años, **de allí no se deducen cuatro años**. La individualización requiere razones adicionales y circunstancias pertinentes. Mi elección fue una propuesta valorativa dentro de la escala, no una consecuencia necesaria; los datos disponibles no bastaban para sostenerla como pena definitivamente justificada.\n\nPor tanto, la conclusión corregida sería:\n\n> **Los hechos relatados proporcionan fundamento inicial para considerar aplicable el homicidio culposo agravado. Una condena definitiva exige justificar los restantes presupuestos de responsabilidad y resolver las posibles excepciones relevantes. La pena exacta requiere, además, una fundamentación individualizadora que el relato no permite completar.**\n\nNo es que resulte imposible razonar jurídicamente con normas: es que **ese razonamiento no puede reducirse, sin más, al silogismo categórico que mi primera respuesta sugería**.",
+          "refusal": null,
+          "reasoning": "**Clarifying legal nuances**\n\nI’m considering the traffic laws about red lights and pedestrian crossings, especially in emergencies. The idea of “justifying necessity” in medical emergencies could show negligent liability. I want to touch on terms like \"estado de necesidad justificante\" and \"inimputabilidad.\" It'll be useful to mention penalties, though I'm debating if they range from 3-6, avoiding choosing 4. I’m aiming for a structured piece around 650 words, potentially 450-600 in Spanish, with about four headings and a revised conclusion.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Clarifying legal nuances**\n\nI’m considering the traffic laws about red lights and pedestrian crossings, especially in emergencies. The idea of “justifying necessity” in medical emergencies could show negligent liability. I want to touch on terms like \"estado de necesidad justificante\" and \"inimputabilidad.\" It'll be useful to mention penalties, though I'm debating if they range from 3-6, avoiding choosing 4. I’m aiming for a structured piece around 650 words, potentially 450-600 in Spanish, with about four headings and a revised conclusion.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq7T4lvb9rb39xjsU8gwTOPewPYqKbc71tREsOS-tp4hFfBIH-CkkgCp_zrRfjd26wKpgAQ7LTdmT37mPnE6ypyzIRb4K62OwJlRgLyA4SXrWw_M2ExCIQAmWuTnVo7Zoho-x6wHkr_1JeDAq-oKMDqcqxWjyTqVVkt8UP2CFlYcUG4GrzXKdcWLs-oU4c0g2sKn0AgZRYWw_f08bfcYzbx4DEZfVXEez0eQK3395jzxCkubDH13VeUWsnKwwoTVbtGAPhQN3cvAMx9NtV3MBhkLO9-4zia44V_6jIaALCrmUuY1OZEvFhttM9RRqBnoSaLTEgY5KE4AtJgjbx10GLzdrR0xTpFuWaQjIBHNaHGmNEAEZ8DIKFY_mIrXK4zM5jetF9qkFCm6UNSrxX27lZpEjJo6l0hJyxt0DYKztgvZ4S5lfH102vp0CtV2S_f6q1Ohq3MFk2bqY8Lbqc5hm3jwStUBaW2o3olIlz8jqsrR4uBGk1sv6P9KZdoPMb1FDTkzL6HmuznveqsMmJqS6EBzWb_ar_v4gBDMnpTc0Pmja96hDbngxJ2XeoDPfQXzBXGK_ZgIUrt7HqXDasEWeWYsOvf1qIKHJloo3vNCRPt6h0lxAVMJ2PxTd4tXYXqOkxrJTGm1zXjmKDfDzuxVs9gMQPTqc-8uHLhB5bCE_N_pk3iiJt4J6zzxCluyuBtR-S5FMFYoq6aeus69sTNggn6aM8scHbKK3mnbAi_S2IWSJTvEMvwbGqN5rKnS4lTPEOJCmOfjn0FbynOsbKWABzIZ5J7T7V9fTtqCG3DiAj1nQItXcgG3vlXKSe0pvgsFDTnDyOx5WCl7ulgE6Amd2d8WzVdZ0SMQhkGzD6pCA7fHEYx7rGzYucPAYoMCS6gKldIzYTTVarwhCTheOluoPQTxEcOzcaS_y0mDsMNNcjawNNqZA1vfO0hKLdoujC9DCp9jDuruJh3Szzsmxnne3u9Eid1m_qMizFDklWvuhsEvADZQ9bk07yP3gTBcWHZp_w1XjWRBlzzeyka51-XYplem2dzGBLr4EsgSuVOGd7WzCXgsQnHRaHTFSddIRBSUSdrmd77g7Wz4zElkzfuftSkUto4gXPCpuhHCmAGJ_F3mFAP5rvwQax8A0CAMNNfijwDJyytDupFBgBuUr7jyphZ2HgZZM5gbxsjh0RUZr5vCpEL2UBqqCIouCODQZ89oZIQ0z3Xy2R9cOi9UHh3wg5Pv0D_Mt62THWj13eeXT8kp5E3PnZ2yaMuym-1w9v_zTBQB3lPYIZqj5uzPfRJlv6vKjDJ8kKRL6tvDWCgtl4t1vN8vBmmCTaUXX-0gcGjp4jcGXdaPG_gaQwMZQn51YkFuLgQxewKivxXzz-aQeQm34Vrlh-IfnLAVT8Ukbf_3rjbsC4kEpSwkxNrbEUgutf7PvuTT2OYMlDnUSnN85vbC2RpJEDjyPr_Z0l13v-cZ8dYB6CkNWknxQxK6d_N4OydGVZFPsnr7Mf1CnTUY1RUTR3iZoowx37d_8a3gN57wy4BZyg3N99T_YZVfr5HgIRml0pDQHhzsTvi-VnosiEgXZRUr5CZSuO0MoOKIa9dDr8tIYz-Kyr6RIvW53PNZqZ3cweglwnd_j4bMh2Ha11INcx9ljvXm3TkUjRGaryqZMrXb1bCoqOnDlXcTLvFd0_mC9O6-VwKraD_uEyEKHzSBo9X8WbU33EkO6cUyKXkQbZXdu5haglEGZdkbJopPolMVxid2vWPIhoahw4tz_-9zDgOKF8htFeNkmh9cNaVxW53HzzLYjgEPZ12OuHd9iJBa3ae32AKwG1D4n9PY0WVjxjbcbDA19qmdB4WMecHx3e1TqqpVq77i84qzmICpBUVRKBY5a09i73IHYs3wTnr3q55CSWs24d5m8K8b-NTK1gk3aqqukDNekj9Foxmuqj-jgpxes42WJl5ennssZK0yLAnrIlUJcuP_3PA4-8WPJfhM9o_TRdr6XHZ-QtkzP0LwFKtAPR57AHjnoCVMo9xh-32tZ-NlLhHs9ayxeTlcUVJGVQIDBrYn0MLInD7omZgttIcdOsWGniB7Hpw2qoVdwaFnzN-pnhwNInN0yK3WkvQ58HrFweXguOloNdr3kxvE3-w4VW6mu3ES6o0xAxaSMWB7_G8lOiCm-8wIUhoFJyOPoXooThTF_8CngDfo8boTE0WeKUQjm0FRmVFcvR5rcKV3oDV7MAUDbqGpo_RuZeleZF56NjLLbWtktHVok1QgmTMRvRqAUSUna0MSfxcoSM0W76tHuC75JyRCs4r2ptdXGTMxGsIkmcAdzYzK66NmAMWNj4Wuc_Be4vOv1pcTuGSye85PTfmLNAOiJOjcWJNTsUYenOvVZsXLZUqrjhnrZZczW91tHxcjg2pYduTaEC4iodSAF6FsIcPy21f8Acvm72_g445oqaen-bX5JzANGsrJSmnxE1TFfDlbFEfhPHPeWhi86rDhnLFEOlTQi0AZDBBx40AYS0ae0PZbDMPlZOLtJWeWf3llV9IT9ePrkmvWRtRdF2iRp0A47JO1twd-ydpnUDeFU7zLrAHWodiAAL4myuSrKYjK109Cxb6aku3MJlvE8tnOi85Tah4CrIiuWNvRqF7EzOSvwWkiUpoQZn9hQyWmTuHFsV4iSRJpRXyxTqF66EAQWDyMS2qibIf9aPPaYw__7KmSykwI1LmrJXdcz5cfGunmrSAWL1vrMv_yaNcu4A4a6h75Ya5sAr1lyoj367KiF2clcOEY8JOXpFJqFTLRTHfFeMUFPtKFxDOXxhrcNJY7AbU7NdnvumhJnvmufrff0TfjX5WimMSGXKVDHvE7wTO8wHwFZX_FWyrKXXpjhrzN7J-YkiN-YWCdBddvchUkNr06SuYyEh15zsX7Vk-s2rnk5Ys8k-80L2buemEcRQ24VbnBQS4yxUUZy9NLbNe9Bo8iQ4VNtTbSmo-IkWPc_ws7E9EsCSxVFW9vlPPfYlIvLbM4-Bne246bOREFaa2jphuO-o4MKZObvWbyyIMAM_2olDPeiY4thnwuBp181hHoauWtEf5nc8YNQsOGmVpt76FroMdE4QqH03YLVyAEKQe3TwPzvaMS7fLUP8wfKChGWDQk4N5g9u2lsbezhGohs3NFIyhkLGvPrz_nIfjsmYUgMQc5M5Ax71KMkNaqonKD7eIVJMkMSnDFko5bTGAvAZ66qlBZ32Je3V0BgmtJtOLlOWngCSw1bZ8Ai0DY7mGGZVI3eFkpwX_N0NMV-B8rNNztNvgiMh2mk2D0t6BuKyee7SSDgjs2au2pNTedm3cEUAwUgo_tNWFu1pJWL2b9NwQ_FSUXS0jN0YTU7EAUXrG-Ku_9p-sSSv2ujJ84hdbtfNs-3vdDdQmg6IRPKukVtSIdH0NjMmh8Du4dU0Lc6DseRdw9SlesBTrB40IuRhsJJI8Knn4y_oKU6hYgk68xVsXaScCX4XqfOV-y6AvHwhWJjb7tTBFJ82hkZX8W3UMWNbHr_-0KdDgtnOdrbSeQa0fC8zGNJrnwfuyA-o3bhQSUhtkfYL-NxVDODdtIj8AjOtwRI-PZtgfUwxskAPWC5rvvy5OroiZxijrxo0KfGEN62gqKKorXXsYy-eVF6-iKLLufdPYnKTZ5Ew-ZNTOpxBvlrj-CM_n2sNpu3AoHBs9D9iFRRe5mLFCbcLSmHC1fB0siiGP3suINQnvR-dcnOQF5_8DoerOi9K6AIPRRmsYFMAltdSg_11we2r-ppnzIbP4rvNBT31dAOVEXpJNP48rX4QHNNSJ7unrCR4_T5weKt0qZ0-lM4B0vpuZRAFUuvtg6m2Xq0qGdYMTvPgwYVEGeuKPmTYYdZ1rmd_sEs85L0zRDUeSjWcxvMc_hR1dKPCYrFvVCAenR_9PUBRfYx8pxWkZjcEO82el94Ry0H3cNbpMGM1662cYe7qyDmbc4CngWe3QwrExe6mrMXPMmzIiw8G4qijc2iFE00kYWsOYDrTtySwYofyRz2CTarWGTIJChIdP_tpcK6zEZCs-S2IQo1dEqBR90zgbWRu1YmCrGSCClmQ28vv-8lSiAoiGU0-bzNSpf8Bu-M4-oWa3585N_Osgpq-x4dioaQ8BqqqPq5eMDdLpOv6chNMIngojyfqYnXz7s1vQaoG5BrJKtHmjinzD9SiJGVwRbYVPl38gH3rfZKr0oQrUUNdCIIYKXrmaHKMaqEmS-KOfx7AEk57w81sBH7Sccl1OGo33M5YzgbO1jhjHwL9yu1GZ_pHX9eM_lIAMHuaxXYU0w4ZQqRXKvg-Ye97yvTvHfjhNVi7R5Bhqqw8E48_CLhjl3Ywt3k-OThscdaOzCEgcJdMnKMvEC62O1KIs_efwJBwZ0CVGdrBfgYoIQnDMg4SWZK9AdkMYyUTvZZdC0DiEBmekKPN_xHkzrKXwxpwfE82UUt74f99MlblDtbOYL430DQdYyEUTJc7zBii1D-lKKl_2X3AnqJKqDSv4u7JXeIpfEcKywwF-7bYDQRhNdRzJ-P5wdCQGbqdcZgx1RrfILV5XuRnh97KJo8TpLwrGq2GxRDpBhby2DhnQbY3N5sCsnsYxg8OcNsX8SYfnpIQsvPVhwXjHfReZbhSTbSqLbtokST93cC3-WUf_t4kz8vy-n6Lr7oYNNaYtzMsEoN53pBUeQx8arR5PyJpb6eqV1gIuXyb_FYf-5EhO8Qp4Feu33oKZUJEhTS1hMZxTmmENUmeteLjEFTUSIEFkq7hXVPxfqXuzyjMU8wvMfNEC6mqGJzoh7_EDBPX9f_9q7K6Ev-sCSMr4zd_yBmh2L5z2tPMPVhOrIUnb_6bnCuW7GehpdozdoqkRRmFBvrhmS66hev5metjxj6HnVzkiiP45-gatTp_YFZ1Kx98sQb8SwDKr0qaAS6Hm7Vggfpr_0i7ZfSgVe7-bnJAiMqke_OaCNil7495lFu_0EtE6JYd4cyQQ5Z5n2ACpScto7_jS2cy0f7rlN5Lbgo6BvoCIW3ZD_h2KiEsChfwnW9Dwd8q9lFc4V8tq5dE67-OvGqyAKt4chcmOQAg1MciGa9gdzNYhMgYUs8TJMHVmfdb5H0tsnpNUSz_IDe4Dvy4aIbkJZJnMVbEJFdMEIOgoOZZKV9EqhTPEoJT11Tqx79FZukmC7hJm_jdDJpSRy_48m46k5_UZY6PL4So2n1L83Afg7MAFVn5X8la2ZJTJTwvE1KHnSwzCIGjOjd3DY2gn2TnekD2ks9UTBcFbTp5QmefPiOis3pA6aDtNzs_3ZAFKANXiEkvYUhehPZcdEDZtS7Fsr_VMBAY296Z1bszXVqd5fp6caDDlZnOar9-kNMX4nf7RaOrOJSwdJXv9au2tBMmfWRTVeuD7s2Bd_u-WGrdbQKButJ-01zPP5GgEW_0EclRAiWXTBWxHn8lNIzOq9qz9XUhWGLgOqZ-TgV8fm7Eq9bFvNQQLe--dz2CarE5K-qfGCD58VzWUcMJkCroTGTBDBgpXkJLKcPk4N9e583po4DgBT7Ro9-reBWPy97L1AG9c5DQKSK-h_aQUhE1wpCKWSvZGCxjDQ11umZ6ZDfv1P8bPC4q3N_TuaskoFqwDn0fJlKao79qzx4Jsfoy6wfN-HHEFG8TFr74poH2smcnRkpcTHaFZqvSsBtHImoBdR55L4HOAvUGNJQ1PoRld40O9HzSmZNuE30xZsMuwJ9LA0QaUikgOqEQFE_6wHNyDEPEEn0x-CV1PWCBNYEtJTHGIgnm4kINBL5FPjhQG7lKjcJb6qLJBgFb-SdPmXlEIesshydLjetEHXY3lTePZf2jhMFX-MuN4a7jd4jzum9XmBM2bmjF0Leiug-ZtgDiwKCQBqVFMsjvrABOX7mOKLM5914CiSLq5zOLzxWYesLj2EbLbEK6I15LyY6A0iHxPBMhElnpe6Tztcj2CUdKV0nvSd1Zwl1Y0R4VXIeTFwmz9XVxDv3kBQFO1JBkSHp-pb3dPD-qFttKPAEVR-AxcfVpzQQZBU7uR1xhlrV61AhuTFB37Ewm4kZ7dHYzwk2-DaDFbdyJqQYGr8wgDclewTlmLCOauzO3Y0zcXnuYmP7iCHfpFFflNOgYYcGkWY3mo6ml9F8l_GVuKJSujDyD3auc9STn6qUGoSbuMkwvKwqGebH-Kq8VRv0PlSMOCMGQkEfmVTI0XSrGdunpxj8-FBEhkLmpBBRKesJyaOobA6VzY8q3kiy3C7E686w92MAmScgqr3WJhrA2BboqjFc2BFiIoba5XZtX-PvswYsgCiXZZHfMLBCkRrCbG8DASyjwe7agF0uFoEmpjektmqHRzr7avqJ_MFuf367hZ7LoUqVyAcKkhEjd0Jewykl9MN61jmC7gNOcxyOY5LyrxbqfNunM3KXdpPKrne-3tWuc3TcCgS2TPUE3t44A-JQawAksb5CRdjrTlL1REJOsAfsQ_A0BnUkKgA80qhgqWpZ9Z4twehe-MhWAsQPRjsj8b4T8uI0P6x7JDc5Tp8-JCnQmWPbYj_Az2XLZGrShajbS2bc4V2z5zJNGRJCohQ8XR3WASapqbw5B0Uzo937Xn-DFwmEbZzSne5IHHuM0m_e58lzivZdkqcE4yAMv0NGwwnzlGvgxF_UsxT3GNp6NJodV4ARQKEnbHHUmLMRPUsKidpz0IJ_eQhXWwaP_RVQMDden8UaO44S5Z7d7_6zOD6-sBamcJ57cy4ywJF2dtG5oYd00zFyokpJdnpQcGce55AAnGuT4r4jtFN7T2ppemIV3pcM_6QVte50GFeeFpODuJx6c9MkMDP6FXeRgVTV5dNvvkOHCw2BIxC9uEa7kW1Gd_ThyLdwuNl_7cQIy4kEdU3iSfBSw4YDtU4LPb-lIXKn7alrINRz2p-ilhr-CKToioKNghaEK6Mr-3ot7DnlUSw7hGpny9xx7VBzHizWiYKAEeD_ntZ66FvjKMHWhJuar9CS2O7idPzYIQQFa0H7-eegFueT0UcRyU6-agGT9GCZyoPsMA5JKcvCZtVhZqp0Zni7m-FyBAWp2iURawG0vNaPRaTbLUi2sxHOrzSefP_bwpygqR3gGhCx4fxOba5G7A2UpJ2CpFmqH5U_rZFXThJWOlTCj3K5kxA_qFoMAJVZeqlLglN_ZRc96obNxwiOvQPaJIz3TVqru0OpTh2YCal3DrlhycpIOaIVTPsoN5o3BEDiPJoVJBKnoqFd2Q1PtmV8Sxvv4iyngvgDoBABYYnZymlyVPWkXUNrAcpbkDfemd1vhKHhsCgebGB7vDT3afHOGAE3IKSwPPZO1mflxCs-eyGAqqBgX4JT-SBt6EyMzd-9Fpdl830Y1sKFoZaR1hlqD-F7NHJLV7wcM2yJ8oQ-DAMXnm7xqni5wEwHPou6imUAW4yAz5gkahlhyoEw2q2yvpfrHgrCItl_-_2WZmRKopdlyBN5Cgnj68VKfem4GLCAj8JsYCva0pWhg6VyCyWhvY3GUcTxHgqb6jKKQ6d7LbJFro-EWA6bB5dSI0wS9Cx9Y9MhfI6MGBz1xwAKLx0xpStoEt5tt4YqLK2y8W2xGYv7ck3d7w28reuUby6Evu3K39aic24gvCI8ER-7aoYwpxIb315ajqWp5vSUccjweHrPElFTjy2IWhfcvRpD4UNuBqAXduvIn1FiDQVh63rSs8nL8hellYzjDZDFL99hidBcwIJhq_qBgmgCsb0_-9ddgDkR-5hAvnnsyzmWLJui1augnB8FCY6G4nvRZdW6dYP6R3_hNaR2bDHlIagqjhZzejMMWVZR8QSyHwPve-V-lO98JsbOGtINRieF6txz7ieDQe3s_RZDldxv9Lac70kj-kJ7WzmdbZN4Uut_OcDs-JvGaq5VttxjI8xAJ_al-uV_VlDDgUyT23JlWEdtiVUnqDZ2zVPtsz_Tp-C26rSdl4kCkNEKAl--8E9aYq_FUseZAor5AmJkwHyXdawuqDkansck3W7VPGNF00L3gMC3FtseKY5DNmMZpVZCVTfOQw5PyfN_nCowAMU4mUMkmgNWiudVRkRUfROQVfuJ0aMh_JYjXJwomlk7axolOvdKJFEbp0vmWk27BsEpKkel2A2YRmz3pzMAHPLxRfL-EMbUkBvnE1iT2qkRw2clgkymYWkOJbSjpZz878-dX36DPvbSOQzdx20JXsYEHsiCl8ddvBCe8XaWH1jzSyalox5rYkv_-s33W7tJKbj19PcN0zxcKnQuj0dsT2K2UMS1SKzv2rJlDVPadI7_P93kB98agWQX0qxihgR8yBnt8OELjVEWzDLs9P_SsaYBFysI8I6yGaEYQBAjZLP1h_d6fjrx9YBZavUt96XDauR2BxmCmkcWl3lWOKGjzxa-GCvywbH4ujJy7BkUyV3mkc46Y6-G97ww0_D78gIptcatBjVtgQEbKfru-ybAeQwVlglmJyfgu0TFYnPqtBn0L35egQvmm-d76xwdcvuV4To6inwQXNrWTJ19_qka5gvvPb89mVaZlkteyfl1MtK1jXGZlmw48SBIW3XRpixTHwxm54c5QTnyjyuec9UctjEHjEGgZi1LGOtWexVBCo7kM25YylSVl7x38s0-N1BlrDxx9RhcAwYTmyyU35qvCaoH8GI6z7_962_Rx-f1HQogn5lETTeLWbw0UU698Y7hkXPZ6zJtqRdc-Kvpjcfkm_bvoCXy8wxvOsOWLSP-LoKa7Y3dLU4sTBzjS9KDUIq5IM6yIPewAVnqif8yKMJzSkt4XR_cLMNnbWPjaan2HudASH4_zPkzzK-jGcg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWFzdHJhLTIwMjYwOTAzfG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_03701764a71665b3016aed3e12b8ac87d1b32cb46c25460999",
+              "index": 1
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq7T4tM9q5DsBpB_SuaATdkhmvYOQq6m14TIIny1qqn2jJ4e69B8_dyj-gn34EruAtvGFoqkmgtqMMOA6t9wZbBkix5zpogqZBpigv9W56NdhH7_i4G0xTwtIMuNBW5YP-BtTABzHWHPB-gSibxTd1S6WZsQuO1hGLiqMzjaH4r_hNRE-hpOXsKILdqLXSBL_BLOJnmgCwh2VGixc58xiCGgdHVa8UFjd8WeoDXMDLk7VRpBA9Y3LOH-nDkrlxXIweoyJLGZkMpwUtfZrMMnHze0GnVHsxKUm99eZych3PLg2QIxoHbA9PbWbz7FQMUVnMwQ5ILo0eyFDva2V2SkVo-qRFoy0D_pfbXxTgTmZa8z83QkrDi_x4bdzENkXWDm_JO9PUO5A9BpBCfygqryod42oA09_-IMtgakuPdUff4VvY6nfglcWurtb2QFttZL5Ok2Y91zpkeAt_s2EPIjsH-1d07Px0hyidXz_8vmyoznWp9waqO3u21swYM2HhOQAn-NOQ-IcPexHoTzoxEZxhjqpKOWwi2vzb1ojCLL86lQZkCMiyWmEbYghIyiDN2qM2mtiT7OfDhJW_3Hn3KW_9iph7l6Rf4mgEYz6X9PkV2otfWHVmjp6LH9q_2-Jhmu6mNP1MCdyxsAZNmz3nDxeRL0jWbirIVeKutISbic05_qVFc8r2YknPEREChAfDnovMJFdNKAtjlLZ4yDTgjsNkqRqTx4BYtgX6-IpkZEdqmblXR4K4bf8TIn2ZGXxyGvw-VNKLO7MYY6PtMNhndBKYlOfmCCbmi3IhUOz-MDKpfECHvQeSJbIcfBC9xedidc7GfenKUx4rLPwVVRElPe_iDeATLuS1GTYACFWys8PaaOvDfNCuJdd84weo-bTBnXojZv6KprydT_C1mLqNS-9O-DvEh8S8d5rC6IMOcoLHj6sQw_Id2odwWx0UHXRBIvbgAEXoZ1aFShA7PrWWYufnIkX_sg7Cdy8azmgRtwBqDa8CIFnRvhw8BHHb-BlmGHEKFBTj_1wWDNzdofYOFZYyG0twjAMCJ-1H1Qw-0izRgKdRUYN6R29Mj9qfzADxjPqHmpYC0F7C1QYahCVadsT35fn4FUqXaoO2rjWaXZzatdlaxqy7GBD--bmP31BpbRrtufG0yBzwTo8pnElCDGNg8ADjQR7le7s3sdg6fJ8E4sabHS9c1mHy66CHkECgl-u2Q80JdoC-LWj2IrjDOu5N_K_-NkTk5swWXkwAWkpUxp_nWeaF7DwSX2guz7e2j6usy_4WYfsrVbvjdmtc8xN_B507q8magymH1ekhbDDrKzs_CMTwlYcbijOejHiuX1CR-ODa9p5R0i7C2gCWTpEj8y6jKezSdx70YRVYV3BIU-SsRRYWzoCtzeGwYLc3jV0QFTc2de-lBUDYYdyS6Uj33fuug0GQWro1ngxpOZBM6jz2hBe445TdiagAOg6uGYTu8zCSxhcNT9x9GtkC2RmbnLvs5knZb6ysdmUhf-p0HrDEEXJ9-9UsAUH5K6JPfc0VcRWKh2uENzSuuAclpqMoI0FSzv4wRGnjksBhOaLErZfckxqU-zF3AVcW64LIw2dT6nZkMquKhSDCAT8MTsfgzGAuuweMKMPHJSmWmfebP7VOUWw8IoXoHW5LEL65SoXLIw8RK1j1pDLqb0Lt-Mbg5ASpE06tKlZPt-YEDfRukoNExYtDML1OUrFq8gicA4_xCFq0UVM2WktzY5eSJsLgxEHL9p_xXl-E4tweuwdAwKNq5-RtKuIJWm9wWuyiFFNAt2dSRhdDVln6rquGvxO5bwxDyiVtOzPGooYKwGeXhQu5eHavTyhSmrMUHOs7Hby1X46dRqGuQRtLM0JpTBv1rXOv1Pw01e2jL91_xnHpaOQzseSQjfikNJJt63FiBHs5aSBcI3xQBwN5NK9Vy6cx3SbmosuNbrIbBevVsESXdC343RJxgfNSStb8hQ6ImpUDGi5NFUmA1oZZHrS_apgdLz0q767PtjfNteMp-jk6H42TMTXjeZ48zl2ci7Exg5brdkh3Ozmb0JjkXv9cyIMTKnYs8L9dSMVDLBUH-QL10GdsN0LXi0qOFJnNiQKnGiGRDaf3w9WkszaHn5namDEtEHjtXiAwn7P-YcUIBgkqfe16UX5PiOYyhNZpA7O9m7Y9PudEv8QEZa0vk9gJDcjWhXBnYwdvFLPd3dmc-FR9hwyTMTKhjL7z5aQLULEiZqlhQzLrPNvEfwUu-IpuX0qy2RoBAsPhUTQ100_qCzQyalOPlitbil23bE8eEoqJBW8tHScVHAAia20ZVdDDcYLpntBjlFGqq7r7LcvI2fTKg7aZunCou_4i0nE28w87FTC1Tk8FRLHyc9TRoIv0eUMRe0EgugkQh7qG2_NO5eNPPDJrF9Idv4cnOgmorY2Q7F_Hzo-yswgknIMuu-CQ9EUNLznAhMAJ2_4U11768fVAMkFT8Yb4LTYMoTCYBjPx46MftpxSAIiZBx_d6Us6ODJ_5dDFIOH142e6DDOXJTA9TtlrbAWy2J46wMHRYhQRqWK_d-fmk_RGQoTFgUByw1ujv_nQxE8kQ6M7EjCEdvcfOTEUEANiX3fd9jCpohImm35TmHTXd49Os8sIzPccLsoOTwjklk81j8Po6tVbBoZQkrLGpYSpry-usJO4YVXwTbaRvqygJuZtAdIuSQNNwCn7Xe5IOPuOMkwFoZ68Trn2S5Ifskk3k3FqHXS0Wxy2J3X6-_pAnIWPJsm06VLSyEknslD8aUkO735xQUm2GlFUHTJl74XWUkULLuuzbTCkYTRdRdI2eCYiq-om5LyARFyPhuZKV-EMlzkPUhc42Q57uhc5OMtH2NuxHkGvQvz6bbQtq5Yc9nWXRNiTG4r-5Z70woDSaXJtShC8ZCp24nFnN1nsClijfIMc2c2qzpz_2Sk-OXNUe9Vvl3T-C6HXYZ_ZJMtph18_oiYBLqLy3aI1ME7_zNRvXPuYvlZsH2U7W0-tp2QrVgMu_Nsnn84R5ZtdYqqR1bJJzOyalmquY5VTidZz7bZGqmSnXpyRkG92TapObCXcQgIIwUqaVvhvVD8HaVuW7WMgHlbyMxPddptcR9uXyQcWAgXmmaZf0EES1BsHRYkVDiN8pr1zepZr5uwR60D-rslgrU0Lu_32DR_ad5vTmWMZptGrEi3Luf30vqDG86odPVsjt6kG5zC2QsjQeFi3vfBePBPyUGdR4oajNdMktpKIOyXizXHFZWvL3Ji7qN6wpKKkaWq6LFXlAv50VGedJh324I6mpX3yNT9FCzOAHZuOuHo_zXtVELWaxQ4wcUt26ZZ9ppKsrBwJiuP0Gq9VCuqFMO3X9_UgPGeoacVRgPn8Y39ScO9GxeZg7TgUfg7Q-4pSBRI5OtPWGRDG_VWVC4t9g2nq5pXfUeMqddF9_Sks-rfXjjKkdlxG2zt4WDSnxpql8uF_86iLr0o2IU6dbjCqYU0WTWSmD7Fj2ANM7NjEtBSAES3_GTB70ilIV2XYebUG0hp-7K9SCjWIiOR_19EZ1BPPM5FSAWQ2fqgqM5rvlbKn3vB95X7xyp4kPUDEx-1x4blhPbnMQTpiSyvztpQV3rfoWTtBFjCy_SXxXaFzxArVTVX3eV5C4xVjN9NCmeKAwSimPZ61hhCCMkcgUsx0qk_psCSXKQM1O0rHgnvBIU-OrjI9XGL65620jThXijeWXXxyIfktMVmDcLMerYX3xhbmsk8OiFfYnIngv5Z5zcq3vyK2Te-wQRNdnY4lFU8JdaLfRFtljW7H0Mr4Lf8meKTYhB0wmklEgtMAzHgx2wc7KYcaySsEjIkiqZuSGKXPgPQ7xsRonHhX-ouiyeFfaaDPHGp_v8glbTkOXuhyu__zi529Ba2z8ppBFN_v_sdSjuS4DeHHXm0aNc-hEhb4LDD-46to8YRamyNJWuzGvz2Q3RorGf3De6nMo4UKXFoztfGa3Ew_STLTMQOCzh8YV6lANG1V1RcEcPiOgooIXvM7eYu82DS1cPRzthHI3hvbwhIGg-ZNdOW6r37M-MJG6IRKWyNHT2E9dxAKWeC3iRxxsQ2WVABaqx5Sb7a9Nr5hMb3IHjEDjypzxxGfTPredCls5SnsgwhXqqkk_GtOr4dlHMnCx7rKEKmIZYnqtQPj2PGYOdKkY-WDOuWhraYJYmZ9sfxYGHtUv_YCV-k7f8WeEc5pouMvtI-c6e6K2VRetq6rid8FQvJlLOFSOhmfLMWZYO_ZbIfRH674S4gXP5rkpEz6VfKDis97o3kxdQYNNQg-iZEqko0_OpFTkUApwHe8PQ4DJIif7n55qOwOazUS0nqSv4A2VBuzLLPCmcFuMHOBdhwS_gZUmss5lVFTjVw7OP8aFXAa-1GfCkDSQgoiKjrPXADmLoNNW7UYHWmpmq1eqw6uTcMHencFCDcKm0UisQ3jgdPPhK7WT4zd1fyFSqTFwFw82ckOmf3jt4Tssl7eEsE4JQvNIsKtiprFc8MlEUsf4dKMr8g83ZumWC51AGV4sw3Xwj_mfm7ItawaQcmfj9vDkmOSCuJ-g6aeUGR-9znEuoHTh3FgwZ3v2_kOLMUDLVf6nAlDS-I8fi4iG7V6QiJltQZ51CYcrL5gBbh6K8oYXT8GFBKGdz7HquXb-qt3I2JQSAsu1NGfelsiln5McsnYFbdEW6SJRRDATJH2PgKYhIUZBVqNsgGGas_9aZkAq1J1QPyFKhbvN2SUrbVLqT0JwkaWyMd9kkZKrd54HFOVDYdftTNWGV-1gAhHbLr-WKbu6OX-_cPX15-j5ZWDJqG-SAUHMojAOH23V_ByQSHTwwxlUAei_Jo-VsYpfX_KIiuClGuv1zcEl_W9nsNvoE93PXDgDnXdPnvXaMuBqnF-Bd3LnHiX5Ih7u3DHQk855dVbpKY-uo9UlN6x8jCgmLaGB3v3LUm5wHB13vaKgYe4XTyQaboxAHD3xbKNQIuIah4ZRZvb4sdUuNpQDTB53mMcfl8a4DWXadxvXP8F_zx8t66l5gccrBRoTrjkQ4YaOnA6hF3qE5Bh-rzorD4cPltwtg4S8okIlFviu5mp6CNrHrjvN8O2FS8H-TEjW-asflmEgzP8VaG-rXjt4_fLvdCXxV9c_JjQD09Mzg8-6Ib0QNN4g-pVRKqo3fGBdB4cbWoUfpwRQTeI1sQOt70WI5Z8uOzjtDhuWAVky1jalcqiXwRfprt0hxJf9J_sHBnV7jt_1L1aeD2apHU12KmD2AshVh23fMqvli60gm1eyZqFvbOPHLcwoWteMUpjHdz32YdgT0Zzrr1Y5_TyEtjp6CVak3SpU2TadTfZnpzCTfrkkmR_7mwAsf5-s0Lez0ZGFWWWJVA63zuBCn6db9uNX_eH5MCUY0gUvsIA2FDl5WyzWLcUdx1ljdw=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWFzdHJhLTIwMjYwOTAzfG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_03701764a71665b3016aed3e25f4b887d186f0d73f5bf32a44",
+              "index": 2
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 827,
+      "completion_tokens": 1643,
+      "total_tokens": 2470,
+      "cost": 0.09042,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.09042,
+        "upstream_inference_prompt_cost": 0.00827,
+        "upstream_inference_completions_cost": 0.08215
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 797,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "intentos": [],
+  "generacion": {
+    "created_at": "2026-11-06T02:40:17.579Z",
+    "model": "openai/gpt-6-astra-20260903",
+    "app_id": null,
+    "external_user": null,
+    "streamed": true,
+    "cancelled": false,
+    "latency": 19122,
+    "moderation_latency": null,
+    "generation_time": 50309,
+    "tokens_prompt": 949,
+    "tokens_completion": 1230,
+    "native_tokens_prompt": 827,
+    "native_tokens_completion": 1643,
+    "native_tokens_completion_images": 0,
+    "native_tokens_reasoning": 797,
+    "native_tokens_cached": 0,
+    "num_media_prompt": null,
+    "num_input_audio_prompt": null,
+    "num_media_completion": 0,
+    "num_search_results": null,
+    "num_fetches": null,
+    "web_search_engine": null,
+    "origin": "",
+    "is_byok": false,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "service_tier": "default",
+    "usage": 0.09042,
+    "router": null,
+    "user_agent": "Python-urllib/3.9",
+    "http_referer": null,
+    "request_id": "req-1793932817-Dtj6kp10j1zoVLZzelvD",
+    "session_id": null,
+    "preset_id": null,
+    "api_type": "completions",
+    "id": "gen-1793932817-5R6YfUtYfllVu2e9HJsG",
+    "upstream_id": "resp_03701764a71665b3016aed3e11f72487d1a7fe8d00df5d33e9",
+    "provider_responses": [
+      {
+        "endpoint_id": "c2928094-b04c-4f41-84b2-2bf508091421",
+        "id": "resp_03701764a71665b3016aed3e11f72487d1a7fe8d00df5d33e9",
+        "is_byok": false,
+        "latency": 448,
+        "model_permaslug": "openai/gpt-6-astra-20260903",
+        "provider_name": "OpenAI",
+        "status": 200
+      }
+    ],
+    "total_cost": 0.09042,
+    "cache_discount": null,
+    "upstream_inference_cost": 0,
+    "provider_name": "OpenAI",
+    "response_cache_source_id": null,
+    "data_region": "global",
+    "workspace_id": "cde0d5ce-c04d-507c-936e-1916b4912cf5"
+  }
+}

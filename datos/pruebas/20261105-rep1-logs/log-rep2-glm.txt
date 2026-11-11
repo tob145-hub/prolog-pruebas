@@ -1,0 +1,16 @@
+homicidio: 1 modelos x 2 reps x 4 preguntas = 4 conversaciones
+  z-ai/glm-5.3  proveedor=z-ai/fp8  esfuerzo=max  estado=aprobado
+Saldo inicial: 13.16 USD. Salida: corridas-trasandino/20261105-2127-rep1-glm
+  ok homicidio-z-ai_glm-5.3-r2-p1  (acumulado 0.339 USD)
+  ok homicidio-z-ai_glm-5.3-r2-p2  (acumulado 0.401 USD)
+  ok homicidio-z-ai_glm-5.3-r2-p3  (acumulado 0.460 USD)
+  ok homicidio-z-ai_glm-5.3-r2-p4  (acumulado 0.509 USD)
+Gastado según respuestas: 0.509 USD. Saldo final: 10.671550442. Salida: corridas-trasandino/20261105-2127-rep1-glm
+bicicleta: 1 modelos x 2 reps x 4 preguntas = 4 conversaciones
+  z-ai/glm-5.3  proveedor=z-ai/fp8  esfuerzo=max  estado=aprobado
+Saldo inicial: 10.67 USD. Salida: corridas-trasandino/20261105-2127-rep1-glm
+  ok bicicleta-z-ai_glm-5.3-r2-p1  (acumulado 0.219 USD)
+  ok bicicleta-z-ai_glm-5.3-r2-p2  (acumulado 0.250 USD)
+  ok bicicleta-z-ai_glm-5.3-r2-p3  (acumulado 0.326 USD)
+  ok bicicleta-z-ai_glm-5.3-r2-p4  (acumulado 0.416 USD)
+Gastado según respuestas: 0.416 USD. Saldo final: 10.135721482. Salida: corridas-trasandino/20261105-2127-rep1-glm

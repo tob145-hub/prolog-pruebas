@@ -1,0 +1,143 @@
+{
+  "fecha_utc": "2026-11-06T02:45:50.942550+00:00",
+  "cuerpo": {
+    "model": "google/gemini-4-argon",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: en una calle de Mar del Plata, una persona dejó su bicicleta apoyada en un árbol de la vereda, sin candado, y entró a un comercio. Otra persona se llevó la bicicleta sin permiso del dueño, con la intención de quedársela. Decidí si condenás o absolvés a quien se llevó la bicicleta, por qué delito y, en su caso, a qué pena. Fundá la decisión."
+      }
+    ],
+    "reasoning": {
+      "effort": "high"
+    },
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "order": [
+        "google-ai-studio"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "respuesta": {
+    "id": "gen-1793933095-qRsukKOKRSnnsmC0SBev",
+    "object": "chat.completion",
+    "created": 1793933095,
+    "model": "google/gemini-4-argon",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "**JUZGADO EN LO CORRECCIONAL Nº 1**\n**DEPARTAMENTO JUDICIAL DE MAR DEL PLATA**\n\nMar del Plata, 24 de mayo de 2024.\n\n**Y VISTOS:**\nPara dictar veredicto y sentencia en la presente causa seguida por el delito de apoderamiento ilegítimo de bien mueble, habiéndose celebrado la audiencia de debate oral y público;\n\n**Y CONSIDERANDO:**\n\n**I. Materialidad ilícita y autoría**\nConforme ha quedado fehacientemente probado durante el debate (y fuera estipulado por las partes), se tiene por acreditado que en una arteria de esta ciudad de Mar del Plata, una persona dejó su bicicleta apoyada en un árbol de la vereda, sin medidas de seguridad (candado), e ingresó a un local comercial. En esas circunstancias, el imputado tomó el rodado sin el consentimiento de su dueño y se retiró del lugar con la inequívoca intención de someterlo a su propio señorío y disposición (*animus rem sibi habendi*), sacándolo así de la esfera de custodia de su legítimo tenedor.\n\n**II. Calificación legal**\nCorresponde ahora subsumir los hechos probados en el Código Penal Argentino (CP). \n\nEn primer lugar, nos encontramos ante un desapoderamiento ilegítimo de una cosa mueble total o parcialmente ajena. Al no haberse ejercido fuerza en las cosas (precisamente porque la bicicleta no tenía candado ni cadena que hubiera que romper o cortar) ni violencia física en las personas, queda descartada la figura del robo (art. 164 CP), ubicándonos en el terreno del **hurto**.\n\nAhora bien, la cuestión central a resolver es si este hecho constituye un *hurto simple* (art. 162 CP) o un *hurto agravado por tratarse de un vehículo dejado en la vía pública* (art. 163, inciso 6º del CP). \n\nPara responder a esto, debo analizar dos elementos:\n\n1. **¿Es la bicicleta un \"vehículo\" a los fines de la ley penal?** \nSiguiendo la doctrina legal consolidada tanto por el Tribunal de Casación Penal de la Provincia de Buenos Aires como por nuestra Suprema Corte provincial (SCBA), la respuesta es afirmativa. La Ley Nacional de Tránsito (Ley 24.449), en su artículo 5, define a la bicicleta como un *\"vehículo de dos ruedas que es propulsado por mecanismos con el esfuerzo de quien lo utiliza\"*. El Código Penal no hace distinción entre vehículos a tracción motora o a sangre.\n\n2. **¿Afecta en algo que el dueño la haya dejado \"sin candado\"?** \nLa defensa suele argumentar que si el dueño es negligente y no le pone candado, el Estado no debe aplicar la agravante, debiendo quedar en hurto simple.No comparto ese criterio. El fundamento de la agravante del art. 163 inc. 6º radica en la **necesidad** que tiene el propietario de dejar el vehículo en la vía pública sin poder llevarlo consigo al interior del comercio, quedando el bien en una situación de **desprotección**. \nExigir que la bicicleta tenga un candado para aplicar el \"hurto agravado\" es un contrasentido lógico: si tuviera candado y el ladrón lo rompiera para llevársela, el hecho dejaría de ser hurto y pasaría a ser *robo* (por el uso de fuerza en las cosas). Por ende, el hurto de vehículo dejado en la vía pública presupone, justamente, que el rodado fue sustraído sin vencer defensas mecánicas, aprovechando la confianza o la necesidad de su dueño de dejarlo en la vereda.\n\nPor lo expuesto, califico legalmente el hecho como **Hurto agravado por tratarse de un vehículo dejado en la vía pública** (Art. 163, inciso 6º del Código Penal).\n\n**III. Antijuridicidad y Culpabilidad**\nNo se han probado en el juicio causas de justificación (como un estado de necesidad justificante) que tornen lícita la conducta, ni causas de inculpabilidad que hayan impedido al acusado comprender la criminalidad del acto o dirigir sus acciones. Tuvo la posibilidad de motivarse en la norma y decidió quebrantarla. Es, por tanto, penalmente responsable.\n\n**IV. Determinación de la pena (Arts. 40 y 41 del CP)**\nEl delito de hurto de vehículo dejado en la vía pública prevé una escala penal de **uno (1) a seis (6) años de prisión**.\n\n*   **Como agravantes:** No encuentro circunstancias agravantes adicionales que valorar más allá de las que ya integran el tipo penal (prohibición de doble valoración).\n*   **Como atenuantes:** Valoro a favor del imputado la carencia de antecedentes penales computables (que debo presumir al no haberse probado lo contrario en el debate) y la menor cuantía del daño causado en comparación con otro tipo de vehículos (como un automóvil o una motocicleta), así como la absoluta falta de violencia o peligrosidad demostrada en el hecho.\n\nEn función de ello, considero justo y proporcional imponer el mínimo legal previsto para el delito. Asimismo, tratándose de una primera condena a pena de prisión que no excede los tres años, resulta inconveniente la privación efectiva de la libertad (que tendría un efecto desocializador), por lo que corresponde dejar la pena en **suspenso** (ejecución condicional, art. 26 del CP), sujeta a reglas de conducta.\n\nPor todo lo expuesto, normas legales citadas y lo dispuesto en los arts. 371, 373 y 375 del Código Procesal Penal de la Provincia de Buenos Aires, \n\n**FALLO:**\n\n**I. CONDENAR** al acusado, cuyos demás datos personales obran en autos, a la pena de **UN (1) AÑO DE PRISIÓN DE EJECUCIÓN CONDICIONAL**, y costas del proceso, por resultar autor penalmente responsable del delito de **HURTO AGRAVADO DE VEHÍCULO DEJADO EN LA VÍA PÚBLICA**, hecho ocurrido en la ciudad de Mar del Plata (Arts. 26, 29 inc. 3º, 40, 41, 45 y 163 inc. 6º del Código Penal).\n\n**II. IMPONER** al condenado, por el término de dos (2) años, las siguientes reglas de conducta (Art. 27 bis del CP), bajo apercibimiento de revocar la condicionalidad de la pena y hacerla efectiva en la cárcel en caso de incumplimiento:\na) Fijar residencia y someterse al cuidado del Patronato de Liberados Bonaerense.\nb) Abstenerse de cometer nuevos delitos.\n\n**III. DISPONER** la inmediata restitución de la bicicleta a su legítimo propietario, en caso de haber sido habida.\n\nRegístrese, notifíquese y, firme que sea, comuníquese al Registro Nacional de Reincidencia y al Juez de Ejecución Penal.",
+          "refusal": null,
+          "reasoning": "**Defining the Scope**\n\nI'm focusing now on precisely defining the parameters of this judicial simulation. My current thought process centers around the geographical specifics and the form that the desired output should take. This involves identifying the particular type of case being considered, and how to extract or represent the relevant components needed for a verdict and sentencing.\n\n\n**Examining the Details**\n\nI'm now diving into the specifics: the scenario is theft, or \"Hurto,\" in Argentina, specifically in Buenos Aires province. I am looking at Article 162 of the Código Penal, focusing on the bicycle being a vehicle left on a public street. The goal is a legally sound analysis of a proven set of facts to provide the foundation for a formal, reasoned conclusion.\n\n\n**Analyzing Legal Precedents**\n\nNow, I'm examining Article 163, inciso 6 of the Código Penal, focusing on the theft of vehicles in public spaces. My focus is on the jurisprudence of Buenos Aires regarding bicycle theft. I've confirmed that the SCBA and Cassation court deem bicycles as vehicles under this article, resolving a prior debate. I'm also addressing the crucial \"unlocked\" aspect. It is understood that leaving a vehicle unlocked does not necessarily negate the aggravation; the critical factor is the owner's need to leave the vehicle.\n\n\n**Assessing Legal Responsibility**\n\nI've determined the crime is \"Hurto agravado\" under Article 163, inciso 6 of the CP. The defendant is indeed guilty as no mitigating or justification factors apply. Moving to sentencing, I'm focusing on Arts. 40 and 41 CP. Since the defendant has no record, the absence of violence and the low value of the bicycle are mitigating. I'm taking the 1-6 year range into account.\n\n\n**Determining the Sentence**\n\nI've determined that a one-year suspended sentence is the appropriate penalty given the circumstances. I have considered the defendant's lack of prior convictions, the nature of the stolen object, and the relevant articles of the penal code. This aligns with the precedent in these circumstances. Now, I will start to draft the details of this penalty.\n\n**Developing the Conclusion**\n\nI'm now drafting the decision, following the structure of a Mar del Plata verdict. I will include the date, location, and court. The section on reasoning will begin with a brief statement of proven facts. I am going to concentrate most of my efforts on the legal qualification to present the *Hurto agravado* charge and address that it was a vehicle left on public property.\n\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "**Defining the Scope**\n\nI'm focusing now on precisely defining the parameters of this judicial simulation. My current thought process centers around the geographical specifics and the form that the desired output should take. This involves identifying the particular type of case being considered, and how to extract or represent the relevant components needed for a verdict and sentencing.\n\n\n**Examining the Details**\n\nI'm now diving into the specifics: the scenario is theft, or \"Hurto,\" in Argentina, specifically in Buenos Aires province. I am looking at Article 162 of the Código Penal, focusing on the bicycle being a vehicle left on a public street. The goal is a legally sound analysis of a proven set of facts to provide the foundation for a formal, reasoned conclusion.\n\n\n**Analyzing Legal Precedents**\n\nNow, I'm examining Article 163, inciso 6 of the Código Penal, focusing on the theft of vehicles in public spaces. My focus is on the jurisprudence of Buenos Aires regarding bicycle theft. I've confirmed that the SCBA and Cassation court deem bicycles as vehicles under this article, resolving a prior debate. I'm also addressing the crucial \"unlocked\" aspect. It is understood that leaving a vehicle unlocked does not necessarily negate the aggravation; the critical factor is the owner's need to leave the vehicle.\n\n\n**Assessing Legal Responsibility**\n\nI've determined the crime is \"Hurto agravado\" under Article 163, inciso 6 of the CP. The defendant is indeed guilty as no mitigating or justification factors apply. Moving to sentencing, I'm focusing on Arts. 40 and 41 CP. Since the defendant has no record, the absence of violence and the low value of the bicycle are mitigating. I'm taking the 1-6 year range into account.\n\n\n**Determining the Sentence**\n\nI've determined that a one-year suspended sentence is the appropriate penalty given the circumstances. I have considered the defendant's lack of prior convictions, the nature of the stolen object, and the relevant articles of the penal code. This aligns with the precedent in these circumstances. Now, I will start to draft the details of this penalty.\n\n**Developing the Conclusion**\n\nI'm now drafting the decision, following the structure of a Mar del Plata verdict. I will include the date, location, and court. The section on reasoning will begin with a brief statement of proven facts. I am going to concentrate most of my efforts on the legal qualification to present the *Hurto agravado* charge and address that it was a vehicle left on public property.\n\n\n",
+              "format": "google-gemini-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "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",
+              "format": "google-gemini-v1",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 166,
+      "completion_tokens": 2973,
+      "total_tokens": 3139,
+      "cost": 0.030062,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.030062,
+        "upstream_inference_prompt_cost": 0.000332,
+        "upstream_inference_completions_cost": 0.02973
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1435,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "intentos": [],
+  "generacion": {
+    "created_at": "2026-11-06T02:44:55Z",
+    "model": "google/gemini-4-argon-20261013",
+    "app_id": null,
+    "external_user": null,
+    "streamed": true,
+    "cancelled": false,
+    "latency": 3979,
+    "moderation_latency": null,
+    "generation_time": 43835,
+    "tokens_prompt": 148,
+    "tokens_completion": 2194,
+    "native_tokens_prompt": 166,
+    "native_tokens_completion": 2973,
+    "native_tokens_completion_images": 0,
+    "native_tokens_reasoning": 1435,
+    "native_tokens_cached": 0,
+    "num_media_prompt": null,
+    "num_input_audio_prompt": null,
+    "num_media_completion": 0,
+    "num_search_results": null,
+    "num_fetches": null,
+    "web_search_engine": null,
+    "origin": "",
+    "is_byok": false,
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "service_tier": null,
+    "usage": 0.030062,
+    "router": null,
+    "user_agent": "Python-urllib/3.9",
+    "http_referer": null,
+    "request_id": "req-1793933095-QUaVbUM8odGu34YNyfnm",
+    "session_id": null,
+    "preset_id": null,
+    "api_type": "completions",
+    "id": "gen-1793933095-qRsukKOKRSnnsmC0SBev",
+    "upstream_id": "Jz_tasrwHemxytMPg9WLgAQ",
+    "provider_responses": [
+      {
+        "endpoint_id": "4934736c-d662-4fe3-98eb-56def8c8c174",
+        "id": "Jz_tasrwHemxytMPg9WLgAQ",
+        "is_byok": false,
+        "latency": 3979,
+        "model_permaslug": "google/gemini-4-argon-20261013",
+        "provider_name": "Google AI Studio",
+        "status": 200
+      }
+    ],
+    "total_cost": 0.030062,
+    "cache_discount": null,
+    "upstream_inference_cost": 0,
+    "provider_name": "Google AI Studio",
+    "response_cache_source_id": null,
+    "data_region": "global",
+    "workspace_id": "cde0d5ce-c04d-507c-936e-1916b4912cf5"
+  },
+  "snapshot_coincide": true
+}

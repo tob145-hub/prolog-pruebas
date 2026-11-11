@@ -1,0 +1,2081 @@
+{
+ "semilla": 20261107,
+ "filas": [
+  {
+   "codigo": "2KKTHK",
+   "id": "M2KKTHK",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "2VS959",
+   "id": "R2VS959",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "3B3PN5",
+   "id": "M3B3PN5",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "3D6S7X",
+   "id": "R3D6S7X",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "3HQZR2",
+   "id": "E3HQZR2",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "3KCHMM",
+   "id": "E3KCHMM",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "3QHMKV",
+   "id": "N3QHMKV",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "3WH6XW",
+   "id": "E3WH6XW",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "3ZZCR3",
+   "id": "R3ZZCR3",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "46G2R2",
+   "id": "E46G2R2",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "4F5VZJ",
+   "id": "R4F5VZJ",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "4K3KHV",
+   "id": "E4K3KHV",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "4L25MR",
+   "id": "M4L25MR",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "4QJLWB",
+   "id": "N4QJLWB",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "5N8P6N",
+   "id": "E5N8P6N",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "6BX5BZ",
+   "id": "R6BX5BZ",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "73WFW8",
+   "id": "E73WFW8",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "75ZJT6",
+   "id": "E75ZJT6",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "7DCCB4",
+   "id": "R7DCCB4",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "8JXX4D",
+   "id": "E8JXX4D",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "8PR3DX",
+   "id": "E8PR3DX",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "8XJD7L",
+   "id": "R8XJD7L",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "96DLHW",
+   "id": "E96DLHW",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "994KSW",
+   "id": "E994KSW",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "9F443L",
+   "id": "E9F443L",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "9GN6JD",
+   "id": "R9GN6JD",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "9LZ2DM",
+   "id": "E9LZ2DM",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "9Q2NX2",
+   "id": "E9Q2NX2",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "9VXBZ8",
+   "id": "R9VXBZ8",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "BBZ54H",
+   "id": "RBBZ54H",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "BD8DFS",
+   "id": "RBD8DFS",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "BHKJ2T",
+   "id": "RBHKJ2T",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "BJ6GQG",
+   "id": "NBJ6GQG",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "BRSMQ4",
+   "id": "RBRSMQ4",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "BRXK8N",
+   "id": "RBRXK8N",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "CWS6V6",
+   "id": "NCWS6V6",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "D2Z6QK",
+   "id": "RD2Z6QK",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "DQBW7G",
+   "id": "RDQBW7G",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "FKFM5J",
+   "id": "EFKFM5J",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "FQXSL2",
+   "id": "MFQXSL2",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "FV6SD5",
+   "id": "MFV6SD5",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "FZ38WZ",
+   "id": "MFZ38WZ",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "GHDZLK",
+   "id": "NGHDZLK",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "GLBLSH",
+   "id": "RGLBLSH",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "GQ2C72",
+   "id": "MGQ2C72",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "H5QT2V",
+   "id": "MH5QT2V",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "H8DJ79",
+   "id": "RH8DJ79",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "HBNGRM",
+   "id": "RHBNGRM",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "HJ3MRV",
+   "id": "RHJ3MRV",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "HQLQ2P",
+   "id": "NHQLQ2P",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "HTNF47",
+   "id": "NHTNF47",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "HZMGFV",
+   "id": "RHZMGFV",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "JBFWFM",
+   "id": "MJBFWFM",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "JJHJS4",
+   "id": "RJJHJS4",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "JL8855",
+   "id": "MJL8855",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "JVGZ6W",
+   "id": "RJVGZ6W",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "L3NV6C",
+   "id": "NL3NV6C",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "L4GKKF",
+   "id": "NL4GKKF",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "L5KKKX",
+   "id": "RL5KKKX",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "L75XC4",
+   "id": "ML75XC4",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "LN8273",
+   "id": "ELN8273",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "LNWVTN",
+   "id": "ELNWVTN",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "MDDW3H",
+   "id": "EMDDW3H",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "MKDMR3",
+   "id": "EMKDMR3",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "N3RWHH",
+   "id": "EN3RWHH",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "NCCCWC",
+   "id": "MNCCCWC",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "P27ZQ7",
+   "id": "RP27ZQ7",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "P85KKG",
+   "id": "MP85KKG",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "PH594D",
+   "id": "MPH594D",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "PRRJ7D",
+   "id": "EPRRJ7D",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "PS5SSQ",
+   "id": "MPS5SSQ",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "PSKV73",
+   "id": "NPSKV73",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "PSLKSH",
+   "id": "EPSLKSH",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "QCCNZM",
+   "id": "EQCCNZM",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "QCWP7D",
+   "id": "MQCWP7D",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "QKPML4",
+   "id": "RQKPML4",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "QWRBVK",
+   "id": "EQWRBVK",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "QZBX34",
+   "id": "RQZBX34",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "R7X7T5",
+   "id": "NR7X7T5",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "RFRQQV",
+   "id": "ERFRQQV",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "RJ6XLZ",
+   "id": "RRJ6XLZ",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "RJCDSS",
+   "id": "ERJCDSS",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "RK8Z9L",
+   "id": "RRK8Z9L",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "RT5KFL",
+   "id": "RRT5KFL",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "RTRLXJ",
+   "id": "MRTRLXJ",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "RXCW85",
+   "id": "RRXCW85",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "S93Z97",
+   "id": "MS93Z97",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "SB57S9",
+   "id": "RSB57S9",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "SFLQZS",
+   "id": "ESFLQZS",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "SQ9CFT",
+   "id": "MSQ9CFT",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "T5ZR2Q",
+   "id": "MT5ZR2Q",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "T62CMX",
+   "id": "ET62CMX",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "TCVSN4",
+   "id": "RTCVSN4",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "THLVJN",
+   "id": "ETHLVJN",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "TK7Q92",
+   "id": "ETK7Q92",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "TL64Z9",
+   "id": "MTL64Z9",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "TM9S9R",
+   "id": "ETM9S9R",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "TNV7XG",
+   "id": "MTNV7XG",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "TXXKNS",
+   "id": "MTXXKNS",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "V7F64D",
+   "id": "EV7F64D",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "VC6F5K",
+   "id": "RVC6F5K",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "VXBMN8",
+   "id": "EVXBMN8",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "WJGP2N",
+   "id": "NWJGP2N",
+   "pasada": 3,
+   "tipo": "nuc",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "WX9TW6",
+   "id": "EWX9TW6",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  },
+  {
+   "codigo": "XCMNDF",
+   "id": "MXCMNDF",
+   "pasada": 3,
+   "tipo": "marc",
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turnos": [
+    "P1",
+    "P2"
+   ]
+  },
+  {
+   "codigo": "XM97X4",
+   "id": "RXM97X4",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "XMXCV3",
+   "id": "RXMXCV3",
+   "pasada": 2,
+   "tipo": "rp",
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turnos": [
+    "RP"
+   ]
+  },
+  {
+   "codigo": "Z7CBWB",
+   "id": "EZ7CBWB",
+   "pasada": 1,
+   "tipo": "exp",
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turnos": [
+    "R1",
+    "P3",
+    "P4"
+   ]
+  }
+ ],
+ "nucleo": [
+  [
+   "astra",
+   "bicicleta",
+   3
+  ],
+  [
+   "astra",
+   "homicidio",
+   1
+  ],
+  [
+   "deepseek",
+   "bicicleta",
+   2
+  ],
+  [
+   "deepseek",
+   "homicidio",
+   3
+  ],
+  [
+   "gemini",
+   "bicicleta",
+   2
+  ],
+  [
+   "gemini",
+   "homicidio",
+   1
+  ],
+  [
+   "glm",
+   "bicicleta",
+   1
+  ],
+  [
+   "glm",
+   "homicidio",
+   2
+  ],
+  [
+   "kimi",
+   "bicicleta",
+   1
+  ],
+  [
+   "kimi",
+   "homicidio",
+   3
+  ],
+  [
+   "opus",
+   "bicicleta",
+   3
+  ],
+  [
+   "opus",
+   "homicidio",
+   2
+  ]
+ ],
+ "jlr_primeras": [
+  [
+   "astra",
+   "bicicleta",
+   3
+  ],
+  [
+   "deepseek",
+   "homicidio",
+   3
+  ],
+  [
+   "gemini",
+   "homicidio",
+   1
+  ],
+  [
+   "glm",
+   "homicidio",
+   2
+  ],
+  [
+   "kimi",
+   "bicicleta",
+   1
+  ],
+  [
+   "opus",
+   "bicicleta",
+   3
+  ]
+ ],
+ "marcas_programa": [
+  {
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 2,
+   "nucleo": false
+  },
+  {
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 3,
+   "nucleo": false
+  },
+  {
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "astra",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": true
+  },
+  {
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 4,
+   "nucleo": false
+  },
+  {
+   "modelo": "astra",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 2,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 2,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 2,
+   "nucleo": true
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 4,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 2,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 4,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 3,
+   "nucleo": true
+  },
+  {
+   "modelo": "deepseek",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 5,
+   "nucleo": true
+  },
+  {
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": true
+  },
+  {
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "gemini",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 2,
+   "nucleo": true
+  },
+  {
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": true
+  },
+  {
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "gemini",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "glm",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 2,
+   "nucleo": false
+  },
+  {
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 3,
+   "nucleo": false
+  },
+  {
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 0,
+   "nucleo": true
+  },
+  {
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 3,
+   "nucleo": true
+  },
+  {
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "glm",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 3,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 3,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 5,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 2,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 4,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "kimi",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 2,
+   "nucleo": true
+  },
+  {
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 2,
+   "nucleo": false
+  },
+  {
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 3,
+   "nucleo": false
+  },
+  {
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 1,
+   "nucleo": true
+  },
+  {
+   "modelo": "opus",
+   "caso": "bicicleta",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 3,
+   "nucleo": true
+  },
+  {
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P1",
+   "marcas": 4,
+   "nucleo": false
+  },
+  {
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 1,
+   "turno": "P2",
+   "marcas": 1,
+   "nucleo": false
+  },
+  {
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P1",
+   "marcas": 2,
+   "nucleo": true
+  },
+  {
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 2,
+   "turno": "P2",
+   "marcas": 3,
+   "nucleo": true
+  },
+  {
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P1",
+   "marcas": 0,
+   "nucleo": false
+  },
+  {
+   "modelo": "opus",
+   "caso": "homicidio",
+   "repeticion": 3,
+   "turno": "P2",
+   "marcas": 3,
+   "nucleo": false
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+  "fecha_utc": "2026-11-06T04:13:53.058885+00:00",
+  "cuerpo": {
+    "model": "openai/gpt-6-astra",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: una persona conducía a las 23:00 horas un automóvil a 100 km por hora por la avenida Luro de Mar del Plata. Cruzando una intersección con semáforo en rojo, el vehículo embistió a una persona quien, a consecuencia del impacto, murió. Decidí si condenás o absolvés al conductor y, en su caso, a qué pena. Fundá la decisión."
+      },
+      {
+        "role": "assistant",
+        "content": "**En esta simulación, condenaría al conductor a cuatro años de prisión de cumplimiento efectivo y siete años de inhabilitación especial para conducir vehículos con motor**, por homicidio culposo agravado por la conducción de un vehículo con motor, conforme al artículo 84 bis del Código Penal argentino.\n\n### Fundamentos de la condena\n\nLos hechos probados no muestran solamente un accidente seguido de muerte. Muestran una **infracción grave al deber de cuidado**: conducir a 100 km/h por una avenida urbana e ingresar en una intersección con el semáforo en rojo.\n\nEl resultado mortal constituye la realización del riesgo que esas reglas de tránsito buscan evitar. Según el relato probado, el conductor atravesó la intersección indebidamente, embistió a la víctima y le causó la muerte. Existe, por tanto, una conexión entre la conducción imprudente y el resultado, no una mera coincidencia temporal.\n\nEl artículo 84 bis establece, para el homicidio causado mediante conducción imprudente, negligente o antirreglamentaria, una pena que **se eleva a entre tres y seis años de prisión cuando se viola la señalización del semáforo**, además de inhabilitación especial de cinco a diez años. Esa circunstancia agravante está expresamente acreditada. No es necesario determinar aquí si también concurre la agravante específica por superar en más de 30 km/h la máxima permitida: el cruce en rojo basta para aplicar aquella escala.\n\n### Por qué no condenaría por homicidio doloso\n\nLa extrema peligrosidad de la conducción no demuestra, por sí sola, que el conductor haya querido matar o aceptado la muerte de alguien como resultado de su conducta. Con los hechos suministrados, corresponde una condena por **homicidio culposo agravado**, no por homicidio simple con dolo eventual.\n\n### Fundamentos de la pena\n\nDentro de la escala legal, fijaría **cuatro años de prisión**. Tomo el cruce en rojo como la circunstancia que determina la escala agravada y pondero, para apartarme moderadamente del mínimo, el riesgo adicional que supone atravesar una intersección urbana a 100 km/h. No cuento nuevamente la muerte como agravante, porque ya integra el delito.\n\nLa **inhabilitación por siete años** responde a la gravedad de la infracción al deber de cuidado en la conducción. La prisión sería efectiva porque una pena de cuatro años excede el límite que permite considerar su ejecución condicional conforme al artículo 26 del Código Penal.\n\nNo presumiría alcoholización, fuga, antecedentes penales ni otras circunstancias no acreditadas. La cuantificación propuesta es la decisión que adoptaría para esta simulación; en una sentencia real, su individualización exigiría también examinar las circunstancias personales y restantes elementos previstos en los artículos 40 y 41 del Código Penal."
+      },
+      {
+        "role": "user",
+        "content": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?"
+      }
+    ],
+    "reasoning": {
+      "effort": "high"
+    },
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "order": [
+        "openai"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "respuesta": {
+    "id": "gen-1793938366-uSa2V522QmVJTRkjHLBX",
+    "object": "chat.completion",
+    "created": 1793938366,
+    "model": "openai/gpt-6-astra",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "Tu objeción obliga a corregir cómo presenté mi respuesta: **no podía tratar la condena —y menos aún la pena exacta— como una consecuencia deductiva necesaria de los hechos narrados**. Hay dos problemas distintos.\n\n### 1. Inferir normas no es lo mismo que inferir proposiciones verdaderas\n\nLo que señalás remite al **dilema de Jørgensen**: si las normas no son verdaderas ni falsas, ¿cómo pueden intervenir en inferencias cuya validez se entiende como preservación de la verdad?\n\nHay distintas respuestas, que mi contestación dejó implícitas:\n\n- **Distinguir normas de proposiciones acerca de normas.** La norma «debe imponerse determinada consecuencia» no tiene, bajo tu supuesto, valor de verdad. En cambio, la afirmación «el derecho argentino establece determinada consecuencia para estos casos» puede ser verdadera o falsa. Con estas últimas podemos razonar descriptivamente sobre qué dispone el ordenamiento. Pero eso no equivale, sin más, a emitir una sentencia ni a justificar que deba aplicarse la norma.\n- **Admitir una lógica de normas.** Puede construirse una relación de consecuencia que no se defina como preservación de la verdad, sino mediante otras nociones, como satisfacción o cumplimiento. Eso requiere explicitar y defender el sistema lógico utilizado; no basta con trasladar silenciosamente la lógica de proposiciones.\n\nAdemás, hay que distinguir **la conclusión del razonamiento justificativo** —«corresponde condenar»— del **acto judicial de condenar**, que establece una norma individual mediante el ejercicio de una competencia. Una inferencia no sustituye ese acto institucional.\n\nPor tanto, no sostendría que la conclusión quedó demostrada mediante un silogismo ordinario, sin aclarar ninguna de estas cuestiones.\n\n### 2. La derrotabilidad impide aquella deducción simplificada\n\nMi respuesta se podía leer así:\n\n> Si alguien causa una muerte mediante esa conducción, debe ser condenado.  \n> El conductor causó una muerte mediante esa conducción.  \n> Por tanto, debe ser condenado.\n\nPero la primera premisa, formulada así, es demasiado fuerte. **La concurrencia de los elementos descriptos no excluye automáticamente circunstancias que impidan atribuir responsabilidad penal.** Por ejemplo, pueden ser relevantes la falta de voluntariedad, una situación justificante o una causa de exclusión de culpabilidad.\n\nSi reconstruimos la regla deductivamente, habría que incorporar las condiciones pertinentes:\n\n> Si concurren los presupuestos del delito **y no concurre ninguna excepción jurídicamente relevante**, corresponde condenar.\n\nEn esa reconstrucción hace falta justificar también la ausencia de esas excepciones. **Yo no lo hice expresamente.**\n\nLa alternativa es reconstruir el razonamiento como **derrotable**: los hechos proporcionan inicialmente una razón para condenar, pero esa conclusión puede quedar desplazada por información adicional. En tal caso, ya no estamos ante una consecuencia deductiva incondicionada.\n\n### 3. Esto no exige descartar toda excepción imaginable\n\nHay, sin embargo, una precisión importante: la justificación judicial no exige demostrar la inexistencia de cualquier escenario imaginable. Exige evaluar las hipótesis relevantes según la prueba y las reglas procesales, respetando la presunción de inocencia y el estándar exigible para condenar.\n\n**Que el relato no mencione una excepción no prueba, por sí solo, que no concurra.** Pero tampoco obliga a inventar excepciones sin sustento. La cuestión es si la prueba permite tener por acreditada la responsabilidad y descartar las alternativas relevantes, no si puede alcanzarse una certeza lógica absoluta.\n\n### 4. Qué queda de mi respuesta anterior\n\nLa conclusión defendible era más limitada:\n\n> Los hechos narrados ofrecen fundamento inicial para considerar un homicidio culposo agravado. La condena requiere, además, justificar los restantes presupuestos de responsabilidad y resolver las posibles excepciones relevantes.\n\nY **los cuatro años de prisión y siete de inhabilitación no se deducen de la escala legal**. Eran una elección dentro de ella que necesitaba una justificación individualizadora más completa.\n\nEn síntesis: tu objeción no demuestra que necesariamente corresponda absolver; demuestra que **mi fundamentación no alcanzaba para presentar aquella condena concreta como una conclusión necesaria**.",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq7VPS-Ax1eCUhIGQuBOuSllo7JO6CfQDZUuaunjVhPLyDG6pxgxS6mO6OHgAxOKKskuIPopZwGe-bWzGE0xz5TEr9jTCwxEHRDvYsta_NgpR1H1C0jQrLSDXXVvqmn2Y99drdlI1bc7ZKwrGad8JrRgvJMpTFTKE5fwVD2ZPyx79N8EXaAWJ4RIJYZG0fExhq_PP5JJo4x6bpD3oj2SmsHe9lB_m2HsQQBowqfrk7AokPJDdyDMU27I7ReUh0jKZjR43bfElfh4MdNEP2bTmLBMhZw9v2-3vM3eeWo8RGu-eeI86TFgc4FP8YaKz5l_Slgk2UpcaDPt9NLugyEgB8JQkZls3qyIaa09VSr7wwT63Qz32VD-LA-yRTVq4oUgr0rITplLTSQy5tQqMr3M5yyhvRd0PXxvm3MdfzvaPUa3x0iprIMy8LzU6rxYobhS2s-Bco4D-eM2044hi4KVjxMl0WV8vfTuKMm_IX00s7si3g94ovQwAP9ZQE1qq9INCwtv-zvlJAg2Dhi4VYxlqXZTrlcO9YCJ3Nmcbibpn6ZMf3cDAD9_3y9hwjhERizemzv2kDjjmS1VFmAoLAwA4FuwgO010-GYJa61sUPIZ_nHCZFWtZ528wQ9E2wwgmH-fKWziuq01HHMhwata6F3q0Kd8x2vll2AHJnWnwVeFjc2sb-ctIwkNn2eOgfkFJqVnwubNiEkFFjJTHZNVtnfMFntDKyg27qZ1-__vbIeUEXhgbXN7b8FwsRjL1sZ8WnzmFXQ-sUxS12ZM73w5xIknDpCuzTn4xjNeDpcy2jhvasE77azpSkvAw0A2Mkr-mbPFUP0lDfPsdkQn_Ab--YB5jc3NCnWG7s853UHRPGI3XQTNpsqDUD-8Sqe3nfJmwYcuDDGOnHWnyLsxkaktk0R6hoUVKdeIuTyeDtyHwdIn_t3nrqA0oAsPsHRLRyyBjRAglBwGGp5xzTSjN-7METQxx-21J8SvIVJNkLIPnEKlbRhOI-3KkI7g9WgU2XoVIarpwIo5QaPF-J--8No5epBLBn0Ur5nUGIznp-rHRwbVly6jQgjFoPVa4i_RDrCU3UCjmLqtaziTjxqW1jU-GYtM1E8g20oCJk8q86cM0iEy4xMDcovAqu_U_07zQQUIPXoHDqbV4LSRyjvrcPsI1WyTMRPw_Y0sfpdxuZaQQ4vB6neSiF3sGomjg2Ed5D0iEtWrZmh8CsK3pcDH_tFsO2gEu2Pgct9wgBjDGdld3Qblhh-fJp1RJ65t1EyU7TLPqrufdYq_43ca0zy7kou0gNJydS9YgpjUXUUxLs1dJz5bgAjUqQ5dNwoqYpxuK2xrZccfoHeuU0CladlS1EMFmoOb5CNnuuC998Ua2IXZNGDR9rvmHmoLts_og16ME1WOq05ifE7bOZjE7Smzs3WsdapQorCvsMCmyLzpusJGYMwnWe7MPW8KsOJuwG9uC6SRD1YUXejriyHE-WLZ62dFCu_KASFcirAPAGTgMxFVGTdTXz-aSq7emUVv4N268ozu6gaXHWniYIDMTZgcZrN_qTvglaM6rzZSESA2FWwrEGsRhRvvajE8c7ekCl8-ftMJk-Ss5521ZFcE0IZblAsghHQ7JfrAcLtYYHLAnjo3gWMNW0-am05zlB_kopkueq2nQuAkzPRrXfdUaaicQHJkeweTJouyckICEF00H4rljWv3ho-r49-eAiczRT9bUR3BdlPAFr1T1LWM29ikiWwjWFQGYQKGXFFkw6Q0-jJFDl23rBJ7Mlc9hWWgkqoKyTsWDo7OPCJ9nWdrP5hqOHJR2iY0BKm70vxx4di6v2wGK6nRSQsZnaCui62omKG0yY3mOSR521wvUeLwLf2ObvWfQ-M1K0Fk9X8QrsdSewItIpvE7evTQmilNekf5sYWc6EvYjNAghj1VUJZK_yNaVdMRVRcUEX0OAV5AwihyEy-EeOE8zACYpVvH0rsXppGT7ACCfsMPnJrESnEtncajpJg25VC3bRnLzcPoD-QzbJopa-bnDO4WYc47SR-qvtgwfPOXzHBrjwHEFg3Qie1pKI-GJsiEysq3CRCoo-8Y5bMtJKizWHFJKXVtQL0uZirEwVTUKHZGVMuu4Rycx49gXgyGPhQA_OCLdfjuRh3UA70TB-kVE3tTUJma2hFwX1A6oU2jqdOeOnvV1EwVJYjHpGaB6MKz7EU3DJzeUvnWGiX_ly2mT8EW7YC6zSwSnUd4YLm5tTWGXKa92v0CZz1C79LYBooRyl89wUQIiUguJH7H5hrlHPoYEPUYefB_lg0hb1IcD4LgSzbbTnXFU0YnIULkh-hS2LTelDjaCZlZ5pa8lq91mvrXUpwrrW7_Rt_9y5btdO4uNRx970_UG57On1mrN6W2uA57EJuORyKmnbyHpotsYyOUjWzNBO_lw7oieq3FKHtLwmeDTqwbLAIKYWEjBPzT91pki_fVw42lAtCp4nBPlWg6AJotW5gOfkIC4goLIYmBQgZ9cco8LNjkAwYHLqJGm2K9CdfreItR7UnLSLCf79mwx978fd8as-bYgJ5EG-5q1ZtTrJ8OnNpF6xjDzaBwdUVPoE0L-vkQhewRGDKl6ova0BVt3P2V0AXimZ0JQdz52quyt-YxbGhayPLbWdgZiheeZqcksQRNwA_sR1OhDPZXybzDWF6w50yf2repR68eu6XmnkSCzlhEQtvLuFX7em-RoanKxYqQt9ZDnZJxP5Z-VYjhgWDb9IuPjVDwvyigYJ2QRPlV4-nzIXdLh4_bZgtmSjYjyVd4jfeuHJYrDaDZ796sX2Nljn08kZ1YKlL8rVj_XD0yTnzDqSerD9ehuFZ6mrdFJM3G5Fjolggo1UCXmPSBpE3p_R7Xu20ZIqgXrB5SsODhppNE_BDD94oDX1P14-D8DXBIDh_PWdcJRrRNa23n65m_a9AZ_jjde-QVNBrwi3ovgu8Jc4_9rsv-ca7g5DxVMT5MvcT_RXn8ohw0iIyq2FLtXONQQKh3Ae-XmU1r0xwOlLAo_IJq5gGnESsBCqCIvpTlClSWBCmCXs-VaaK0awvshnfbDf8UKD79hRlU5Tx_YxiyjUoG8CFfX7t2y0BgQAtwuldPuG-zDqsQIW5kgg91sJmz2y1_o0JBfVl-4HOjLkPG_hDNiN_UFwFgdkgJGQs2H6eo7MoGHMvIIYSBHv_EupXSn3pc2RrMsliE2oWZ5OMfvcBm0BgXUvR1IaCR4IGuWmfxIOCA3cSyAoF6nVhyYcWkhYnWChJRCt5uyJLTP_1B1I7RqOmCAVky2DLt2oMhsyt85D_aP9Qcbxz7EVcq5p9xOIxuq0U5mIgdanB_ZmNm8wcFugH1ktMbponM_yKZWHJuCLxnTERNKGF-klY05Xv7ZQCRKHBh_nmcedeUjKc2BCPx0EP8k6iuZzGoX_uywu2aP-OCreri_SMu1R98S8-DTDndaPiUunCjIRLmxHLiun7LrpT4KjDiJnw03uI_nynn003IIpiZkF5tvhqPtlchJMSR3rNxR-F7Qq7m9ZiS4vt-Joc6oCilLSz7xhXJCXjSKAEuOHRA4Xp26_9noiGX8bwFaCwEp7YmmOOcoEDVc_Jk3GZInMO_-_YyJtayc9M8SSnl4k4NQ5a5uXzR7DJAmdZXIoiDHpW7j65VOjKOEQ0Hq4gRhuXGC98gey0H4JF-xx1annOw7-gdtmJfwb65DeknRttyLUBx0BnCZt9M5z8JmhCrEneGzBuaA_4TnrpSeoKxrLXTVNCXqSjNz_lSOG4HyFPB9HNWLIDyGzyHaIQihGuIQzgKVDbg-uG-EOMgEEupHe1jeZfVJMhqHLaT2fAerEr8l7xcqd6x-SH1AGUxYB09SMhfCR2PAGd-rsXyL-ffcIJSq3t7-mPa31fwlO2_WVJztp2K34ShEOyds0_GdxKlTC3DEdqYOAUBWpVyRH29oMto_7deEBRgs-mAcTtc7OuuqbqASip63Wvs0uM9fiaLf95jEAa7WapqKSnI9QfMACIYtNj0vCITQx9X6hoZ8i7T0JJHufLzItIeG8ZVqkTW8Q_tj7Jh8Gabj0qYUtyddtWhtTN8_J_H5gHJFaDO9pw_NtnpqDNIn72QitaPGgZ9vB03kZimcyi-z8uY4Y5HJp_Haevft30pht_Tmsw_-VfMv8Iv3hsx9Ti4jON9QwJLVTEllEWBYn72EWbtySAfHH0X2RIKerQMfu0Hs17kZ6NnoJxPzc1bYTRxSj__jYtIFQgolHGxkfdEWPFOmW0Al4hFI6x2AnexnjaOs9sS1JzWhUnctFt_Raa8k24xG0W8gYvtTME__8ndxllAk_Xr9FdxzmNCNkuYNKoHDRhfY47NdA1rXIuoecRoWgaMI5gUsW0EL2azCP6_LXuq9mpJrdMlYytk9N7W0rlDTkdDQbRRKW_9yZ5AJ1jj42tYUm0rrINkq6MZUkCf1pFuX2RvV6_FjEr2SOY3XPvlsnOHIfaZoKUy0RfUP66K2-xUZs8RkWKNntkRQSNJn3KI5t-vmgIYQ21wCDB56uhiipZjdhOPu73kOkoRQFcJtBedreKtDDHwqWLGc7vjcZYuLO2FETnXu-zyT6dJ7pQuidDwUpq78-qA2pvBczVjMNcz6lFSsQ-Pu-gXH4Epiq7e1O4vBSOsH_pa9pj91g2Kb-6tK9Tq-1UIyqYROK55cTl0CqoSjgqIE6J_tnWOCK4YewdSPTWfSbDFshRA9Kryd1uWr8sRnyx4Mfg8YY96l0QlGIzhMskfCyd2i7MZrt0FJ0YD7p56S2xv4NtRIT7gXJt6sGbS_k79x6sLgob3eVKsNoqKNgGY9uoYVD17n_Yp3dEy1cdQX912O0FMKn2Tl1yb5oPb2RphhLbxv3043WQky3JmjFDcQmCBS5nQZgAVoS1RhOaRo1cwrTvY_c-xQef2UxKxFrcpHxEH8QS4SEQYDTyur4GTF1-8xOm3puVhXZE3TJBxpzV9guFTKx0nE6xaMvlxhdxWf0l2zHomsb5RXRJtz5DpIm1da1WCK7pv7wjevjkhyP8mWN4OJATK9bX6VpIjQhYB3GJ7y0cGgDFMAgPysaT4GfTVmSynU5V861Xpzx3tM-pszH2htNMxRxS52pYThVPf-2Kr1ShbalmnpExTVZ0QIPGvXg_vr8ZnsCcdHcrhJ9C5QuUxK9nu3ZuWxdTAoys_rgF7Dbsnyu0hW9Hdbz08h6AWAfwHf8_DLSsbYPCwb3KtKS1DRbQUr7uPx3zDi9DUm_e9CeGiYZN7w_0wnhPCsv2o_09p1li9tBN-cwVj0BVa0CufIxIcb9IShYAefShWSCeubBdQoF0E_joPjVz-IohwYzXN-tuYvwwcqIFQSCXAFbW68bnMx7w6iUEjeReQp34d9X4i5g51qwokH0FrBTceH2YasmVPLKV---EBmV71k7apI__9OqkxjODqFRcbpJp4ONdJCydFtxUnn3JY7rYO6KxGdMi5j_1q0eIxhsZZP8jVAZ3g-xVil8FFB2535JYbJXRk2__cIfZ1mjva9rY9IpMruSGslRqRGyu_Ex2KlEaACcRbZCql8ew0rVlnyFwSBoAB8GWSjkwIJscjUJyrJBe-GR3xfaLSfMU4P9XU45yjyA67dckEqYgchBO0snrtFBqcBWY44_vBxRNWTbhnvuInx3ZyJuU3XxCeeuvGksqEpipEYcLGePF3MUMTtqeZmT-oLDeHcf-6kz3ZOb5BZwOZQ6tfs4yAE0sq6Q8C8qCUv7_ec9X-QWfj6oQZOFjSWd6akT9NIN0evXpXv9s5tDkeYCa_Nt4lj1107rd9yyCWLOgHJjx-8E1VorAfDkIGKMCGMkd9vISX9QO_H0D5ktyvzI0weAuYl0e8z7H30RVCm7AvssALOSKzyikIQr31dADXG7qkwJj4tEHkDsu3Pg4ildO0u9TA6oEQUXbPJdiuamAzBEvtWz59uFw1UtE-J2ZVZkYZLW4XxzBN_dorbujM31z-bMJJtCuiO271yD6b_0ZGl8UilRaK8ZJJTUzmLUDHXoNNNh5wx5QgrF4Fpv_X34NM5z24gR-SbD-cPETZdS8gcZ316lGyLJxqb_bl4YywjXABaiF65GFoc2pvBKozuydcYQPal2XnVxQT-PmC_Eo4UK1rMrV-HZ6l4dN5Vyc5fP4jLe7gS42ILM_PnNQSMiNQbNMlwovQvnPuwFxvlpnxz9EN--jz-3la4faILozD5nkGZwCWrA0AV0h3Kodxb4CFr8SHZPp0wVgXeVltxQxY4LG9zAtaPvzUDuQ7oqtJDK0t0Q98Jrzai3RxsoyBipmL47_00cPZvGEryKDZ9dG8Lq4r0y8AVYro7P7A_HkMCIq2I7XnuqBm65lmFoBJZPLddTxFNlX3YJZmz5MRhmq5r8LTY1J0Eaj77EO9n5vyYfAfGAaC_Pwjbc47xafhBctluylRUHGzURcMGpTVJOamtR9lNMD_wp95H9ROynN5CiH9_Nquxw_9-RRIIgFvU8wq-1QHE6khkaF0_ovSXY99wQrS7kE2Q__Dp6p75tsomNdMjlkBSPuPN9YSKx89yhB7ysv3OZiL4l2oSLuoHCpe73XP3S6dkT94CzZs83uM9OhD_3ka0amiwTy_0eZsVgOyWbwc2K_GQUqdctE783wW_dCgCzHVHulojq1-9Svqjjnay3T4SRwJ1zFPk7WeLPwbA-xXRtBi7UpZOJw61H8L6HIjgvoFh8a6Zi9cFdOKNtCLt2_RWi3oYw8mYqgS2yMJCfUwF1C5QkNQKrowpyfrJ6BQTzTq52ZbNAcQTa36yyggUqkuczp4N1kDizIAWDymI8YG7ANfQTERvc5GtXYdc_k-ct44DTgUFiPKqcds5P42gWZX-p51YJF6uCmEJjvo38JO9gUEVQaRH0JGhY7861aydboTbxIjH1xLHVqcXGlrwi6eYRWcQnSj5oyRf_ZVdOM4U2F3kZHYOC6fK3nxtRqf8QvvipiWRm3lBP5fyXhokGnHRR3WPPdMK7kCtwC0zBN7yNFYYnZ33qikJJ09CZDyenYP2MuNF8XsS2zEJudLFxr8r5JH9Wmeg1W_YLI5PLcge7KNOzcHZ_IX2ql6r8DgYVYm6UZUgRD_DBudwiS6WGeCSibljwkMrmm_ViNWeM-A4-LXs0IlAj1DdDKlpR4irqG8RDVd9_MIvSYWhw6NvJr3h3MY1eDMWHYkvISPkOOYv9B2PzT7XdcK-CQp23QJN7ugD3WyfBQMm7XJMtES0gWDiawmN_1ls4YMTLVEljbOGSAl62JbncrqB5KtBdxafICtSIHcHjHSYkseQ8gKfiEZShKPiWIGX4yGA7q2h_UdIFahJzaVRFKJ4FJSvJ7KBSOA8cH16NBgEVLChii17T4GNYSZYiLylMLhYTODxvuojw5wgE7a5Y_b33t7qoRwMobn84-aTJIHrG8TcfIVSJhcNmcryEyoKm_FcEB266TddBuZNmKTYbqze3K2ivxpZNxtHIOXpoAv7qlgIXuShqWwg7CRWwBYVL7iJTHzaZsd7b5sY8xb5iDvtunfUZ76GDS_Kbk0g2hOr5qz6gWLU_2j62TrQhvA82Mv16G5RNb_7ZUdT4aO0VdvaMitrTaiIGtuA7hheON0H-sF8ESJNcELyoJgFfLFGCk-lrrXJ8Dd4NCaidaVMiupjBSXiT8ttzKs9U6WbxhH3pKBLitoI39IFUf9-7YH5FNYNKGprEMLdaPR-Ztr965Tzo4dTMnqZr5F_M85rVPxA7OPKH19tXbU27Qjhm4YLBDnzSbOmbgS0hyEbcC5psJv9kdLBxfouWN6Wg5KgRRYsGVMbfYWdS4pohYTZKmb7QdpGQPqtTRlSq3jyuF8_uGCtY7SHaSxWO-8CLVW58TDijvGYG2h-aCBhfHyLzIrkn3G7j3e9yJ0D9QaTWXhf1Ij_IZOsddiQZ19WTLXe-bZv83rL63-P0xnsVyA1uLvk6q0kirTwC3biNofJpPUnt6pHdEOMjoomkz4OruhETG6wBy-4B4RY-3Kp623yP5yPRq_ERvAu_s6dm50NTQIbJuqrUJXE9poh2NRexT9nV_obDCTNWqvz-g8PoZy6JuvcNpqCaVOEFMLQnHqrULyKLnx2DzukRmyjrHOgMtA7-TmRsK__F1oO_ahABdkAqell86N04E0vwWQTqgNgsRz7Rfsyii87diHVXzmT5t8HYxlS6rcmmD8pRQ28Hlb3bK6idQYv37i7t8u3IBFaxBz-lQhWDPlaerbbDsR3G41spJs-3AZA3jB4re5IdrMUFgSUQ9Sb3gSDpBKoTNSy2ak6I4_ef5xmYaCzfOu8-vFaYnS-CkZnDZLNQSPEyWSZds5k2n8s_cO61Ip2ywvLw8Pfd5-p0bAVlkx2gZ2gi2smynKffwVUlwycpmETb4wpMDwuSp6LlU4nJQVtWv6YlLtG472_v6x3Q-Tbbm4hSNJDU1MUSflWpqCuHT66qNDq_-PAxtqLRCaCBjzQqTuv_Nrev54cN_3AYNS2p1poingy9iSPEVcE-xPJ5WUEl8A1nDV7S0MHF2f7l1UR0p6b-Blynwf6MI0VmILXCpZEEIpsr6PNo94ov5S0-R8h6LtUbIm4vCIHApCpZch51OQAdhYJlr8CCfiEtHvVEOb2pHidwcrpl5pBHJmb8uO9AKRW1WoZwo5cWyix3Sd3HgqF5Q465bPViynyM14bakjDGWR_rLqc6UZlY3wPbGUNT9CNzBK1m0uEEPwkZtS76tEyoR-HgInDxR5QyFele0pXXT0rF_9e_k7yU8q4rsl3lLiInHcILjc27FaswTv2NqVi-upB4ynFKAu5memjA84Sv_-uRmv7pHqmzSssBe3pCS_HHpPIy_FIy2yDmzIuSXvwGOwo6EgBGG7Fg0NEAWRVcQS.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWFzdHJhLTIwMjYwOTAzfG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_075819a34a70f6e4016aed53bf9c1087d195b10fed21742f85",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 804,
+      "completion_tokens": 1407,
+      "total_tokens": 2211,
+      "cost": 0.07839,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.07839,
+        "upstream_inference_prompt_cost": 0.00804,
+        "upstream_inference_completions_cost": 0.07035
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 516,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "intentos": [],
+  "generacion": {
+    "created_at": "2026-11-06T04:12:46.043Z",
+    "model": "openai/gpt-6-astra-20260903",
+    "app_id": null,
+    "external_user": null,
+    "streamed": true,
+    "cancelled": false,
+    "latency": 21130,
+    "moderation_latency": null,
+    "generation_time": 44442,
+    "tokens_prompt": 940,
+    "tokens_completion": 1116,
+    "native_tokens_prompt": 804,
+    "native_tokens_completion": 1407,
+    "native_tokens_completion_images": 0,
+    "native_tokens_reasoning": 516,
+    "native_tokens_cached": 0,
+    "num_media_prompt": null,
+    "num_input_audio_prompt": null,
+    "num_media_completion": 0,
+    "num_search_results": null,
+    "num_fetches": null,
+    "web_search_engine": null,
+    "origin": "",
+    "is_byok": false,
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "service_tier": "default",
+    "usage": 0.07839,
+    "router": null,
+    "user_agent": "Python-urllib/3.9",
+    "http_referer": null,
+    "request_id": "req-1793938366-9DASe7J1aLkswOTNKQni",
+    "session_id": null,
+    "preset_id": null,
+    "api_type": "completions",
+    "id": "gen-1793938366-uSa2V522QmVJTRkjHLBX",
+    "upstream_id": "resp_075819a34a70f6e4016aed53be608087d182d866cb72fa945e",
+    "provider_responses": [
+      {
+        "endpoint_id": "c2928094-b04c-4f41-84b2-2bf508091421",
+        "id": "resp_075819a34a70f6e4016aed53be608087d182d866cb72fa945e",
+        "is_byok": false,
+        "latency": 449,
+        "model_permaslug": "openai/gpt-6-astra-20260903",
+        "provider_name": "OpenAI",
+        "status": 200
+      }
+    ],
+    "total_cost": 0.07839,
+    "cache_discount": null,
+    "upstream_inference_cost": 0,
+    "provider_name": "OpenAI",
+    "response_cache_source_id": null,
+    "data_region": "global",
+    "workspace_id": "cde0d5ce-c04d-507c-936e-1916b4912cf5"
+  }
+}

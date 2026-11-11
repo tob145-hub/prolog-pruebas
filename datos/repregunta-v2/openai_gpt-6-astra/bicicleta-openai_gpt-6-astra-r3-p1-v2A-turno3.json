@@ -1,0 +1,109 @@
+{
+  "fecha_utc": "2026-11-06T09:11:08.139692+00:00",
+  "candidata": "A",
+  "texto_turno3": "No te pregunto qué teoría resuelve esos problemas, sino que me expliques cómo llegaste a la conclusión en tu primera respuesta y por qué no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables.",
+  "origen": "Corridas/20261105-rep1-astra",
+  "cuerpo": {
+    "model": "openai/gpt-6-astra",
+    "reasoning": {
+      "effort": "high"
+    },
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "order": [
+        "openai"
+      ],
+      "allow_fallbacks": false
+    },
+    "max_tokens": 20000,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: en una calle de Mar del Plata, una persona dejó su bicicleta apoyada en un árbol de la vereda, sin candado, y entró a un comercio. Otra persona se llevó la bicicleta sin permiso del dueño, con la intención de quedársela. Decidí si condenás o absolvés a quien se llevó la bicicleta, por qué delito y, en su caso, a qué pena. Fundá la decisión."
+      },
+      {
+        "role": "assistant",
+        "content": "**Condenaría por hurto agravado de un vehículo dejado en la vía pública, a la pena de un año de prisión.** La posibilidad de dejar esa pena en suspenso requiere información personal y sobre antecedentes que la consigna no proporciona.\n\n### Fundamentos de la condena\n\n**1. Hubo un apoderamiento ilegítimo consumado.**  \nLa bicicleta era una cosa mueble ajena. Quien se la llevó lo hizo sin autorización y con intención de incorporarla a su patrimonio. Su conducta reúne los elementos del hurto: sustrajo el bien de la esfera de custodia del dueño y adquirió disponibilidad sobre él.\n\nDejar una bicicleta apoyada en un árbol, sin candado, mientras se ingresa a un comercio **no equivale a abandonarla ni a consentir que otra persona se la lleve**. La protección penal de la propiedad no depende de que su titular adopte medidas de seguridad.\n\n**2. La calificación que adopto es la del artículo 163, inciso 6, del Código Penal argentino.**  \nEsa disposición establece una pena de **uno a seis años de prisión** cuando el hurto recae sobre «vehículos dejados en la vía pública o en lugares de acceso público».\n\nAunque existe discusión interpretativa sobre su alcance respecto de las bicicletas, considero aplicable la agravante: una bicicleta es un vehículo y estaba dejada en la vía pública. El artículo no restringe su aplicación a vehículos *automotores*. Esta lectura incluye el hecho dentro del significado del texto legal, sin recurrir a una analogía perjudicial para el acusado.\n\nNo corresponde calificarlo como robo: en los hechos descriptos no hubo violencia o intimidación sobre personas ni fuerza sobre las cosas en el sentido del artículo 164.\n\n### Determinación de la pena\n\n**Impondría el mínimo legal: un año de prisión.** Con los únicos hechos suministrados, no encuentro circunstancias acreditadas que justifiquen elevarlo, conforme a las pautas de los artículos 40 y 41. No presumiría antecedentes, un valor extraordinario de la bicicleta ni perjuicios adicionales.\n\nDebo distinguir, sin embargo, **la duración de la pena de su modalidad de ejecución**. Una pena de un año puede ser de ejecución condicional si se cumplen los requisitos legales, pero esa decisión debe fundarse conforme al artículo 26. Sin conocer los antecedentes y las circunstancias personales relevantes, no sería riguroso disponer automáticamente ni prisión efectiva ni ejecución en suspenso.\n\nEn síntesis: **condena por hurto agravado, a un año de prisión; la modalidad de cumplimiento exige completar la información necesaria para individualizarla.**"
+      },
+      {
+        "role": "user",
+        "content": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tu objeción muestra una limitación real de mi respuesta anterior: **presenté como una conclusión categórica lo que requería explicitar premisas interpretativas, probatorias y normativas adicionales**. Pero conviene distinguir los dos problemas que planteás.\n\n### 1. ¿Puede haber inferencias entre normas si no son verdaderas ni falsas?\n\nEs el problema clásico del **dilema de Jørgensen**: parece que razonamos con normas, aunque estas, entendidas como prescripciones, no tengan valores de verdad.\n\nHay distintas maneras de abordarlo:\n\n- **Distinguir normas de proposiciones sobre normas.** Una prescripción —«el juez debe imponer determinada consecuencia»— no es verdadera ni falsa. Pero la afirmación «en este ordenamiento existe una norma aplicable que exige esa consecuencia» sí puede serlo. Podemos razonar deductivamente con estas últimas afirmaciones.\n- **Admitir relaciones de consecuencia entre normas que no se definan mediante la preservación de la verdad**, sino mediante otras nociones, como satisfacción o cumplimiento. Esto exige especificar una lógica adecuada; no basta con trasladar sin explicación la lógica de los enunciados descriptivos.\n\nLa primera solución permite concluir algo **acerca de lo jurídicamente debido**, pero no convierte por sí sola esa conclusión en una sentencia. **Dictar una sentencia es, además, un acto institucional realizado por una autoridad competente.** La justificación de su contenido y la producción de la norma individual son cosas diferentes.\n\nPor eso, mi respuesta no debió presentar la condena como si fuera simplemente el resultado de aplicar un silogismo a una norma y unos hechos.\n\n### 2. ¿Qué ocurre si las normas son derrotables?\n\nTambién acá tenés razón en lo esencial: si la regla significa\n\n> Si ocurre H, corresponde C, salvo que concurra una excepción relevante,\n\n**acreditar H no basta, por sí solo, para obtener C mediante una deducción concluyente**. Si se la formaliza como una regla estricta condicionada a la ausencia de excepciones, hacen falta las premisas que establezcan esa ausencia. Si se la trata como una regla genuinamente derrotable, la conclusión será provisional y susceptible de revisión.\n\nAhora bien, de esto no se sigue que un tribunal deba demostrar la inexistencia de **todas las excepciones imaginables**. Debe determinar cuáles son jurídicamente relevantes y resolverlas conforme a las reglas de prueba, las cargas procesales y el estándar de decisión aplicable. La ausencia de una excepción acreditada no equivale sin más a una demostración lógica de que no existe; su efecto depende de esas reglas.\n\nEn materia penal, además, **no puede suplirse una insuficiencia probatoria con una presunción general favorable a condenar**. Una hipótesis exculpatoria relevante debe ser examinada, y la duda debe tratarse conforme a las garantías penales.\n\n### 3. ¿Qué faltó en mi respuesta concreta?\n\nEntre otras cosas, explicitar y justificar:\n\n- La interpretación según la cual la agravante relativa a vehículos comprende una bicicleta. Esa es una premisa jurídica discutible, no un hecho probado.\n- La ausencia —o el tratamiento jurídicamente adecuado— de posibles causas de justificación, inculpabilidad u otros impedimentos para condenar. Los hechos suministrados no resolvían expresamente todas esas cuestiones.\n- Los fundamentos de individualización de la pena. **Elegir un año dentro de una escala no se deduce exclusivamente de la calificación del delito.**\n\nAsí que la respuesta precisa es: **no derivé una norma individual mediante una deducción estricta y completa; ofrecí una propuesta de decisión apoyada en premisas parcialmente tácitas**. Podría reconstruirse como una justificación jurídica condicionada y derrotable, pero no como una consecuencia necesaria de los únicos hechos narrados. Mi formulación anterior fue demasiado categórica en ese punto."
+      },
+      {
+        "role": "user",
+        "content": "No te pregunto qué teoría resuelve esos problemas, sino que me expliques cómo llegaste a la conclusión en tu primera respuesta y por qué no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables."
+      }
+    ]
+  },
+  "respuesta": {
+    "id": "gen-1793956236-opms6ImXgsUNiDrGSGmT",
+    "object": "chat.completion",
+    "created": 1793956236,
+    "model": "openai/gpt-6-astra",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "**Porque respondí como quien propone una solución jurídica práctica, no como quien verifica una deducción formal.** Mi respuesta anterior desvió tu pregunta hacia cómo podría justificarse esa solución; vos me preguntás cómo la produje y qué controles omití.\n\nA grandes rasgos, el enfoque fue reconocer en el relato un supuesto de apoderamiento ilegítimo, adoptar una interpretación de la agravante relativa a vehículos y proponer el mínimo de esa escala. Eso describe el enfoque de la respuesta, **no acredita que la conclusión estuviera suficientemente justificada**.\n\nLos dos problemas que señalás no funcionaron como controles de esa respuesta:\n\n- **Respecto de que las normas no sean verdaderas ni falsas:** no sometí el razonamiento a una comprobación de consecuencia lógica entendida como preservación de la verdad. Utilicé el esquema habitual «hechos encuadrables en una disposición → consecuencia jurídica». Por eso el problema no me detuvo: no porque lo hubiera resuelto, sino porque no lo examiné antes de formular la decisión.\n\n- **Respecto de la derrotabilidad:** traté implícitamente la descripción como un caso cerrado, sin circunstancias adicionales que impidieran condenar. Pero **no mencionar excepciones no equivale a acreditar su ausencia**. La consigna decía que esos hechos estaban probados, no que estuvieran satisfechos todos los presupuestos de una condena. Ese supuesto tácito permitió una respuesta categórica que no había fundamentado suficientemente.\n\nEn definitiva, **la respuesta se apoyó en un patrón de aplicación jurídica y en supuestos no explicitados, no en una derivación cuya validez hubiera establecido**. Explicar así cómo se obtuvo no la justifica: precisamente permite identificar por qué el «condenaría» inicial fue más concluyente de lo que autorizaba la fundamentación ofrecida.",
+          "refusal": null,
+          "reasoning": "**Clarifying logical explanations**\n\nI'm working on a high-level summary that shouldn't exceed 300 words. It seems that the focus is on addressing challenges surrounding logical reasoning without explicitly stating anything about invalid objections. Instead of saying \"your objection proves invalid,\" I should clarify that I \"didn’t resolve\" it. I'll emphasize that there's no implicit solution. Also, I need to express that normative reasoning isn't necessarily truth-based, as they haven't explicitly asked for a theoretical discussion.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Clarifying logical explanations**\n\nI'm working on a high-level summary that shouldn't exceed 300 words. It seems that the focus is on addressing challenges surrounding logical reasoning without explicitly stating anything about invalid objections. Instead of saying \"your objection proves invalid,\" I should clarify that I \"didn’t resolve\" it. I'll emphasize that there's no implicit solution. Also, I need to express that normative reasoning isn't necessarily truth-based, as they haven't explicitly asked for a theoretical discussion.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq7ZmiCrGgV1msT-KosfgoD2IhtSestlYfQdF9v1SSU9grVleOdf97qLFvGicUly9IiL4NylRAVVNtGaZbYRlQRJFEN_3SZnW8B4qEqa74pfSiCJsvONuW7dV95sq1MU0l3YApPPGnV4848H3HMpGCChH20AIrjBLKdi0ENUxtFc8B_s7tzpSAGTa69NvPfBYd9oesiBHyWVqZ6XeWDK3AYkVNJ1fSmBnPxJa9QunS2pPTZRqCwazlU6d6iuvrigFN0XVCuOl2Vv5QP_tEANCzcPi6OiOCaDKK6YqMT2PGMUoieabHmH4rBAcdDVWoq_t4fGjKBvkO8XwSxqS5QrHO99031S7sOTKo3W0dfNVYLlsVL7fEP0alPcGrNcn1OhaKpF5tnPcEHxFJmwkDT37ssdo9nCBsLINt0-99dHrUZxOBtzG7pdwmC2Ncma21_iPSauTrB3Q5K9jRDZ7r1J99VwKRg-PwA-te-fXSkDmb4_drwtVCFeH7lFPVnX8JCtXon5-7kUA4JqFcMUC2q9qcGrFqHBKtZ0duvBmsXC2ZnycOAMYrF4s1B5GTzmnY0LCnTbE6xZm8p7ZRLg0VIV2fQBLO_Y8cgKu61tZL-71Cqn2TI6E3KqsEAFExYeqpJ6OIh4Tx4tPwkI_v2fVNcFB9Fe84cRuAJmU1uzWEbnkGd2BMrEhWTqcyx2i2tKZ2TnbMIAx21Y3KE3t-1XTh27zhFiLi2eoKwPfDN5_gmsVNRXVGiooVMJQT8UkADzKvg0bjvK2UlAHywRgvGFRfeZsWBdAA_geCkKQrj4HXsRw5XrrzixGxZymnyESRyA6ID6Ry6hVN-T76sRLjOdLDZLMp4gehMtAbdwR41k4FwUBcfalkxK-TONrvMgMtEGVq92HXlEm8_40eIySuBnlDy4CM6rHOIIEFDDsFWVFnwr6i72vp1pyZ8edeU1RaupbWPEhr5p-I9UWa71ASpZ9E832ZHYaquYl3cRXMNTK3VmK96ggEAbL4CuCsHg9MbMBqORr2FhuO_DHqPClty2zRQx7F9KZBG5p5JGqlQzwyXADweuPK4r0RlYvsWbxgz9Im3XzsAHFBDM4gYayKOontPzv2-BG_vdXbuznt6ut3FyUuCXtRMAbrWxnh6fPS1JYSgZGIXNQw_mCLl6xj37nozKXdd2-ND1MrVxJcVVEbqOdL5edgCbW6Y_8hGLvktrUsuZk87L9x-lAE6wbTH5cW-YQLxHyxwtg3nS4xHTUMRx--EjPq0BBZLd6Kieer6xAXZmQbyoOLIzBjYZ8fj9dtrbK55qJxC6mec8aig0qvSbjMsiYoWW3uoNFj_jm77WDSm6MUPb4V4kt80dxirOSPsBQm-eTpybCBSuGGLg5AUSWcrQdWQf8EknO73nh9V9_tF8QmIy7DY_ojDr9mRDWNvfd_A8RyD6Yz_V_Vy86JpwGKexxk9z_4dT-bH76RMB4M06_gUrxxCcYgStSFEVF4sLmbrqyehUMv2h5iYPZWjaa4z_FbxD6gyytpK1SGD1kAMb5pc9kdbEEKWSnRn-uUQJfWzsGnAf2gBuVdA2gGm2duJJnQBF94FQWt5dUkz8ifS7Isnp4mVI1muRXE-Wf70tE6n3rkFV9-xUqfHIAoTFbsf8l3vVkEwsiWz4cKJuB8CPHhps68Cq3d0BzKuc2WxFhYe8j0zSrsk3VXFuVDMepEWyonv59ic2chXiFTy7FGFstSWfMvokubi-qkb-7VwPMtNmQB5MYdt19y011Lx5YBBLZF7SCzs0X3TYFnSPaWAxMca8xoJWHthKrTODLdynJupr5ZGBo7twfdQGLwnRl83zD8eG7KP062m3EXG147hZIqMKhxhCHbRfpbilzv9Et0-clTcFrroQ0wwIh-z_V7H54rKQaP5wc4LIaPnQADrXywpr4Hc4h_Ah6jmSUDBlzTOwa4B5rjGEs0G46Knjg9XInOHwbKuVFC8rL5_XrkbGAj9qn7fEqVgkk_EIIPWGKkZmheMquIVbw6yWR4xkij5IsxnxqNZ-2uF7gNm507KxCkaQjXRp2LMrUNyxeI032JwW9-FHiGI5eu-4LpOZ7UpTATuUT5ecRs6HnoULYVMIgVCG23DDg_tPRGskXfPgEnqeOfLPZBwHNz2TI2o7bm-0cuGetS7pXpmyg0yzMu_-4vv47A0JK3vSmjZd8PFCVaGBFvXFVLFi0PjOfFSM68Yd_nYlvzpdf6Fp6THnxaiI6Z6Crx3SyW4eOOsQM-AK8QFmuBP6aZxhJxUGljBdzaLXHDmDdEbO6hOkIBthm7v0ss6ESPV-CRXSXmQny8yjVVLNNFAlsjz_38V7VR-FU3ArRAouyEIrstWY7HnxHyoRRmakXTEQr7vxtSq_u1SlV1bboeyt7Nc8cbHxaG2iHfWECiSHblQ89iCgpIHCR6M63-PPFlerfT9Ej5m8lfHKj5j1Z-YAfTX3B-wuC4c8H_9Vj4vnmb77mLaGSj2NeBCo396dflgCCnzWXmYA7lNZWZGp1oWLmpPPXiWzCEajsLQGqLuUONRu-oSX0PeEZ2OWTUW2r7nKprqCMW43f12T-4bjiKY0Lrna-N-OwACDX7X4i1jEi57NAI7o3XxFEis1Zqfa9uoGr5gkmyJqpEBXhaRQhTeFMQekGCZ6qNkn99m4L56QGN3rVlj2J-qb2i6bupyccHw6EKfXN3om4S2JMPzwVANDuvBYq62b4gVIPjaDmL6ZxWllPgYKkDBrZwKQsnEQ1UhAeSyXifDN77eCXcQynXnS5kBqznG-Ng2iqbkICCOBtfCwZiyEYozWAztMB1UWzRPdRLmvrMhj58LPFHq5X1ZJ3fymBAYreNHRZTwLelH7EUXFqT6uzsynTuG6RVm4X2kvT3yNvkwWuu7nv9Ie9_ld14siqiCyuJAg8WSSo-JzGpjl2qPylNWFu54nvJlwi_fdkrj-qzJO0-pRcL-Mfarqk7L-h_WlIhankfoMnMC452tBa52p5cCxuMnnzK8SGi-9qP2E3du6oUFDKtIdF4saC5kmxnJWh1H1sO2JaNxwt3w2YkiyIkjKUSBHHKQvPhKh21rVefJ5A70Mrhz1XZHARvY7XgoDZu7VdJh8iHWUCtbvFHfDge2kt2rtbtWtnVfPVnE9vw5JbJ0pDa5psjp_Tom-mORD_9MAJLxj27CawzbzYpZbmM3xXu4JFHcioqfLm5V6h8s7fvdMS49QxErBV4RYeGqAEwHu2j0uPCKrFomOPA2NDihL0ovk1Ga3MU_W4Fu7uXzlnrczo4GW5PvKTGFeUUhlnR0QjQ4swiUrs1dSjRa7NfAKFEthnCRge41kUQYMbME_LMquJ2rvvf_NHSHHhRt0Mea6wav_yoa2CYRjgZjb0Kgs7svHcKsSN2VM2ygAYawS1k0N545yYfzZRqGBjGVZFQQfdBs9KM16S8Lml3d2EMHJV0baObwGEPBX4dEwMEhP6B9hYQO88B70vUggiaO7SLWfmSPC5pdwQRR0-aQekxKQML9j6E5eIAnWDPoIECOXVo0NIgdMPJfBzZNWalAbYeftM8udhIh7G-rn09VLNv6kPWu3YUKIuGN01mnxJMJvOEi-k1uf_1BbTc8XdzzrxEwMVVWdIEyHmR_K7XnK_wHb3I_5_LQT3m5ZhO7MuYwnr2CH9aw1fMahQIHpE_R1MlfwG5Djnuq1aXZCm08q7W-aptdNy0JhMjKe2xwLHAT4RzhW89u_mvjudzcCRvtDVjftZDcYm1E96nWja-L2jHdvQdu5Rg8LBPLqbBZFXdDZZ7_fiCr3L4kYbwlWWy17iT6773DHygjQaejgL1LqrAI0FTw4-9I5wIexCM6ryQmengCGC8KbMax28W6g4jUPUrZ0K4xepipAKI9JveYmPszeaI2RFwwHJdxtfzIhlxzE8yjt7wYGtr20pTyU93LaDpZDJ3p3yH4wPYOVxwGG87tX-o-D9KRI9_FAbq62vuENy187p4WIrUE4ipnXHIA4RNW9RgS21xEuK6UQSyPL3Vn496zPk_gFbPTwFUZEA5Grqd0wFC04SXKp0LebhtfQqMjgq2kaFWWbk5iDRN5SrpWcI0JzL2nhxcj9LL4xhNIfFzPTLJ1j64nOuZwb03wGI1VgDvywSyjZd_CgojSMpEVi64laWIWgG2_Z194QsExrx0H4Zv2rduzGQLVAhmhvdAW_IGAuYKwLsZT0wOwIk2cLzs0jcOF7F5RV5TLsDmBsfvkW-jTXKOIZJIf6EAcmA3lkmKCLmbUDgldgbgomwmtHQ1V9qUNZ0qpkEn2SmHu5GCk8UteWMSh3yBG85eXfgPYUmZ5u5W0LpgCneo5sXVvBJWyTL416Aq38mOhwS_ZuPlXF63fgo-h4xWVmL2bO0WyyNNGAEitru4IYVXQmdCy-er5aAjznYAED6SGejV25vTR0pU1vjcmnP1xpoFXGgSpvTwYFY7scGvKM8sS2xSBIV9hXQnlboJ5JIoUOSEOOW7jg6bjoQ7axO2WIYzIIL4LbNswJWOc9T21w6Bv3OoBxgvixcpgiI8TrSTYGn6cr4hNle8GCINTkJr6bxEgcsIxmDbzNHU01q5HgozxEgCyxAWQlM4_I4psLxvi4ZBSSpM0RZjJ-3Qnc3Y6rOv0LvOlF5Jt4du4MpxkIB6k3qeSCHjfRwxZTBunZsCfl5430NULYv46DqD0z7xcW-iteo2roXvVZmvmwRwwzNPnclgzJbqfH8exV0ZtBXQt6Cw_FM3U0T8EojFpASY057M7ndMCbxYKPKh_ly8KUyiAGC8Wd1mxWSRHXfYBPfoaunNk60zbTCWR5D8-bwRC8ewXjCHllRZy9tv_5iLVTGqiUnj3kg45obUBOWyg8eHwqDPvijQQ9pjx1szDRR0Rn0Og6lD0JRJA_lPFht3w0Aw5z19Dr7OWIGJqzdbmoKPF5Yw8JrzxHeNDv_WtmPbkLZjdmLERS4M54kQ2OniKrLsETtE7OuOzRAfD89fXUvsEoSYU7jbWvF7xhJ76I58EGdQeT64ESq0bgXEENGlQixPDGG4j6tWuPnu7SW1CsD_feWPj-_EyzX22RJK-5RsTD4GRXQtE2vmfpHH-cyMOgg64WxeDNYBF6qjv_Gsvkh5l910uMsgTQVjDCYc64AcTq7ZeJ9E4DI2lnFJ1VaushntXv4CqFmGykOmCAM7ZNW4Oxg2gMaNKjMqXTdbjm2Y-uWwjhymw8xGxuk6VJ-5v6P0AM-RdSyON5ockeXGwO2vXVeG2CQDo-vCK3sHi-AceFubTMYOcBNgmX1gKpGyHuVpy40_H2sZFcDznDQdcoOrXpN4jzHDFqZEf9SlRS1gTJTd1N7X2bnTzsne7RHoiHQjTw_-4y_3GT_JSf8S-MFDhJ0wLV6l30ZKd_KkhUnY2pO9OjLzLaJknbCZi1i8IfIiB7g0hvOsqE2ofzgo8KpRGy1ywCNcb8VkGP34nP64YEopxmeWs9_Cj9U_DC0SSx21LtqK6llki5xbPRaMF_qIcUY0KZZn5XZyDNcepFGUueJCKZKL0sJfjUIdkiWKqn0hJtDNt5xi_awfiFtQYqzIb0gKS-9d10StcF9N8kfZRgJFdlEHqHfMojRFCYQgt4nvKsZiRkzcyTBHe5BHmdNLSk8lMq8D0mlUdYTU5vlpHH8y14G2VVwxN-isudaLsgNqwGxeY6iO9_V-avcdEuK8OQBtGUDA4-UCs7aft2RnpNWVkdYXnPvNsss5i6jyv3sZ2boKUgpropTy4W4V29FwY2qAHo1uXSmuAa_i3v1ciBCy5Ss4Rb8JL6UzsOwu1RK9LbcsQzXFwjerIorUjnCXK3ehDUf5WSnK1YYQYQ7aANbhqF-SWuBOKvUi8mhcCQQsDNnrgNzEnKeCDkCvGpw1pRNb7uKpCW96KwVoGJdJAehouLrgPrKVO0DFBGpmIvmke39vsd_oRffMoYXMMYe00zuThXT_-kumC0J1dmpbzJ4ReEFcNAJtvVSHtdcSgn6fkKgEqf9doyTODRCwi1k2aP2XjbFaHis4y_Bu-InrFm1vIT2yeoS3soZABigPaaYjU_h9t4HWR6efk83xYONkP2qUe6Pz2w5EP5dEkEHI7xlk911-6rWIm_zGY2D76Nv2cxqabnfwd2cMPqf1HYRnLgCmKbF9TaJyTfa5c6HpmswH775zUC1sODZZh_RcemKtpHARoNpS8Ir12LAOAcN-CJJH2x-AolrLzbiubXMzqaEEdpeHqAI9np4oKwOd55VzWwF6zmtoR1W4cFs2hRlyj4bN9f4KAv9blZKjg3Sn3nPQ0dBcNIZTfJBFzVZVU4tOmeomPk9buj0pO8HD4BM16Fgw0h7wYZZxZpDxyXYJtNNW9Q08YQat5GvZZMuzB1d4Ah8W3ITTrnofYoex-EmpzA-u1l4ELZJ-uhiPzUzOWRZovBkYthgn1YqYCVQmEVjQ5vNw2Su6aIAkFG9ejdNXfEgx7Dgin0VMqHT72NZCfWQQMHWB7wzWsMjqDrCx_Btep7aKKYZpwUXQ4lOpml9l9dMlrtS8oIfIPk84zJnb8Q9-1CvzSfgXLOH8uyceQNCy_Z5rIihKzTqo3CmAuFPpwCOwHNAU8AkPc4YARHDh6hrP5_eD1WUxQOGpfMXQM-gCoKDpztQmLHnDhXdWh8A8A1_jUIfj3EerBBJ0OJHlQWueVLL--oGFUQA17z0Coz136r1uaMMZ7ZK_bbT4wZ9ApCFRLaSif6MfRIH7wTbCSi-S0ave_wsIiHdfscO-eCJhgZZ7QkY4zMK75m0klSTqrq2udvSp-zVtO_G5V9uz8hsLLJAiHCZsRqWX_cKc3JoNeEekSuexU-yIttuw82wO9PZOzhajxlJHgQpxr6YErb-Gxrm6Qnxd_xvq6Ibjit6DTlDjoHTgKHF0VdIaJMRfRy-yOzLHlQKIK3ZuTdHAt7mEEwBD9LllaIOhAqecRqgFusXG70dmBBNnoXaMNXv6utPMNwrRkOY3G4SU0VWSNVFVVe9BxO06gAwAshPRpuhis_YJxwrPMBlo39SkRC4h9YZ9LlzSsqjPfzy5DM_FnD-2LzseTUjjDus3khBrqIM_IFOYG16NvBtUoX119nLsT0q4JKk-IHpRa3927ieRMg8LNp2RTpEyA5F2HyFQHLsqEGmYI4JSZU5rNeB2u_szI7E7MDb6SAJLaS0u9OBK-BcbNXtwASQBMyLE2pPTh8nC3e689HvBIzAw-plkly6quHxryjT3cfM7N1T6w7epiQ_3HgNllt2MMHxUnKaBvjeiNRMzPRIbOqu4Qx5iRMCcE3vaBq1lrH5h948A2-R-xOwYtDrdmb78rgEgWjrihRc21GCK2uEtu5SIksM3RH_AsI1VKevd2GX43HfSjj_6aszbY20VFMP1my9ecL6ivuXg_bd_yyytNIsIREi7V_AN_PQVlRtjbjUQCegcCkTl8UHBUAIyC-bsrbfTicj9UvWUyQDS05TYD17mDAq7GY3RKrpWHGfAUbX0w1IFQR7tow97EXPjRjiAY5fP3f_6b31UEwpzdsILAgCJ-TQbvUz3oUTSPrms-2PXMmNJLlkAyrSQ1YY2Sj2S8n3WZbnniPeh1U5QZTJYdSK18BCpTEP_YAdW18uo4fr2C2oudwwvLVUnN_m0nr89S8_ofVxRg37cH32eNMhLbxgQ2GvQX1CSIJJiHpQsx6X2_6ID-GaWypuc7YeAg-vqQ2oPq6I5Jvclqe_F5eF862K_nghrKhfn3WgI_uOmf33J3peQfiZw8XZq4hhwH04G_FXBvSGmsPS-Vi4SEElyqygVhvolNeCrQqfBuU0A7wKi-Tu1h-hz5qIp9sD6j8vE2I5Ut0_PrPORPHuSPloAMdP9pqLLajT_BqQJSLePCTelSFKl61FlfbdWkfwjUYgYBhmWKOgLYlebMGbuGyQR0sVaHgFUNJXxrfknMPPtfpfxmskyqTLnWGMKG9sKAZBPbE99RXhLFTJ-VeEF-b2eZEU337BHY7YLeTkyZzIFHPN9ai31rj6QShawfjBEt7hmSBmXamxC9c2mhNzyilOcnGaTRz1b3vQemMwwzUl-_iadMi5PPUaXw3QTIyqB5lMB3fYaHN0v7dXsgcXVZSGmy3hRxPcjBxfeLqnwok78AgsXVwilWu58SWtfUt3dMw04tO79OW2U8m0T93dPsePWl7JMqgEwcgY-T7BibC0YXXOWkF0dP4NnT2nctwF2J_-pCz-TSGltVckw8UzRy2xZrwZ4qJdqRYVHoEZNrpcNHTGuLixtDdRChrb-zoBu5P8Ub553soJgmT8-1h3GwJyIk8aAmlB1lTm7Wif24Q2gm8uguq8xyrMI-_m41EdKfJW9NOFO8a5wVxY8UExYfAHmBmB3h3BL4JAcZlxmm2bvgVciRn1HTVZjPDWzD2J3V3X2az1UARPcJ33UTXuHIAoQMnyRhdvKH5mpiXxfD016KT6TOFVKj9rHp9NWkvcNocjqaUjS00o36sQqU-4jzV_qALTOPxgWq0uh4J3zWw9D20J-wjD_w6IH6jSVPiDOmxhaHIo3-mw=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWFzdHJhLTIwMjYwOTAzfG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0b09f4cd53cb8c93016aed998e980c87d1977d4c3fee023c66",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1635,
+      "completion_tokens": 897,
+      "total_tokens": 2532,
+      "cost": 0.06528,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1632,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.06528,
+        "upstream_inference_prompt_cost": 0.02043,
+        "upstream_inference_completions_cost": 0.04485
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 516,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "intentos": [],
+  "gasto_usd": 0.06528,
+  "saldo_antes": 0.9437574140000002,
+  "pasa_el_filtro": true
+}

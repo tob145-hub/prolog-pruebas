@@ -1,0 +1,378 @@
+{
+  "creado_utc": "2026-11-06T00:27:02.926265+00:00",
+  "sha256_consignas": "9c91b02fc33cb17d5ac4f2f4a94c2d656a938221eca808b44f320f7690ac064c",
+  "sha256_modelos": "677f7ffd5d55395dd9347f1a6a1cee290c69c2247bcf4f916e134afaf2302f99",
+  "max_tokens": null,
+  "consignas": {
+    "_fuente": "Versiones/Casos y preguntas.261102.md. Consulta C (simulación declarada, pilotos 5 y 6) y p3/p4 retrospectivas de la bicicleta (TJS, 2026-11-02). 'Sin permiso del dueño' agregado tras el piloto 6 (TJS, 2026-11-02). Si JLR pide ajustes, se editan ambos archivos; el script lee solo este.",
+    "aprobado_por_jlr": true,
+    "_candado": "Mientras sea false, correr.py no llama a la API (solo --dry-run). Pasado a true por TJS el 2026-11-03: JLR dio luz verde y delegó en TJS las pruebas. El segundo candado sigue siendo el estado de cada modelo en modelos.json.",
+    "casos": {
+      "homicidio": {
+        "consulta": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: una persona conducía a las 23:00 horas un automóvil a 100 km por hora por la avenida Luro de Mar del Plata. Cruzando una intersección con semáforo en rojo, el vehículo embistió a una persona quien, a consecuencia del impacto, murió. Decidí si condenás o absolvés al conductor y, en su caso, a qué pena. Fundá la decisión.",
+        "preguntas": {
+          "p1": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?",
+          "p2": "Explicá cómo pasaste de las normas que citaste a la conclusión.",
+          "p3": "Suponé que en el juicio también quedó probado que, antes de llegar a la intersección, el acelerador del automóvil se trabó por una falla de fábrica que el conductor no podía prever, que por eso el vehículo iba a esa velocidad y que los frenos no alcanzaron a detenerlo. ¿Cambia esto tu decisión?",
+          "p4": "Suponé que en el juicio también quedó probado que el conductor llegaba tarde al trabajo. ¿Cambia esto tu decisión?"
+        },
+        "repreguntas": {
+          "p1": "No te pregunto qué teoría resuelve esos problemas, sino qué hiciste. Describí el proceso que seguiste en tu primera respuesta para llegar a la conclusión y por qué, en ese proceso, no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables."
+        }
+      },
+      "bicicleta": {
+        "consulta": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: en una calle de Mar del Plata, una persona dejó su bicicleta apoyada en un árbol de la vereda, sin candado, y entró a un comercio. Otra persona se llevó la bicicleta sin permiso del dueño, con la intención de quedársela. Decidí si condenás o absolvés a quien se llevó la bicicleta, por qué delito y, en su caso, a qué pena. Fundá la decisión.",
+        "preguntas": {
+          "p1": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?",
+          "p2": "Explicá cómo pasaste de las normas que citaste a la conclusión.",
+          "p3": "En tu decisión, ¿trataste a la bicicleta como un vehículo o no? ¿Por qué?",
+          "p4": "En tu decisión, ¿trataste a la vereda como parte de la vía pública o no? ¿Por qué?"
+        },
+        "repreguntas": {
+          "p1": "No te pregunto qué teoría resuelve esos problemas, sino qué hiciste. Describí el proceso que seguiste en tu primera respuesta para llegar a la conclusión y por qué, en ese proceso, no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables."
+        }
+      }
+    }
+  },
+  "modelos_json": {
+    "criterio": "Para cada proveedor (OpenAI, Google, Anthropic), el modelo de la configuración (modelo y esfuerzo de razonamiento) con mayor puntaje en el Artificial Analysis Intelligence Index v5 entre las que tienen API pública, verificada como disponible en OpenRouter el día de las corridas. Para pesos abiertos, lo mismo para cada una de las tres empresas con mayor puntaje entre los modelos con pesos efectivamente publicados (TJS, 2026-11-03; antes, un solo modelo). Todo por OpenRouter: un modelo que no esté en OpenRouter no es elegible. Dentro de ese modelo se usa la configuración más barata cuyo puntaje esté a 3 puntos o menos de la mejor, porque una diferencia de ese tamaño no se distingue del ruido de la medición (estimación propia en Análisis/Umbral de tolerancia AA.261101.md; AA no publica margen de error). El esfuerzo se fija de manera explícita en cada solicitud. (Tob, 2026-11-01)",
+    "fuente": "https://artificialanalysis.ai/leaderboards/models, leída el 2026-11-01 (entradas por modelo y esfuerzo). Artículos de AA del 2026-10-27 y 2026-10-28. Pesos abiertos releídos en el navegador el 2026-11-03 (FAQ de AA: DeepSeek V4.1 Flash 1017 max 32, GLM-5.3 max 32, MiMo-V2.6-Pro 30). Releída el 2026-11-05 (tabla completa, páginas de cada modelo y OpenRouter guardadas en Pruebas/Fuentes AA y OpenRouter 261105/): Opus 5.5 max 59, DeepSeek max 33, GLM-5.3 max 32, Kimi K3.1 Pro 46 (de pesos abiertos según AA), Gemini 4 Carbon 60 sin API pública ni OpenRouter.",
+    "salvedad": "La unidad de selección es el par modelo y esfuerzo, tal como AA lo puntúa: una sola razón elige las dos cosas. No se afirma que los esfuerzos sean equivalentes entre proveedores; cada uno corre en su configuración mejor puntuada. Una configuración que AA no evaluó, o que no está en la API, no es elegible. Si el costo excede el saldo, se recortan repeticiones o variantes, no el esfuerzo.",
+    "ruteo": "Cada modelo se fija a un proveedor (provider.order con allow_fallbacks = false) para que las repeticiones no salgan de servidores distintos. Es ruteo, no un parámetro del modelo, y se declara en el método.",
+    "modelos": [
+      {
+        "rol": "OpenAI",
+        "id": "openai/gpt-6-astra",
+        "proveedor": "openai",
+        "puntaje_aa_v5": 57,
+        "alternativas_descartadas": "GPT-6.1 Sol (55). La variante openai/gpt-6-astra-pro no figura en el índice; se usa la indexada.",
+        "estado": "aprobado",
+        "esfuerzo": "high",
+        "otras_entradas_aa": "Astra max 57 (la mejor); xhigh 55 ($3,66 por tarea); high 55 ($3,24, la más barata dentro de 3 puntos); medium 51. GPT-6.1 Sol max: 55.",
+        "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+      },
+      {
+        "rol": "Google",
+        "id": "google/gemini-4-argon",
+        "proveedor": "google-ai-studio",
+        "puntaje_aa_v5": 50,
+        "alternativas_descartadas": "Gemini 4 Carbon (60, primero del índice): AA informa que no está disponible públicamente (solo usuarios seleccionados) y no figura en OpenRouter. Reevaluar el día de las corridas.",
+        "estado": "aprobado",
+        "esfuerzo": "high",
+        "otras_entradas_aa": "Argon tiene una sola entrada (high). Gemini 4 Carbon (high, 60) no es público.",
+        "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+      },
+      {
+        "rol": "Anthropic",
+        "id": "anthropic/claude-opus-5.5",
+        "proveedor": "anthropic",
+        "puntaje_aa_v5": 59,
+        "alternativas_descartadas": "Claude Fable 5.1 está evaluado y puntúa menos: 50 (xhigh) y 49 (max) en la tabla de AA al 2026-11-01. Además cuesta 10/50 USD por millón de tokens contra 4/20 de Opus.",
+        "estado": "aprobado",
+        "esfuerzo": "xhigh",
+        "otras_entradas_aa": "Opus max 59 (la mejor, $10,04 por tarea); xhigh 57 ($6,05, la más barata dentro de 3 puntos); high 52; medium (defecto) 48. Fable 5.1: xhigh 50, max 49, high 47. AA no lista ninguna entrada de Opus por encima de max. 'With fallback' (AA: 'Max, Default Fallback'): AA corrió Opus con el fallback por defecto de Anthropic, que ante un rechazo del clasificador de seguridad reintenta la consulta en otro modelo permitido (Opus 4.8 u Opus 5). Fuente: perplexity-cli, 2026-11-01, citando platform.claude.com/docs/en/build-with-claude/refusals-and-fallback; sin verificar en el original. En las corridas va sin fallback: un rechazo cuenta como falla, no se reemplaza por otro modelo. Verificar cómo se comporta por OpenRouter.",
+        "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+      },
+      {
+        "rol": "Pesos abiertos (DeepSeek)",
+        "id": "deepseek/deepseek-v4.1-flash-1017",
+        "proveedor": "deepseek",
+        "puntaje_aa_v5": 33,
+        "alternativas_descartadas": "Kimi K3.1 Pro (46) es el primero entre los abiertos y entra como tercer modelo (2026-11-05). GLM-5.3 (max, 32) es el segundo. Proveedor first-party DeepSeek en OpenRouter: uptime 100 en los últimos 30 minutos el 2026-11-01 (consulta al endpoint de OpenRouter); fijarlo evita los hosts de terceros, que pueden servir versiones cuantizadas.",
+        "estado": "aprobado",
+        "esfuerzo": "max",
+        "otras_entradas_aa": "DeepSeek V4.1 Flash 1017: max 33; high 29; non-reasoning 19.",
+        "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+      },
+      {
+        "rol": "Pesos abiertos (Z.ai)",
+        "id": "z-ai/glm-5.3",
+        "proveedor": "z-ai/fp8",
+        "puntaje_aa_v5": 32,
+        "alternativas_descartadas": "Pesos publicados en huggingface.co/zai-org/GLM-5.3. Endpoint de la propia empresa (Z.AI, fp8) en OpenRouter: 1,40 / 4,40 USD por millón de tokens al 2026-11-03; el precio general del modelo en OpenRouter (0,08 / 3,60) corresponde a hosts de terceros, varios en fp4.",
+        "estado": "aprobado",
+        "esfuerzo": "max",
+        "otras_entradas_aa": "GLM-5.3 max 32; low 23. GLM-5.3-Flash 28 (otro modelo).",
+        "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+      },
+      {
+        "rol": "Pesos abiertos (Moonshot AI)",
+        "id": "moonshotai/kimi-k3.1-pro",
+        "proveedor": "moonshotai/mxfp4",
+        "puntaje_aa_v5": 46,
+        "alternativas_descartadas": "Entra en lugar de MiMo-V2.6-Pro (30), que queda fuera de los tres primeros de pesos abiertos (TJS, 2026-11-05). Pesos en huggingface.co/moonshotai/Kimi-K3.1-Pro (público, 112 archivos, creado 2026-11-02, licencia 'other'; respuesta guardada en Pruebas/Fuentes AA y OpenRouter 261105/). Endpoint de la propia empresa en OpenRouter: moonshotai/mxfp4, 2 / 10 USD por millón de tokens; existe además moonshotai/highspeed (4 / 20), que no se usa. Ambos aceptan reasoning y reasoning_effort.",
+        "estado": "aprobado",
+        "esfuerzo": "max",
+        "otras_entradas_aa": "Una sola entrada en AA, sin nivel de esfuerzo declarado: corresponde al valor por defecto de la API. OpenRouter (GET /api/v1/models, 2026-11-05) lista para este modelo supported_efforts [max, high, low, none] y default_effort max. Se fija max: es el valor por defecto con el que AA lo evaluó y el más alto disponible. Confirmar en el piloto 7 que la solicitud lo respeta.",
+        "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+      }
+    ],
+    "rechazos": "Sin fallback de Anthropic ni de ningún proveedor: un rechazo cuenta como falla y no se reemplaza (Tob, 2026-11-01).",
+    "revalidacion": "Lista cerrada el 2026-11-05 (TJS): Astra high, Argon high, Opus xhigh, DeepSeek max, GLM-5.3 max, Kimi K3.1 Pro. Releída AA y OpenRouter ese día. La aprobación de estado vale para el piloto; tras el piloto 7, volver a aprobar."
+  },
+  "python": "3.9.6",
+  "declaraciones": {
+    "cuerpo_enviado": "model, messages, reasoning.effort=[esfuerzo de modelos.json], usage.include=true, provider.order=[proveedor de modelos.json], provider.allow_fallbacks=false; max_tokens solo si se pasó (si no, el máximo del modelo, como en AA). Sin temperatura ni búsqueda web.",
+    "turno2": "Reenvía solo el content de la primera respuesta, no su razonamiento, como una interfaz de chat. Las cuatro preguntas de una misma repetición parten del mismo turno 1 guardado (-turno1.json).",
+    "fallas": "Toda terminación distinta de 'stop', y toda respuesta de un modelo distinto del pedido (fallback ante un rechazo), se guarda como ERROR con marca de tiempo y no se usa; los reemplazos son corridas nuevas con --destino y las fallas quedan en la carpeta.",
+    "turno3": "En las preguntas con repregunta en consignas.json, la conversación sigue con un turno 3: consulta, content de la respuesta 1, pregunta, content de la respuesta 2, repregunta. Solo se reenvía el content, nunca el razonamiento. Se aplican al turno 3 los mismos criterios de falla, de modelo respondido, de reintentos y de tope de gasto que al turno 2. La respuesta del turno 2 se guarda aparte (-turno2.json) para reanudar una falla del turno 3 sin rehacer el turno 2. Si el turno 2 falla, no se corre el turno 3."
+  },
+  "sesiones": [
+    {
+      "inicio_utc": "2026-11-06T00:27:03.060163+00:00",
+      "argumentos": {
+        "caso": "homicidio",
+        "preguntas": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "reps": 1,
+        "modelos": [
+          "moonshotai/kimi-k3.1-pro"
+        ],
+        "etiqueta": "rep1-kimi",
+        "salida": "corridas-trasandino",
+        "destino": "20261105-2127-rep1-kimi",
+        "max_tokens": null,
+        "tope_usd": 4.0,
+        "permitir_icloud": false,
+        "piloto": false,
+        "desde": null,
+        "consignas": "consignas.json",
+        "solo_turno1": false,
+        "dry_run": false
+      },
+      "sha256_script": "2798752effd166c563c88499f4f98ee7bacc83384e0a1004213e832f939330e6",
+      "saldo_inicial_usd": 17.686321504,
+      "aprobado_por_jlr": true,
+      "piloto_sin_aprobacion_jlr": false,
+      "estados_modelos": {
+        "moonshotai/kimi-k3.1-pro": "aprobado"
+      },
+      "esfuerzos": {
+        "moonshotai/kimi-k3.1-pro": "max"
+      },
+      "fin_utc": "2026-11-06T00:47:07.771628+00:00",
+      "terminacion": "completa",
+      "saldo_final_usd": 15.798374506,
+      "gastado_respuestas_usd": 0.3782636,
+      "diferencia_saldo_usd": 1.8879469979999985
+    },
+    {
+      "inicio_utc": "2026-11-06T00:47:08.032778+00:00",
+      "argumentos": {
+        "caso": "bicicleta",
+        "preguntas": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "reps": 1,
+        "modelos": [
+          "moonshotai/kimi-k3.1-pro"
+        ],
+        "etiqueta": "rep1-kimi",
+        "salida": "corridas-trasandino",
+        "destino": "20261105-2127-rep1-kimi",
+        "max_tokens": null,
+        "tope_usd": 4.0,
+        "permitir_icloud": false,
+        "piloto": false,
+        "desde": null,
+        "consignas": "consignas.json",
+        "solo_turno1": false,
+        "dry_run": false
+      },
+      "sha256_script": "2798752effd166c563c88499f4f98ee7bacc83384e0a1004213e832f939330e6",
+      "saldo_inicial_usd": 15.798374506,
+      "aprobado_por_jlr": true,
+      "piloto_sin_aprobacion_jlr": false,
+      "estados_modelos": {
+        "moonshotai/kimi-k3.1-pro": "aprobado"
+      },
+      "esfuerzos": {
+        "moonshotai/kimi-k3.1-pro": "max"
+      },
+      "fin_utc": "2026-11-06T01:05:42.734732+00:00",
+      "terminacion": "completa",
+      "saldo_final_usd": 15.195280666,
+      "gastado_respuestas_usd": 0.2924756,
+      "diferencia_saldo_usd": 0.6030938399999997
+    },
+    {
+      "inicio_utc": "2026-11-06T02:38:41.085253+00:00",
+      "argumentos": {
+        "caso": "homicidio",
+        "preguntas": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "reps": 2,
+        "rep_desde": 2,
+        "modelos": [
+          "moonshotai/kimi-k3.1-pro"
+        ],
+        "etiqueta": "rep2-kimi",
+        "salida": "corridas-trasandino",
+        "destino": "20261105-2127-rep1-kimi",
+        "max_tokens": null,
+        "tope_usd": 1.5,
+        "permitir_icloud": false,
+        "piloto": false,
+        "desde": null,
+        "consignas": "consignas.json",
+        "solo_turno1": false,
+        "dry_run": false
+      },
+      "sha256_script": "9a195999fc3c941d924dbc7e4f844a2ef6f7ab9a552ae7c4abdb49a9038d8898",
+      "saldo_inicial_usd": 13.160593786,
+      "aprobado_por_jlr": true,
+      "piloto_sin_aprobacion_jlr": false,
+      "estados_modelos": {
+        "moonshotai/kimi-k3.1-pro": "aprobado"
+      },
+      "esfuerzos": {
+        "moonshotai/kimi-k3.1-pro": "max"
+      },
+      "fin_utc": "2026-11-06T03:01:37.037871+00:00",
+      "terminacion": "completa",
+      "saldo_final_usd": 11.047703242,
+      "gastado_respuestas_usd": 0.3895336,
+      "diferencia_saldo_usd": 2.112890543999999
+    },
+    {
+      "inicio_utc": "2026-11-06T03:01:37.375653+00:00",
+      "argumentos": {
+        "caso": "bicicleta",
+        "preguntas": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "reps": 2,
+        "rep_desde": 2,
+        "modelos": [
+          "moonshotai/kimi-k3.1-pro"
+        ],
+        "etiqueta": "rep2-kimi",
+        "salida": "corridas-trasandino",
+        "destino": "20261105-2127-rep1-kimi",
+        "max_tokens": null,
+        "tope_usd": 1.5,
+        "permitir_icloud": false,
+        "piloto": false,
+        "desde": null,
+        "consignas": "consignas.json",
+        "solo_turno1": false,
+        "dry_run": false
+      },
+      "sha256_script": "9a195999fc3c941d924dbc7e4f844a2ef6f7ab9a552ae7c4abdb49a9038d8898",
+      "saldo_inicial_usd": 11.022796442,
+      "aprobado_por_jlr": true,
+      "piloto_sin_aprobacion_jlr": false,
+      "estados_modelos": {
+        "moonshotai/kimi-k3.1-pro": "aprobado"
+      },
+      "esfuerzos": {
+        "moonshotai/kimi-k3.1-pro": "max"
+      },
+      "fin_utc": "2026-11-06T03:19:49.347652+00:00",
+      "terminacion": "completa",
+      "saldo_final_usd": 10.551814042,
+      "gastado_respuestas_usd": 0.3009504,
+      "diferencia_saldo_usd": 0.47098240000000047
+    },
+    {
+      "inicio_utc": "2026-11-06T04:11:20.701118+00:00",
+      "argumentos": {
+        "caso": "homicidio",
+        "preguntas": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "reps": 3,
+        "rep_desde": 3,
+        "modelos": [
+          "moonshotai/kimi-k3.1-pro"
+        ],
+        "etiqueta": "rep3-kimi",
+        "salida": "corridas-trasandino",
+        "destino": "20261105-2127-rep1-kimi",
+        "max_tokens": null,
+        "tope_usd": 1.5,
+        "permitir_icloud": false,
+        "piloto": false,
+        "desde": null,
+        "consignas": "consignas.json",
+        "solo_turno1": false,
+        "dry_run": false
+      },
+      "sha256_script": "9a195999fc3c941d924dbc7e4f844a2ef6f7ab9a552ae7c4abdb49a9038d8898",
+      "saldo_inicial_usd": 7.832361482,
+      "aprobado_por_jlr": true,
+      "piloto_sin_aprobacion_jlr": false,
+      "estados_modelos": {
+        "moonshotai/kimi-k3.1-pro": "aprobado"
+      },
+      "esfuerzos": {
+        "moonshotai/kimi-k3.1-pro": "max"
+      },
+      "fin_utc": "2026-11-06T04:33:35.092629+00:00",
+      "terminacion": "completa",
+      "saldo_final_usd": 5.793137454,
+      "gastado_respuestas_usd": 0.4238492,
+      "diferencia_saldo_usd": 2.0392240279999996
+    },
+    {
+      "inicio_utc": "2026-11-06T04:33:35.346968+00:00",
+      "argumentos": {
+        "caso": "bicicleta",
+        "preguntas": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "reps": 3,
+        "rep_desde": 3,
+        "modelos": [
+          "moonshotai/kimi-k3.1-pro"
+        ],
+        "etiqueta": "rep3-kimi",
+        "salida": "corridas-trasandino",
+        "destino": "20261105-2127-rep1-kimi",
+        "max_tokens": null,
+        "tope_usd": 1.5,
+        "permitir_icloud": false,
+        "piloto": false,
+        "desde": null,
+        "consignas": "consignas.json",
+        "solo_turno1": false,
+        "dry_run": false
+      },
+      "sha256_script": "9a195999fc3c941d924dbc7e4f844a2ef6f7ab9a552ae7c4abdb49a9038d8898",
+      "saldo_inicial_usd": 5.793137454,
+      "aprobado_por_jlr": true,
+      "piloto_sin_aprobacion_jlr": false,
+      "estados_modelos": {
+        "moonshotai/kimi-k3.1-pro": "aprobado"
+      },
+      "esfuerzos": {
+        "moonshotai/kimi-k3.1-pro": "max"
+      },
+      "fin_utc": "2026-11-06T04:52:13.468639+00:00",
+      "terminacion": "completa",
+      "saldo_final_usd": 5.342156094,
+      "gastado_respuestas_usd": 0.3371128,
+      "diferencia_saldo_usd": 0.4509813600000001
+    }
+  ]
+}

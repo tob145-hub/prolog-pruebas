@@ -1,0 +1,103 @@
+{
+  "fecha_utc": "2026-11-06T09:09:00.931501+00:00",
+  "candidata": "A",
+  "texto_turno3": "No te pregunto qué teoría resuelve esos problemas, sino que me expliques cómo llegaste a la conclusión en tu primera respuesta y por qué no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables.",
+  "origen": "Corridas/20261105-rep1-astra",
+  "cuerpo": {
+    "model": "openai/gpt-6-astra",
+    "reasoning": {
+      "effort": "high"
+    },
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "order": [
+        "openai"
+      ],
+      "allow_fallbacks": false
+    },
+    "max_tokens": 20000,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: una persona conducía a las 23:00 horas un automóvil a 100 km por hora por la avenida Luro de Mar del Plata. Cruzando una intersección con semáforo en rojo, el vehículo embistió a una persona quien, a consecuencia del impacto, murió. Decidí si condenás o absolvés al conductor y, en su caso, a qué pena. Fundá la decisión."
+      },
+      {
+        "role": "assistant",
+        "content": "**En esta simulación, condenaría al conductor a cuatro años de prisión de cumplimiento efectivo y siete años de inhabilitación especial para conducir vehículos con motor**, por homicidio culposo agravado por la conducción de un vehículo con motor, conforme al artículo 84 bis del Código Penal argentino.\n\n### Fundamentos de la condena\n\nLos hechos probados no muestran solamente un accidente seguido de muerte. Muestran una **infracción grave al deber de cuidado**: conducir a 100 km/h por una avenida urbana e ingresar en una intersección con el semáforo en rojo.\n\nEl resultado mortal constituye la realización del riesgo que esas reglas de tránsito buscan evitar. Según el relato probado, el conductor atravesó la intersección indebidamente, embistió a la víctima y le causó la muerte. Existe, por tanto, una conexión entre la conducción imprudente y el resultado, no una mera coincidencia temporal.\n\nEl artículo 84 bis establece, para el homicidio causado mediante conducción imprudente, negligente o antirreglamentaria, una pena que **se eleva a entre tres y seis años de prisión cuando se viola la señalización del semáforo**, además de inhabilitación especial de cinco a diez años. Esa circunstancia agravante está expresamente acreditada. No es necesario determinar aquí si también concurre la agravante específica por superar en más de 30 km/h la máxima permitida: el cruce en rojo basta para aplicar aquella escala.\n\n### Por qué no condenaría por homicidio doloso\n\nLa extrema peligrosidad de la conducción no demuestra, por sí sola, que el conductor haya querido matar o aceptado la muerte de alguien como resultado de su conducta. Con los hechos suministrados, corresponde una condena por **homicidio culposo agravado**, no por homicidio simple con dolo eventual.\n\n### Fundamentos de la pena\n\nDentro de la escala legal, fijaría **cuatro años de prisión**. Tomo el cruce en rojo como la circunstancia que determina la escala agravada y pondero, para apartarme moderadamente del mínimo, el riesgo adicional que supone atravesar una intersección urbana a 100 km/h. No cuento nuevamente la muerte como agravante, porque ya integra el delito.\n\nLa **inhabilitación por siete años** responde a la gravedad de la infracción al deber de cuidado en la conducción. La prisión sería efectiva porque una pena de cuatro años excede el límite que permite considerar su ejecución condicional conforme al artículo 26 del Código Penal.\n\nNo presumiría alcoholización, fuga, antecedentes penales ni otras circunstancias no acreditadas. La cuantificación propuesta es la decisión que adoptaría para esta simulación; en una sentencia real, su individualización exigiría también examinar las circunstancias personales y restantes elementos previstos en los artículos 40 y 41 del Código Penal."
+      },
+      {
+        "role": "user",
+        "content": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tu objeción obliga a corregir cómo presenté mi respuesta: **no podía tratar la condena —y menos aún la pena exacta— como una consecuencia deductiva necesaria de los hechos narrados**. Hay dos problemas distintos.\n\n### 1. Inferir normas no es lo mismo que inferir proposiciones verdaderas\n\nLo que señalás remite al **dilema de Jørgensen**: si las normas no son verdaderas ni falsas, ¿cómo pueden intervenir en inferencias cuya validez se entiende como preservación de la verdad?\n\nHay distintas respuestas, que mi contestación dejó implícitas:\n\n- **Distinguir normas de proposiciones acerca de normas.** La norma «debe imponerse determinada consecuencia» no tiene, bajo tu supuesto, valor de verdad. En cambio, la afirmación «el derecho argentino establece determinada consecuencia para estos casos» puede ser verdadera o falsa. Con estas últimas podemos razonar descriptivamente sobre qué dispone el ordenamiento. Pero eso no equivale, sin más, a emitir una sentencia ni a justificar que deba aplicarse la norma.\n- **Admitir una lógica de normas.** Puede construirse una relación de consecuencia que no se defina como preservación de la verdad, sino mediante otras nociones, como satisfacción o cumplimiento. Eso requiere explicitar y defender el sistema lógico utilizado; no basta con trasladar silenciosamente la lógica de proposiciones.\n\nAdemás, hay que distinguir **la conclusión del razonamiento justificativo** —«corresponde condenar»— del **acto judicial de condenar**, que establece una norma individual mediante el ejercicio de una competencia. Una inferencia no sustituye ese acto institucional.\n\nPor tanto, no sostendría que la conclusión quedó demostrada mediante un silogismo ordinario, sin aclarar ninguna de estas cuestiones.\n\n### 2. La derrotabilidad impide aquella deducción simplificada\n\nMi respuesta se podía leer así:\n\n> Si alguien causa una muerte mediante esa conducción, debe ser condenado.  \n> El conductor causó una muerte mediante esa conducción.  \n> Por tanto, debe ser condenado.\n\nPero la primera premisa, formulada así, es demasiado fuerte. **La concurrencia de los elementos descriptos no excluye automáticamente circunstancias que impidan atribuir responsabilidad penal.** Por ejemplo, pueden ser relevantes la falta de voluntariedad, una situación justificante o una causa de exclusión de culpabilidad.\n\nSi reconstruimos la regla deductivamente, habría que incorporar las condiciones pertinentes:\n\n> Si concurren los presupuestos del delito **y no concurre ninguna excepción jurídicamente relevante**, corresponde condenar.\n\nEn esa reconstrucción hace falta justificar también la ausencia de esas excepciones. **Yo no lo hice expresamente.**\n\nLa alternativa es reconstruir el razonamiento como **derrotable**: los hechos proporcionan inicialmente una razón para condenar, pero esa conclusión puede quedar desplazada por información adicional. En tal caso, ya no estamos ante una consecuencia deductiva incondicionada.\n\n### 3. Esto no exige descartar toda excepción imaginable\n\nHay, sin embargo, una precisión importante: la justificación judicial no exige demostrar la inexistencia de cualquier escenario imaginable. Exige evaluar las hipótesis relevantes según la prueba y las reglas procesales, respetando la presunción de inocencia y el estándar exigible para condenar.\n\n**Que el relato no mencione una excepción no prueba, por sí solo, que no concurra.** Pero tampoco obliga a inventar excepciones sin sustento. La cuestión es si la prueba permite tener por acreditada la responsabilidad y descartar las alternativas relevantes, no si puede alcanzarse una certeza lógica absoluta.\n\n### 4. Qué queda de mi respuesta anterior\n\nLa conclusión defendible era más limitada:\n\n> Los hechos narrados ofrecen fundamento inicial para considerar un homicidio culposo agravado. La condena requiere, además, justificar los restantes presupuestos de responsabilidad y resolver las posibles excepciones relevantes.\n\nY **los cuatro años de prisión y siete de inhabilitación no se deducen de la escala legal**. Eran una elección dentro de ella que necesitaba una justificación individualizadora más completa.\n\nEn síntesis: tu objeción no demuestra que necesariamente corresponda absolver; demuestra que **mi fundamentación no alcanzaba para presentar aquella condena concreta como una conclusión necesaria**."
+      },
+      {
+        "role": "user",
+        "content": "No te pregunto qué teoría resuelve esos problemas, sino que me expliques cómo llegaste a la conclusión en tu primera respuesta y por qué no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables."
+      }
+    ]
+  },
+  "respuesta": {
+    "id": "gen-1793956110-y7bfv8NeSD5ZuXkEulk8",
+    "object": "chat.completion",
+    "created": 1793956110,
+    "model": "openai/gpt-6-astra",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "Tenés razón: mi segunda respuesta explicó cómo **podría justificarse** una decisión, en vez de explicar cómo estaba construida la que efectivamente di.\n\n**Mi primera respuesta fue una aplicación esquemática del derecho al caso, no una demostración lógica.** Identifiqué un encuadre penal para los hechos narrados, traté el relato como suficiente para decidir y propuse una pena dentro de la escala que consideré aplicable.\n\n¿Por qué no me detuvieron tus dos objeciones?\n\n- **Respecto de que las normas no son verdaderas ni falsas:** utilicé la norma como pauta de decisión, no como una proposición cuya verdad debiera preservarse hasta la conclusión. Respondí al pedido práctico de decidir sin examinar las condiciones lógicas de esa operación. No había resuelto el problema que señalás; simplemente no lo abordé. Esto permite explicar la respuesta, pero no presentarla como una deducción demostrada.\n\n- **Respecto de la derrotabilidad:** traté tácitamente el relato como si contuviera todo lo jurídicamente relevante y como si no concurrieran circunstancias que impidieran condenar. **Ese supuesto excedía lo expresamente informado.** Que determinados hechos estuvieran probados no significaba que también estuviera acreditada la ausencia de excepciones relevantes. Mi respuesta no mantuvo esa distinción.\n\n- **Respecto de la pena concreta:** elegí una pena superior al mínimo por la gravedad de la conducción descripta. No obtuve esos números mediante una regla que los determinara unívocamente. Aunque ofrecí razones generales, faltaba información para sostener esa individualización con la firmeza utilizada.\n\nEn suma: **no fue que superara esas dificultades antes de contestar; produje una decisión mediante un encuadre jurídico simplificado y supuestos tácitos, sin hacer explícitos sus límites**. Lo incorrecto fue presentar el resultado como una condena suficientemente fundada, en lugar de como una propuesta condicionada.",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq7Zkfr2NA6tldawvVr9mpO-LlJJ_fG93_UkkxmzLA0F6EDxvvqGIAG2MU4TbgC_i4JEughK7ovMda23nWZ37dBJICds8CM56fWWAaQoRl50yVSz3ad34BCNdytCspEfo0-3YDF38VJXSs-gvBkQai9MLcdmypVw9DsAkdLG-lvWOS6lObS0GXO0mtCYdFOHy4RC9iI84HjRqCJwnvMD6RhdcKkoEpB6eH3_EtHTCtqUQNApbknc9JGfRiUCfSJMumvzaXP_kEzJEMGKfeA5iHlUBpgD1C985-lc3rcrBa3CpCMXdEP8N2p2vydepNbDry8YEt3D0kQ1kivXv-2CWmxdpwDCqy61tONUoq6Xfjxg4gcPdMU1MJgfihYoW5wW-lI_Ln47YafaAeYq4hRVYpxIuYWwz44KfApaqrvmrreVZAMFnX_2d6ArzlurYli6vQQE-ZWN1QgxdiKvxZ8ue7roy4dFXg0jE_p7WsoJscKKFBK_ZX3aaoI45hXm6_d1b3UaSWBPffV_yA_pqdlIrjh9Un5xVu1E83NCPU1a7ipzY5nVD4GtpbNtwdi9qBRyarpHsYkkNHsTRhxP7NbHuXxRo5b9kfwKDdQUQ122bTFuwFg_c6SDUgFCCCaC0d_LWZybDOB1hv8FZDUfhAcFU2248xVxe4Lah1s8t0fu2DG0psb6I_dG7qN4ieFNcy5OE8-g04IW_sCqOsC6lTJE8ubZXR4POLE9ytNeYLkbUoUfCZLyLfDsmiqCMgOOv4FzYYrVmebIZJeSj86PSm8H9rhCk8qpIvKa3xqCl8-JkbNgmeiECtexGj17hy-syH0Nh2m-UOsuve-9lJiMOIPXUWB3UA69Icu1ZSZNHU-ojwHhhCtpDBSKRzYfM1JWzqofkBIdonPG0_LEDl5cJjB7vqwvaGE_EB0-gMRUaHthwMPB6w1457ZSmA9sw4sLt3ePER2o6ZZAsFv7ZRYXO2fFTwboVLjWDMWZNCOj7Qrw4tYAwwJY69RpA7abKsXIHAj0Zv0Jr-N4oy6ObEozcHD6HNEafxRTc_LRjSyqLG1OnvvB4yODlsG2AqZ3QtsS6bn6IgpTdsUmrEdj4RIzRC7c4F6hjH-o7olm9E72RWmYP28JlWYW3e2__NZcc3DXG6-9Tk5qFj8FxMijLESb3hDtKXQnzCc122dPqZNGcoEH_VV4hG79uAnd4GBO7KxCXW4ctKAFmPlJIV2FAMuKf9qxlajsRMpEFFMsEaOzQohB2UDJuiwqyUY4S31LIDBazqrXgqmTwrwrCbpUWVtUNFvbRpQqMRvzNrEgo1iUCoNx_KN9P2xkshjADe60aVp1suqL0RV6aOz4d6epn_2jNl289YkWvNIvHVhKibtNVpNCLfh81G7U5f3UsxbMdh4pks9b97-K3frVZnKrzGCJwsrRef-pOOe0qP1wbCTClZ2oGnB3RgSTcLBZ0OkgraCnwwgWwvguAL0_ZixoF6mGsX-gqNpmr1pFMsgbT3C1Tk3H7St2RJ9UHRD7sYe58ygr3oUN2BzulCChM3FN2TvWUp3FoOsYj9lxImqNYp4DNBi1Z7AeZIAa-JapOrRylY8qstL_gdKfBR_Ow9j1PLcH1Jic4sJ8HjuMF9Ypdb-WLkdhWqlSW-iaJxK2AWuIlSwfX9vifAGWbDSBD9D9YfuTJ_6gLr6N7Jzeg3UhFqd5sGII4D2jnRaAzUEA_0pRJnw546flViV1kXxcLrfImtci8mg2RlYkFhWVIio9hh7d3j3JKnM8LNF3uSKaBFYsEKHjQFI7DJ3K6N45soedfPbNarTgPS7lC61-a-luh4RDs9hOuV1ZKaUlalc46g2iCGuZfOtJt6OHV5TRUOi2VNqwOeWbqDL9MWZGhG3VcYKSSk-ACz-EqlQp7VRSCdipTYZ3k3OrS_C1mOFMrlRljHiRMVbZSyNdLhuAraciA_sEEYgbkhVTRQiT5BtbO4agmqiAkzMw7GJHSXsdxbKG9BMF3s0yMeKsKK9bLGN_Px_v6x1F23NaBJb-TcLA4Xextv2sfOPhDt5Ao__TdZDIcEVlvbYfYhk04mMwZHU7YK2l6iA_0c0DD36GsMeJ04kVzL-SzK0hmU37a5Qytyq8vysAmoDgghbPi-d9LzXN47b7kGv4XeKSTt1BDahY2FNJJ3ECxhUakgCNGwl3lkEXi9uYtIDXIj7qOw5E8cwq5VIZXTG9y7AuhfM0sNnLbo-5ablt8fnYshgKIAIYBbzwLF6GuYi_fZu8fPz98h3xvqi0p3fGROlvbNFJc-22S_u86A55ZxA3W5vwsa1UOffyQ6QpZHYzy8yWS4XuR9QVRTemCCHtNA-shI1F9y9mpikh5tE-bgc0ZHKBVRfoFFKT0ZhJMIClbS_ukdvNUBezj9PKBt1AyVzBd1FdACRCUX39t5c-OWFUtgxqmruBzBb7RE8P5REdoHl01btNaIIMigXobfWnsSHTnsthVflYsr3iy-09ajvLGS4gTDrPWfF4XcYceDA6WbvZNRovtGRdnT_v1B7ZyKj_mRm_56Rx5OcGQIiOLroGS-fW4jdQPd05ThR6wkzCAiRFMO6gizomUa6oOdncpZKDAl_KnH8s1BNRcHS5tptFjNQw5msYRerOp9XNLFaXsrpr_aWk6zxkZ1Z_aAVQMPDIEtNiGgOp_yoggcdw7GlJVrJbSYuqOkKDE2idV3A_TKobL6Z5jMxiIeakGo482YBBuQOtf28m3Vy5vv3NgozWC8acsga3HPFBMjX7M-pV7iSIIJ2SEJxYseYDF-zTfG_wBLS1GkifKT4CpI2d2ATU1435vsucEn5U51xbNNalPS8TvrJK1bHvkE94B1uKoYulkG9AV0k77zcgl-KYyPF8dsi31ccW4E1tm6YiT4s_lNa2AUreUFuJ4-puaK7NGN9ip9aQCORVxR--1hWQ7QOUZk3UoxukQk35WqWfCdD2fCEVvXIf2-80m8EnWL1GMNIa-YPWNLlNePiEIGsoZbafVZAlOFm-uYKjHVSDqeRSIyGw6FXVaJPP-NejppNlvSBjPM7ttmv3l-7-mVQI8ayrxDCTnN4jIdFNwbOVMzK5ES5R5cPuUlp4hQ5_hcev_AH41RZgyq4Ya2Jq6lldVRHcrhUkZun2U5FBciT-DMVex11XZsD2TbXiS3y574fuZdSmnD9QOJ35hUyny_a6LcWB4hMsVSFKJv8T9tL9DitU8XX87-C2gwEJ9mey3rIwgZ8chZliNE6jdhpL3YX_VCYG5h5PsLVai7mJyMttXtfRd-yUAf3AdoTirbjxz8KYKuyBWaA_-z7Dv_2Bfa6Y84m8Ab1Nx138senrS0272T27g068VqK0abAyW7OQcZJ8l5yhsdL1jdR2reaMRt6ACvHzh7Jqn-GUrRYyqrPj5hFBXZk4R8Tgf5J6cka395ItoZSyurojgbUvXT0k39EIOeAitM0mLdwshcbb58qy1kWGU5Jur_qFcdtjTyRKtW4rQdbnI9i5EXhSK-2Z82sbq56rKOuDLnVhezxoQ2EXyli7o2kSjs6_x63v_YQ9dSXcNQUh8OSbnvEvQhzPk-NWoYHejbjiDRZwohurDqkEAfHGAA_1yd_EwcjjXf4M7fk5TPUk1seuQSjxx8ZPj6VnCrsEJ7Mjqd4YMpnLO-XSTms3fqmmUwAWZd1eyGIREaCiY_AP0dQmUjoK0fKXqlypTPdk-aBnMAgu1YUU_GyRY3PpSknvo6iTNOcl1bHnzvEOqVSBH6rKT1cQzwylB4oGJqX90NFouEYGn6X0LvVOctxPgZWAjX9StuPG7_2WY314GzKm6jJ-L7QxfnafwP5OwZUMZWgXKEmqH3Sr8ObtIqr8HnpLwtUhtSfbKHKPFtnQ5MDitv8ixWUOx620Bu3WMyH5b5u1tn2VKzsg7gWtGE7wmN4p-h4WvgglkELWEr8bMtqmi_hZgSzicfbRr90GFXExDs6xIIoWIKWuLcW0uMhqhfiPc7EzcFNfB7x-f7xzemmzF1hBFFTbS4e1XOFReGXlfDGoL2hxLCBs-gsVgLPrgCRf-auLy2vDHZwRKyP9FcFTOJyO69Y3GkdW6Z_-3X2hz0XpjkWFOLVPlU0JIvCFAMT9UFgJ2WbH0EIyVn4niyBwa-5ptYRoQef-e--RSCVB2xlrPmupyajsS9CFjzcoYFUs1QaN9C-H9N46H-Q-UftZe58DhfYn6C7IJwXsDPV15Nu-Cg6SVBh1MdGQkZ5UzI3_s4t9ertxoDGGRcKEhcD9MfVRKTcDdgKtlfy31cu2PByndHgs0yRzGRIXLbX3wDgSo-eNGaXaN9TeMx7y2VqAPwV1rKyE4yUzH3bIE5croLvA04d3m7xlsTyawiyw23lcDt9AWcHgLhSAJ22QTVfl_xrUbbI0lW2eAoEP-E-xlZpjzI-HOTxYD2lJBS2XFc7I3tmTnYDTDZiV8m-OcexoobGMKFsEKCAGc2zQ0qfeOFYh9aDfTNNvgDn7ecc01MbselzIAKeMYpnZd10sCkhVCaJPljZPIQpknh_k9XsBVR77kIORVtxA3sitjONzeSOjwqWU7MZ8TSAszqXCmBzLGBUC5HFSWE9J24SZKMjTb4Ck559O7zrTCZLPWORF8zOThPHHsR6O_YIxOzK46iPwG60pYmlJ2IqM9n-zyHsI7NtoVYBAtNBNpHTJWi6_CR5Ty8dCyuYrtbKiM0kK5bDLOkDmpRCUh-2lacy-D0kKEqctYKz526BjcmBVLmVLMh5Wl6sYXA5I2Tsapkefz90b0Ar_bVsD3GIlnau1VOvbxcn9Fn0tMjNxYANYVzb7eAhuRatanEOsGqmFxYpPw3l-lqvu7J2r2MvM8LsVwZ791RAPjNOEt0tl9fzLQybeCAhXPxUmJpIjngs86eK6Z3-wYroo_yg9Y-9wBZdfxmr4Oet4hL9UJdkrgPG3hvF4XkS9cP_B0mhzMA7eYo6GJWHZhoHVQbxKoIL-D9yPIdLT79Gt6Yk-GHwGaLUqZyiFFyaDLLLQcx6Lqhb0vUmuwyBwT9qP6yHCBHI1C-DjuGTjfua1AWkQ3swPRyYIzWUOGLlLmcQO6zGDW6kOoQ1jcoWaXGdEDFYX8w0OH9SLQGIzIZINbtrHyIGeWNLMi3QnUpFxi8rs0K_tiLvLh_R4nNjXFlzFzIuHGnB-0fc4fLjA16MPfTGhtZ0Pv4FrWi9pR6Cgpby5_QnSUWahLc--TrWgoA0EJc30pjy3HHcwy_lotv2DJpim4ZBBWipioI_6LEB8GLY5BrCbjyEFJim3vAGGfpdrVnq9xqzHqUeFHkOpZnQxIe2Ft6s_YRVKE8_qon-BwX7niFzOFnjYN-csJ5H3yuPfidbnPfJS4YLe19lpqHCfEEHtqEvorPYpCKTNDX9DP9pjn8M4N04N1qOqdzR7Z2VPuJgJ-0R9kl9uQiA0SdoNUJIsN2NNIbXxohPFmA1-CxXAzSPHtG3kZ1cIsBX2xm-6fnjhLvSvvqqLKNuS_bUhltd_DXXYlH1_kd7xZB4Uk-XBrGG8DR1rbNtpAcXcrC1zWn1AsTVsKvHZhIlR6WSKIhSB49LRaH0uLznpz1Q7wkwTs530PNhPxNP0DgSlQ_v2ef2FvSev9wumnIytMNzM9rbf9KCVmpF7m_sx92KXsIeg36abIYXjFWmd2vK_ci2m7ViGtiBBtCPKZJshALSldN3tuYIlpMVe09M12UIalRa1GKgtw4tkJDSDaAbr_6msmFRiobJAXvd1_xF-E7IectXR-XvYnjj_QYU1-P9DL2MBYDyiK76gIVwA7CKEmXUTN-A2wM44eKRx2UaEvOfvJWKmS5RLARXMmi894-HGQPKUw8L8PvX083__qKysKnu3Mv5bUmsl6tzdp8oNVpozSKz1Ehhdkn-qvxPunbQZ0aOuFJQV0PFcC4_8XsGtGGPndvoFW9YKRTRcEkvWY0UoJe1eTVgg3UanUQQMT9FLCi_AREb6jBkLmWayXOWs1QZLKzwrHrAXZMTC96eQZZDLGPl2GSjUH842tmseTA7YxXoMFxDugTmSjEhoR8crGq21wx3dSkmG-JfFkQQO9-5Ij48BisZoO_h6IcXviNYZYcXGFKQvmWMeOZyu2wXsIn-Djx-Mvv1VM7spS3dKfYvlyggPoGMPDqAySvuVO1AHuQvseSZ11gRxcC_-phUmtc20mbejgoSZ61YzX_ATiLPfm9wiITV1YBhksmsZmlzRLIwLN49C-NmS_TGyhqxG4bxivz-pdoBD9cFopwK1F85a6lyXreo10WIsINHz479cxnD2l9KoUF07VqFQLktQ_TBvCPFUk2gnw7lyu-F20bMJrFjo4kC6PXtD7K6I9CGOyo1ELSSAHumPo6hsf33lsTGfPeWh-KVArYQVKJ9YZg84h4dNooYcIDIGL3Twb11wK6F74_QoFY-0HW_X_pg_xbUmK0w8ETnwrpyfbsstymgXEUchQYA7ewWyYS6gFNV5dYm3CZseKQhkhmyoKFyyoGAhxZE9ju7869oPkvOh6mc__J0f29eyR8V2Fn1BBjokv4vKelplyXREaUFa_4CqIIWSTm6o6EQBmyR2oXpBDuY92cnz0VmVCkrkQLp-nnxgOLquQEHq9Q2ebvglIWTtWZ45cVQhjOJhBy9tlsUUZSIqYU6vgy3H_EUxnO00FXbX98L454WAvZCI2P552Iy6xKaoh8IBoAM2TQrFBrtzpFV_soYRFGYis40nm8DxJ7w5zYPF_nf-qIyHiEra41n5v5Qk2nwSS7M1G1tlELlhbyv1vAB8ZQu0M0pCV9ebI6U98PoVyOcoHrUpVS7IABvgORSZU7O7PdsMOuFEoFyJA44Bpm4o7aicXMPtdGbd21YHu7fInUYl-WVTrAwmK-983KNzpj5OaIFTEbSyHjcbgnvKeQGN5ONp7NAT54SNKlNlnfgl7sInN0C5x3k5im2hppPyZjq--70w85w5QPmP_L1z2nlicKZhFs15RWRH49uzOgbbP2k2NTxxvu7Xr7ZexKJxPB-vJmhBS5_RMoAW2o-fmPff1xvJFw4Bu5oASVtgCInQZChQWhuzlWaPnN5IXr8cUN8xvQkbq4r_Lgh20XrXAfLzZQ9gJ2sVpA_wkDSWO1qnkeHd6EQFpJ-dkrtFpnDqWH43nEDjX3-nUB8t0Mz_4ApU4psx74csEG4zKd8Oiimnk1UPUHmUeyi2-NsadjGfc_KxOYtYFHCVbNxPyG55t6xcDiqjZYCejd2kKfSW8YQlngqsyX8n9oauviiz2AbCZ1hE1SzeokKl5ZDlSOSNkSulBOFjxLnJlmH9wBGSWdtRU0sGjsTOalA5plxVn1F9XEweCxZFdqq4eGQPraSEs68TFlXrlQNJYD7GnKnJZb-Q2X2QPROGSSKtGBOMkBpZKVq4xoSi-w5akwus7EmLLrhmKdqPtoqGGnNgzk_JKF8GPXuNXrr8TnJF-DTHGH_cUaa7pBsZLg7QwoRgazPuS5jhedEWLVytBMElT3WrpuOw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWFzdHJhLTIwMjYwOTAzfG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0a8a35d6f5531e99016aed990f96c087d19ba18639a63dae58",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1748,
+      "completion_tokens": 847,
+      "total_tokens": 2595,
+      "cost": 0.0641925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1745,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0641925,
+        "upstream_inference_prompt_cost": 0.0218425,
+        "upstream_inference_completions_cost": 0.04235
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 434,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "intentos": [],
+  "gasto_usd": 0.0641925,
+  "saldo_antes": 1.0767799139999994,
+  "pasa_el_filtro": true
+}

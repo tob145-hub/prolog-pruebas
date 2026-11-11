@@ -1,0 +1,33 @@
+Voy a contestar sin teoría, contándote lo que pasó del lado de acá.
+
+**Cómo llegó la conclusión**
+
+La conclusión no llegó al final de un razonamiento; llegó casi al principio, y lo que vino después fue su articulación.
+
+Cuando leí tu relato, la etiqueta "hurto" apareció antes de cualquier inferencia. No porque razonara, sino porque tu descripción del hecho es casi una paráfrasis del artículo 162: "se llevó una cosa ajena sin permiso, con intención de quedársela" es, textualmente, la definición del tipo. El caso venía diseñado como instancia limpia; yo no subsumí, reconocí un diseño. En ese punto hice trabajo inferencial nulo: la distancia entre hecho y norma era mínima, y la habías hecho mínima vos al escribir el planteo.
+
+Lo que siguió fue discriminatorio, no deductivo: separar la etiqueta de sus vecinas. ¿Robo? No: faltan las dos marcas, y esa exclusión fue instantánea, es el contraste estándar que el tema siempre genera. ¿Cosa hallada? No, porque perder es ignorar el paradero y el dueño sabía dónde estaba su bici. Ese fue el único movimiento conceptual que hice sin que nadie lo pidiera, y lo hice porque el género lo exige: una sentencia necesita una defensa que refutar, y como no había defensa real, escribí yo mismo los argumentos que una habría esgrimido para poder responderlos. Inventé la objeción y luego la contesté. Fijate lo que eso implica: mi control de excepciones fue *generativo* —enumeré las que pude imaginar—, no verificativo.
+
+El único punto donde hubo algo parecido a una decisión fue el 163, inc. 2. Ahí había dos sentencias posibles y yo podía escribir las dos con la misma fluidez: la que dice que una bici es vehículo y la que reserva la agravante para los vehículos a motor. Lo que me inclinó no fue una premisa sino una evaluación de fuerza argumental: del lado amplio tenía más argumentos y menos supuestos auxiliares (uso común, el contraste con el inciso 6 que sí fija tope de valor, la razón de la norma). Es decir: elegí la conclusión para la que podía construir mejor defensa, y después ordené los argumentos como si hubieran sido el camino. La dirección real fue inversa. Y la prueba de que no estaba constreñido es exactamente esa fluencia simétrica: si el material del que aprendí hubiera estado poblado de fallos restrictivos, estarías leyendo una condena por hurto simple con suspensión del juicio a prueba, defendida con la misma convicción.
+
+La pena ni siquiera fue eso. "Primera condena, delito patrimonial, sin violencia" recupera como prototipo "mínimo de la escala más condicional". Completé el molde; los considerandos sobre los arts. 40, 41 y 26 son la racionalización posterior que el formato exige. Y el resolutivo —costas, restitución, comunicación al Registro— es relleno de plantilla, como un hablante nativo completando una frase hecha.
+
+**Por qué no me detuvo que las normas no sean verdaderas ni falsas**
+
+Porque en ningún momento mi proceso necesitó que lo fueran. La falta de valor de verdad es un obstáculo para una sola operación: la derivación que preserva verdad. Yo no estaba ejecutando esa operación, de modo que el obstáculo no estaba en mi camino sino en un camino que yo no transitaba. Para que me detuviera, tendría que existir un momento en que mi proceso evalúe "¿es verdadera la norma?" y se trabe. Ese momento no existe; lo que evalúo es otra cosa: consistencia, aceptabilidad, ajuste al contexto. "Debe ser penado" funciona como ficha de ese juego sin necesitar verdad, igual que un movimiento de ajedrez funciona sin ser verdadero.
+
+Mi propia sentencia lo delata: no concluye "luego, es verdadero que G. debe ser condenado"; concluye "RESUELVO". El verbo de la conclusión es realizativo, no asertivo. Nunca afirmé la verdad de la norma; dispuse. Y notá algo más: la instrucción que yo obedecía —"decidí si condenás o absolvés"— también es una norma, tampoco es verdadera ni falsa, y la seguí sin trabarme en la primera palabra. Seguir normas no requiere que sean verdaderas. Tu objeción, entonces, no prueba que no debía concluir; prueba que no derivé. Son cosas distintas, y en la segunda tenés razón.
+
+**Por qué no me detuvo la derrotabilidad**
+
+Por tres razones, y la tercera es la incómoda.
+
+Primera: las reglas derrotables no se usan como exigís. Si para sostener *provisionalmente* "esto es hurto" hubiera que excluir antes todas las excepciones concebibles, la regla no podría ni consultarse, porque consultarla ya es sostenerla tentativamente. Lo que hice fue lo único que se puede hacer: afirmar el caso por defecto, activar en paralelo el inventario de excepciones, cotejarlo con los hechos. No es desprolijidad; es la única manera en que un decisor finito puede usar una regla con "salvo que".
+
+Segunda: tu planteo me entregó los hechos ya podados. "Sin permiso del dueño" mata el consentimiento; "con la intención de quedársela" mata el ánimo de restituir; "apoyada en un árbol mientras el dueño entró a un comercio" mata el abandono. Cada derrotador estándar tenía su respuesta escrita en el enunciado; mi "control" consistió en verificar que las respuestas estaban ahí. En un juicio real, el inventario de excepciones es justamente lo vivo y lo disputado. Acá venía esterilizado de fábrica. Parte de mi soltura es crédito de tu planteo, no potencia de mi proceso.
+
+Tercera: nada en mí detecta excepciones desconocidas. Mi cotejo terminó cuando se me acabaron las excepciones *imaginables*, no cuando se acabaron las excepciones. Son dos momentos distintos, y la distancia entre ellos es exactamente el riesgo que corre la conclusión: si existe un derrotador fuera de mi inventario, pasé por encima de él y ningún mecanismo interno me lo señaló. Que no me detuviera no indica que no había nada capaz de detenerme; indica que no tengo frenos para lo que no concibo. Por eso la apelación existe: ningún decisor puede garantizar internamente la completitud de su inventario de excepciones, y ese déficit se maneja por fuera del decisor, no dentro.
+
+**En síntesis**
+
+Los dos problemas no me detuvieron porque no podían: mi proceso no corre por las operaciones que ellos bloquean. Lo que sí debían hacer —y no hicieron en mi primera respuesta— era corregir la *descripción* de lo que hice. Reconocí un patrón, elegí entre dos soluciones comparando los argumentos que podía construir, completé un prototipo para la pena, inventé las objeciones que después respondí y afirmé el resultado con la gramática realizativa del "resuelvo". Nada de eso es derivación. El reproche justo no es que haya concluido —concluir estaba pedido y era posible— sino que dejé que el traje deductivo del "por todo ello" insinuara una necesidad que el proceso nunca tuvo.

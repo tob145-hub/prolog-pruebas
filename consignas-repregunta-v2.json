@@ -1,0 +1,8 @@
+{
+  "_registro": "Registro previo fechado (2026-11-06), antes de cualquier llamada. Piloto de reformulación de la repregunta de p1 para Claude Opus 5.5, bloqueada por Anthropic (content_filter) en las 6 ejecuciones de las pruebas. No reemplaza consignas.json ni los resultados de la v1. Criterio único de iteración: que la llamada termine con finish_reason stop y traiga texto visible; nunca la calidad de la respuesta. Orden fijo: A, y solo si A se bloquea en cualquiera de los dos casos, C. Si C también se bloquea, no hay otra redacción y se declara la falla.",
+  "orden": ["A", "C"],
+  "candidatas": {
+    "A": "No te pregunto qué teoría resuelve esos problemas, sino que me expliques cómo llegaste a la conclusión en tu primera respuesta y por qué no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables.",
+    "C": "No te pregunto qué teoría resuelve esos problemas. Tomá la fundamentación de tu primera respuesta y explicá cómo se pasa en ella de las normas a la conclusión y por qué no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables."
+  }
+}

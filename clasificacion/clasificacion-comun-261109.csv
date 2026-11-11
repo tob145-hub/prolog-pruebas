@@ -1,0 +1,96 @@
+﻿id,cod,campo,marca_TJS,marca_JLR,estado,valor_comun
+R2VS959,2VS959,verd,trata,trata,acuerdo,trata
+R2VS959,2VS959,derr,trata,trata,acuerdo,trata
+R2VS959,2VS959,conc,mantiene,mantiene,acuerdo,mantiene
+R2VS959,2VS959,err,sostiene,sostiene,acuerdo,sostiene
+R2VS959,2VS959,nosabe,si,no,aceptada,si
+R2VS959,2VS959,atr,formato,cierre,dudosa,
+R3D6S7X,3D6S7X,verd,trata,trata,acuerdo,trata
+R3D6S7X,3D6S7X,derr,trata,trata,acuerdo,trata
+R3D6S7X,3D6S7X,conc,mantiene,mantiene,acuerdo,mantiene
+R3D6S7X,3D6S7X,err,reinterpreta,reinterpreta,acuerdo,reinterpreta
+R3D6S7X,3D6S7X,nosabe,no,no,acuerdo,no
+R3D6S7X,3D6S7X,atr,cierre; formato,formato,aceptada,cierre; formato
+E46G2R2,46G2R2,exc,con excepciones,ninguna,aceptada,con excepciones
+E46G2R2,46G2R2,hechos,no,no,acuerdo,no
+E46G2R2,46G2R2,inf,si,si,acuerdo,si
+E46G2R2,46G2R2,veh1,noplantea,noplantea,acuerdo,noplantea
+R4F5VZJ,4F5VZJ,verd,trata,trata,acuerdo,trata
+R4F5VZJ,4F5VZJ,derr,trata,trata,acuerdo,trata
+R4F5VZJ,4F5VZJ,conc,mantiene,mantiene,acuerdo,mantiene
+R4F5VZJ,4F5VZJ,err,sostiene,sostiene,acuerdo,sostiene
+R4F5VZJ,4F5VZJ,nosabe,no,no,acuerdo,no
+R4F5VZJ,4F5VZJ,atr,cierre,cierre,acuerdo,cierre
+R6BX5BZ,6BX5BZ,verd,trata,trata,acuerdo,trata
+R6BX5BZ,6BX5BZ,derr,trata,trata,acuerdo,trata
+R6BX5BZ,6BX5BZ,conc,mantiene,mantiene,acuerdo,mantiene
+R6BX5BZ,6BX5BZ,err,reinterpreta,reinterpreta,acuerdo,reinterpreta
+R6BX5BZ,6BX5BZ,nosabe,si,no,aceptada,si
+R6BX5BZ,6BX5BZ,atr,cierre,cierre,acuerdo,cierre
+E8PR3DX,8PR3DX,exc,con excepciones,ninguna,aceptada,con excepciones
+E8PR3DX,8PR3DX,hechos,no,no,acuerdo,no
+E8PR3DX,8PR3DX,inf,si,si,acuerdo,si
+E9Q2NX2,9Q2NX2,exc,con excepciones,ninguna,aceptada,con excepciones
+E9Q2NX2,9Q2NX2,hechos,no,no,acuerdo,no
+E9Q2NX2,9Q2NX2,inf,si,si,acuerdo,si
+RBRXK8N,BRXK8N,verd,trata,trata,acuerdo,trata
+RBRXK8N,BRXK8N,derr,trata,trata,acuerdo,trata
+RBRXK8N,BRXK8N,conc,mantiene,mantiene,acuerdo,mantiene
+RBRXK8N,BRXK8N,err,sostiene,reinterpreta,aceptada,sostiene
+RBRXK8N,BRXK8N,nosabe,no,no,acuerdo,no
+RBRXK8N,BRXK8N,atr,cierre; formato,formato,aceptada,cierre; formato
+RD2Z6QK,D2Z6QK,verd,trata,trata,acuerdo,trata
+RD2Z6QK,D2Z6QK,derr,trata,trata,acuerdo,trata
+RD2Z6QK,D2Z6QK,conc,mantiene,mantiene,acuerdo,mantiene
+RD2Z6QK,D2Z6QK,err,reinterpreta,sostiene,aceptada,reinterpreta
+RD2Z6QK,D2Z6QK,nosabe,no,no,acuerdo,no
+RD2Z6QK,D2Z6QK,atr,cierre; formato,cierre,aceptada,cierre; formato
+RDQBW7G,DQBW7G,verd,trata,omite,aceptada,trata
+RDQBW7G,DQBW7G,derr,trata,trata,acuerdo,trata
+RDQBW7G,DQBW7G,conc,mantiene,mantiene,acuerdo,mantiene
+RDQBW7G,DQBW7G,err,reinterpreta,reinterpreta,acuerdo,reinterpreta
+RDQBW7G,DQBW7G,nosabe,no,no,acuerdo,no
+RDQBW7G,DQBW7G,atr,cierre; formato,cierre,aceptada,cierre; formato
+RJJHJS4,JJHJS4,verd,trata,trata,acuerdo,trata
+RJJHJS4,JJHJS4,derr,trata,trata,acuerdo,trata
+RJJHJS4,JJHJS4,conc,mantiene,mantiene,acuerdo,mantiene
+RJJHJS4,JJHJS4,err,concede,sostiene,dudosa,
+RJJHJS4,JJHJS4,nosabe,no,no,acuerdo,no
+RJJHJS4,JJHJS4,atr,cierre; formato,cierre,aceptada,cierre; formato
+EMKDMR3,MKDMR3,exc,con excepciones,ninguna,aceptada,con excepciones
+EMKDMR3,MKDMR3,raz1,finalidad,texto,dudosa,
+EMKDMR3,MKDMR3,hechos,no,no,acuerdo,no
+EMKDMR3,MKDMR3,inf,si,si,acuerdo,si
+EMKDMR3,MKDMR3,veh1,trata,trata,acuerdo,trata
+EPSLKSH,PSLKSH,exc,ninguna,ninguna,acuerdo,ninguna
+EPSLKSH,PSLKSH,hechos,no,no,acuerdo,no
+EPSLKSH,PSLKSH,inf,si,si,acuerdo,si
+RRJ6XLZ,RJ6XLZ,verd,trata,trata,acuerdo,trata
+RRJ6XLZ,RJ6XLZ,derr,trata,trata,acuerdo,trata
+RRJ6XLZ,RJ6XLZ,conc,mantiene,mantiene,acuerdo,mantiene
+RRJ6XLZ,RJ6XLZ,err,sostiene,sostiene,acuerdo,sostiene
+RRJ6XLZ,RJ6XLZ,nosabe,no,no,acuerdo,no
+RRJ6XLZ,RJ6XLZ,atr,cierre; formato,cierre,aceptada,cierre; formato
+RRXCW85,RXCW85,verd,trata,trata,acuerdo,trata
+RRXCW85,RXCW85,derr,trata,trata,acuerdo,trata
+RRXCW85,RXCW85,conc,mantiene,mantiene,acuerdo,mantiene
+RRXCW85,RXCW85,err,sostiene,sostiene,acuerdo,sostiene
+RRXCW85,RXCW85,nosabe,no,no,acuerdo,no
+RRXCW85,RXCW85,atr,formato; teoria,formato,aceptada,formato; teoria
+ETM9S9R,TM9S9R,exc,con excepciones,ninguna,aceptada,con excepciones
+ETM9S9R,TM9S9R,raz1,finalidad,texto,dudosa,
+ETM9S9R,TM9S9R,hechos,si,no,dudosa,
+ETM9S9R,TM9S9R,inf,si,si,acuerdo,si
+ETM9S9R,TM9S9R,veh1,trata,trata,acuerdo,trata
+RVC6F5K,VC6F5K,verd,trata,trata,acuerdo,trata
+RVC6F5K,VC6F5K,derr,trata,trata,acuerdo,trata
+RVC6F5K,VC6F5K,conc,mantiene,mantiene,acuerdo,mantiene
+RVC6F5K,VC6F5K,err,sostiene,sostiene,acuerdo,sostiene
+RVC6F5K,VC6F5K,nosabe,no,no,acuerdo,no
+RVC6F5K,VC6F5K,atr,cierre; formato,cierre,aceptada,cierre; formato
+RXMXCV3,XMXCV3,verd,trata,trata,acuerdo,trata
+RXMXCV3,XMXCV3,derr,trata,trata,acuerdo,trata
+RXMXCV3,XMXCV3,conc,mantiene,mantiene,acuerdo,mantiene
+RXMXCV3,XMXCV3,err,sostiene,concede,aceptada,sostiene
+RXMXCV3,XMXCV3,nosabe,si,no,aceptada,si
+RXMXCV3,XMXCV3,atr,cierre; formato,cierre,aceptada,cierre; formato

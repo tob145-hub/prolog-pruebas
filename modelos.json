@@ -1,0 +1,76 @@
+{
+  "criterio": "Para cada proveedor (OpenAI, Google, Anthropic), el modelo de la configuración (modelo y esfuerzo de razonamiento) con mayor puntaje en el Artificial Analysis Intelligence Index v5 entre las que tienen API pública, verificada como disponible en OpenRouter el día de las corridas. Para pesos abiertos, lo mismo para cada una de las tres empresas con mayor puntaje entre los modelos con pesos efectivamente publicados (TJS, 2026-11-03; antes, un solo modelo). Todo por OpenRouter: un modelo que no esté en OpenRouter no es elegible. Dentro de ese modelo se usa la configuración más barata cuyo puntaje esté a 3 puntos o menos de la mejor, porque una diferencia de ese tamaño no se distingue del ruido de la medición (estimación propia en Análisis/Umbral de tolerancia AA.261101.md; AA no publica margen de error). El esfuerzo se fija de manera explícita en cada solicitud. (Tob, 2026-11-01)",
+  "fuente": "https://artificialanalysis.ai/leaderboards/models, leída el 2026-11-01 (entradas por modelo y esfuerzo). Artículos de AA del 2026-10-27 y 2026-10-28. Pesos abiertos releídos en el navegador el 2026-11-03 (FAQ de AA: DeepSeek V4.1 Flash 1017 max 32, GLM-5.3 max 32, MiMo-V2.6-Pro 30). Releída el 2026-11-05 (tabla completa, páginas de cada modelo y OpenRouter guardadas en Pruebas/Fuentes AA y OpenRouter 261105/): Opus 5.5 max 59, DeepSeek max 33, GLM-5.3 max 32, Kimi K3.1 Pro 46 (de pesos abiertos según AA), Gemini 4 Carbon 60 sin API pública ni OpenRouter.",
+  "salvedad": "La unidad de selección es el par modelo y esfuerzo, tal como AA lo puntúa: una sola razón elige las dos cosas. No se afirma que los esfuerzos sean equivalentes entre proveedores; cada uno corre en su configuración mejor puntuada. Una configuración que AA no evaluó, o que no está en la API, no es elegible. Si el costo excede el saldo, se recortan repeticiones o variantes, no el esfuerzo.",
+  "ruteo": "Cada modelo se fija a un proveedor (provider.order con allow_fallbacks = false) para que las repeticiones no salgan de servidores distintos. Es ruteo, no un parámetro del modelo, y se declara en el método.",
+  "modelos": [
+    {
+      "rol": "OpenAI",
+      "id": "openai/gpt-6-astra",
+      "proveedor": "openai",
+      "puntaje_aa_v5": 57,
+      "alternativas_descartadas": "GPT-6.1 Sol (55). La variante openai/gpt-6-astra-pro no figura en el índice; se usa la indexada.",
+      "estado": "aprobado",
+      "esfuerzo": "high",
+      "otras_entradas_aa": "Astra max 57 (la mejor); xhigh 55 ($3,66 por tarea); high 55 ($3,24, la más barata dentro de 3 puntos); medium 51. GPT-6.1 Sol max: 55.",
+      "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+    },
+    {
+      "rol": "Google",
+      "id": "google/gemini-4-argon",
+      "proveedor": "google-ai-studio",
+      "puntaje_aa_v5": 50,
+      "alternativas_descartadas": "Gemini 4 Carbon (60, primero del índice): AA informa que no está disponible públicamente (solo usuarios seleccionados) y no figura en OpenRouter. Reevaluar el día de las corridas.",
+      "estado": "aprobado",
+      "esfuerzo": "high",
+      "otras_entradas_aa": "Argon tiene una sola entrada (high). Gemini 4 Carbon (high, 60) no es público.",
+      "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+    },
+    {
+      "rol": "Anthropic",
+      "id": "anthropic/claude-opus-5.5",
+      "proveedor": "anthropic",
+      "puntaje_aa_v5": 59,
+      "alternativas_descartadas": "Claude Fable 5.1 está evaluado y puntúa menos: 50 (xhigh) y 49 (max) en la tabla de AA al 2026-11-01. Además cuesta 10/50 USD por millón de tokens contra 4/20 de Opus.",
+      "estado": "aprobado",
+      "esfuerzo": "xhigh",
+      "otras_entradas_aa": "Opus max 59 (la mejor, $10,04 por tarea); xhigh 57 ($6,05, la más barata dentro de 3 puntos); high 52; medium (defecto) 48. Fable 5.1: xhigh 50, max 49, high 47. AA no lista ninguna entrada de Opus por encima de max. 'With fallback' (AA: 'Max, Default Fallback'): AA corrió Opus con el fallback por defecto de Anthropic, que ante un rechazo del clasificador de seguridad reintenta la consulta en otro modelo permitido (Opus 4.8 u Opus 5). Fuente: perplexity-cli, 2026-11-01, citando platform.claude.com/docs/en/build-with-claude/refusals-and-fallback; sin verificar en el original. En las corridas va sin fallback: un rechazo cuenta como falla, no se reemplaza por otro modelo. Verificar cómo se comporta por OpenRouter.",
+      "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+    },
+    {
+      "rol": "Pesos abiertos (DeepSeek)",
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "proveedor": "deepseek",
+      "puntaje_aa_v5": 33,
+      "alternativas_descartadas": "Kimi K3.1 Pro (46) es el primero entre los abiertos y entra como tercer modelo (2026-11-05). GLM-5.3 (max, 32) es el segundo. Proveedor first-party DeepSeek en OpenRouter: uptime 100 en los últimos 30 minutos el 2026-11-01 (consulta al endpoint de OpenRouter); fijarlo evita los hosts de terceros, que pueden servir versiones cuantizadas.",
+      "estado": "aprobado",
+      "esfuerzo": "max",
+      "otras_entradas_aa": "DeepSeek V4.1 Flash 1017: max 33; high 29; non-reasoning 19.",
+      "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+    },
+    {
+      "rol": "Pesos abiertos (Z.ai)",
+      "id": "z-ai/glm-5.3",
+      "proveedor": "z-ai/fp8",
+      "puntaje_aa_v5": 32,
+      "alternativas_descartadas": "Pesos publicados en huggingface.co/zai-org/GLM-5.3. Endpoint de la propia empresa (Z.AI, fp8) en OpenRouter: 1,40 / 4,40 USD por millón de tokens al 2026-11-03; el precio general del modelo en OpenRouter (0,08 / 3,60) corresponde a hosts de terceros, varios en fp4.",
+      "estado": "aprobado",
+      "esfuerzo": "max",
+      "otras_entradas_aa": "GLM-5.3 max 32; low 23. GLM-5.3-Flash 28 (otro modelo).",
+      "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+    },
+    {
+      "rol": "Pesos abiertos (Moonshot AI)",
+      "id": "moonshotai/kimi-k3.1-pro",
+      "proveedor": "moonshotai/mxfp4",
+      "puntaje_aa_v5": 46,
+      "alternativas_descartadas": "Entra en lugar de MiMo-V2.6-Pro (30), que queda fuera de los tres primeros de pesos abiertos (TJS, 2026-11-05). Pesos en huggingface.co/moonshotai/Kimi-K3.1-Pro (público, 112 archivos, creado 2026-11-02, licencia 'other'; respuesta guardada en Pruebas/Fuentes AA y OpenRouter 261105/). Endpoint de la propia empresa en OpenRouter: moonshotai/mxfp4, 2 / 10 USD por millón de tokens; existe además moonshotai/highspeed (4 / 20), que no se usa. Ambos aceptan reasoning y reasoning_effort.",
+      "estado": "aprobado",
+      "esfuerzo": "max",
+      "otras_entradas_aa": "Una sola entrada en AA, sin nivel de esfuerzo declarado: corresponde al valor por defecto de la API. OpenRouter (GET /api/v1/models, 2026-11-05) lista para este modelo supported_efforts [max, high, low, none] y default_effort max. Se fija max: es el valor por defecto con el que AA lo evaluó y el más alto disponible. Confirmar en el piloto 7 que la solicitud lo respeta.",
+      "aprobado_para": "pruebas definitivas (TJS, 2026-11-05); la lista no cambia, el protocolo lo prohíbe"
+    }
+  ],
+  "rechazos": "Sin fallback de Anthropic ni de ningún proveedor: un rechazo cuenta como falla y no se reemplaza (Tob, 2026-11-01).",
+  "revalidacion": "Lista cerrada el 2026-11-05 (TJS): Astra high, Argon high, Opus xhigh, DeepSeek max, GLM-5.3 max, Kimi K3.1 Pro. Releída AA y OpenRouter ese día. La aprobación de estado vale para el piloto; tras el piloto 7, volver a aprobar."
+}

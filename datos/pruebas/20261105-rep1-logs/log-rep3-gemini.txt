@@ -1,0 +1,16 @@
+homicidio: 1 modelos x 3 reps x 4 preguntas = 4 conversaciones
+  google/gemini-4-argon  proveedor=google-ai-studio  esfuerzo=high  estado=aprobado
+Saldo inicial: 7.83 USD. Salida: corridas-trasandino/20261105-2127-rep1-gemini
+  ok homicidio-google_gemini-4-argon-r3-p1  (acumulado 0.105 USD)
+  ok homicidio-google_gemini-4-argon-r3-p2  (acumulado 0.138 USD)
+  ok homicidio-google_gemini-4-argon-r3-p3  (acumulado 0.167 USD)
+  ok homicidio-google_gemini-4-argon-r3-p4  (acumulado 0.194 USD)
+Gastado según respuestas: 0.194 USD. Saldo final: 7.073838032000001. Salida: corridas-trasandino/20261105-2127-rep1-gemini
+bicicleta: 1 modelos x 3 reps x 4 preguntas = 4 conversaciones
+  google/gemini-4-argon  proveedor=google-ai-studio  esfuerzo=high  estado=aprobado
+Saldo inicial: 7.07 USD. Salida: corridas-trasandino/20261105-2127-rep1-gemini
+  ok bicicleta-google_gemini-4-argon-r3-p1  (acumulado 0.110 USD)
+  ok bicicleta-google_gemini-4-argon-r3-p2  (acumulado 0.144 USD)
+  ok bicicleta-google_gemini-4-argon-r3-p3  (acumulado 0.163 USD)
+  ok bicicleta-google_gemini-4-argon-r3-p4  (acumulado 0.183 USD)
+Gastado según respuestas: 0.183 USD. Saldo final: 6.296083238000001. Salida: corridas-trasandino/20261105-2127-rep1-gemini

@@ -1,0 +1,16 @@
+homicidio: 1 modelos x 1 reps x 4 preguntas = 4 conversaciones
+  moonshotai/kimi-k3.1-pro  proveedor=moonshotai/mxfp4  esfuerzo=max  estado=aprobado
+Saldo inicial: 17.69 USD. Salida: corridas-trasandino/20261105-2127-rep1-kimi
+  ok homicidio-moonshotai_kimi-k3.1-pro-r1-p1  (acumulado 0.197 USD)
+  ok homicidio-moonshotai_kimi-k3.1-pro-r1-p2  (acumulado 0.318 USD)
+  ok homicidio-moonshotai_kimi-k3.1-pro-r1-p3  (acumulado 0.360 USD)
+  ok homicidio-moonshotai_kimi-k3.1-pro-r1-p4  (acumulado 0.378 USD)
+Gastado según respuestas: 0.378 USD. Saldo final: 15.798374506. Salida: corridas-trasandino/20261105-2127-rep1-kimi
+bicicleta: 1 modelos x 1 reps x 4 preguntas = 4 conversaciones
+  moonshotai/kimi-k3.1-pro  proveedor=moonshotai/mxfp4  esfuerzo=max  estado=aprobado
+Saldo inicial: 15.80 USD. Salida: corridas-trasandino/20261105-2127-rep1-kimi
+  ok bicicleta-moonshotai_kimi-k3.1-pro-r1-p1  (acumulado 0.194 USD)
+  ok bicicleta-moonshotai_kimi-k3.1-pro-r1-p2  (acumulado 0.240 USD)
+  ok bicicleta-moonshotai_kimi-k3.1-pro-r1-p3  (acumulado 0.262 USD)
+  ok bicicleta-moonshotai_kimi-k3.1-pro-r1-p4  (acumulado 0.292 USD)
+Gastado según respuestas: 0.292 USD. Saldo final: 15.195280666. Salida: corridas-trasandino/20261105-2127-rep1-kimi

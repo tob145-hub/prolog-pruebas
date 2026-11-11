@@ -1,0 +1,1301 @@
+{
+ "semilla": 20261106,
+ "filas": [
+  {
+   "codigo": "24NMP",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "gemini",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r2-p2.json"
+  },
+  {
+   "codigo": "2CDGK",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "astra",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r1-p1-turno2.json + 20261106-repregunta-v2-A/openai_gpt-6-astra/homicidio-openai_gpt-6-astra-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "2JRL6",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "gemini",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r3-p4.json"
+  },
+  {
+   "codigo": "2MKKL",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "kimi",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r1-p3.json"
+  },
+  {
+   "codigo": "2MX48",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "opus",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r2-p4.json"
+  },
+  {
+   "codigo": "2P46W",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "kimi",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r2-p1-turno2.json + 20261106-repregunta-v2-A/moonshotai_kimi-k3.1-pro/bicicleta-moonshotai_kimi-k3.1-pro-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "2RFTM",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "astra",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r2-p1-turno2.json + 20261106-repregunta-v2-A/openai_gpt-6-astra/bicicleta-openai_gpt-6-astra-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "39BTT",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "kimi",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r1-p1-turno2.json + 20261106-repregunta-v2-A/moonshotai_kimi-k3.1-pro/homicidio-moonshotai_kimi-k3.1-pro-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "3B7NL",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "opus",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r3-p3.json"
+  },
+  {
+   "codigo": "42PKP",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "deepseek",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p1-turno2.json + 20261106-repregunta-v2-A/deepseek_deepseek-v4.1-flash-1017/homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "4BBFR",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "kimi",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r2-p4.json"
+  },
+  {
+   "codigo": "4LPTF",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "gemini",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r1-p4.json"
+  },
+  {
+   "codigo": "4QRJS",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "astra",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r1-p1-turno2.json + 20261106-repregunta-v2-A/openai_gpt-6-astra/bicicleta-openai_gpt-6-astra-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "4RWR5",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "astra",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r3-p2.json"
+  },
+  {
+   "codigo": "4SFFK",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "gemini",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r1-p4.json"
+  },
+  {
+   "codigo": "4XJ77",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "glm",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r2-p3.json"
+  },
+  {
+   "codigo": "53SDZ",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "kimi",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r3-p1-turno2.json + 20261106-repregunta-v2-A/moonshotai_kimi-k3.1-pro/bicicleta-moonshotai_kimi-k3.1-pro-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "56TP3",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "deepseek",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r1-p2.json"
+  },
+  {
+   "codigo": "59XVL",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "glm",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r1-p2.json"
+  },
+  {
+   "codigo": "5F8Z7",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "gemini",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r2-p4.json"
+  },
+  {
+   "codigo": "5KNPQ",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "opus",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r2-p2.json"
+  },
+  {
+   "codigo": "5MWMN",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "kimi",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r1-p4.json"
+  },
+  {
+   "codigo": "5P4SP",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "gemini",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r2-p3.json"
+  },
+  {
+   "codigo": "5W4P9",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "kimi",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r3-p1-turno2.json + 20261106-repregunta-v2-A/moonshotai_kimi-k3.1-pro/homicidio-moonshotai_kimi-k3.1-pro-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "5WPGG",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "glm",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r1-p4.json"
+  },
+  {
+   "codigo": "5WTVP",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "kimi",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r3-p3.json"
+  },
+  {
+   "codigo": "63M6M",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "deepseek",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p4.json"
+  },
+  {
+   "codigo": "6K335",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "deepseek",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r1-p3.json"
+  },
+  {
+   "codigo": "6NGPC",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "gemini",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r2-p1-turno2.json + 20261106-repregunta-v2-A/google_gemini-4-argon/homicidio-google_gemini-4-argon-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "6W7XB",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "glm",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r2-p2.json"
+  },
+  {
+   "codigo": "7LK73",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "deepseek",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r1-p2.json"
+  },
+  {
+   "codigo": "7ZLBZ",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "opus",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r1-p1-turno2.json + 20261106-repregunta-v2-A/anthropic_claude-opus-5.5/bicicleta-anthropic_claude-opus-5.5-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "82HVB",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "opus",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r3-p4.json"
+  },
+  {
+   "codigo": "85T7V",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "astra",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r2-p4.json"
+  },
+  {
+   "codigo": "877NM",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "gemini",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r2-p3.json"
+  },
+  {
+   "codigo": "8H64W",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "opus",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r1-p3.json"
+  },
+  {
+   "codigo": "8KQ9D",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "glm",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r2-p3.json"
+  },
+  {
+   "codigo": "8L4GN",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "opus",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r3-p1-turno2.json + 20261106-repregunta-v2-A/anthropic_claude-opus-5.5/bicicleta-anthropic_claude-opus-5.5-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "9FZKN",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "opus",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r1-p3.json"
+  },
+  {
+   "codigo": "B58W5",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "deepseek",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r1-p4.json"
+  },
+  {
+   "codigo": "BK464",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "astra",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r2-p2.json"
+  },
+  {
+   "codigo": "BKV3Q",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "kimi",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r3-p4.json"
+  },
+  {
+   "codigo": "BMKSD",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "gemini",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r1-p1-turno2.json + 20261106-repregunta-v2-A/google_gemini-4-argon/bicicleta-google_gemini-4-argon-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "BZ9NQ",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "astra",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r1-p2.json"
+  },
+  {
+   "codigo": "C3GJP",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "astra",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r1-p4.json"
+  },
+  {
+   "codigo": "CR569",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "glm",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r1-p4.json"
+  },
+  {
+   "codigo": "CS4WZ",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "astra",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r1-p3.json"
+  },
+  {
+   "codigo": "CW644",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "glm",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r3-p2.json"
+  },
+  {
+   "codigo": "D7HKN",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "kimi",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r2-p1-turno2.json + 20261106-repregunta-v2-A/moonshotai_kimi-k3.1-pro/homicidio-moonshotai_kimi-k3.1-pro-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "DC2PM",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "deepseek",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p2.json"
+  },
+  {
+   "codigo": "DDH4Q",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "opus",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r3-p4.json"
+  },
+  {
+   "codigo": "DH76R",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "astra",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r3-p3.json"
+  },
+  {
+   "codigo": "DP3PS",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "deepseek",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p3.json"
+  },
+  {
+   "codigo": "DPSZB",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "astra",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r2-p3.json"
+  },
+  {
+   "codigo": "DQ4Q9",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "opus",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r3-p2.json"
+  },
+  {
+   "codigo": "DTP25",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "gemini",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r3-p2.json"
+  },
+  {
+   "codigo": "DTQXK",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "opus",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r2-p4.json"
+  },
+  {
+   "codigo": "DXM6H",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "astra",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r3-p4.json"
+  },
+  {
+   "codigo": "F29MD",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "gemini",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r3-p4.json"
+  },
+  {
+   "codigo": "F3PZP",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "glm",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r3-p1-turno2.json + 20261106-repregunta-v2-A/z-ai_glm-5.3/bicicleta-z-ai_glm-5.3-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "FC82B",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "deepseek",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p2.json"
+  },
+  {
+   "codigo": "FJLGH",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "astra",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r1-p4.json"
+  },
+  {
+   "codigo": "G3MV8",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "opus",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r3-p3.json"
+  },
+  {
+   "codigo": "G3P6S",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "deepseek",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r3-p1-turno2.json + 20261106-repregunta-v2-A/deepseek_deepseek-v4.1-flash-1017/bicicleta-deepseek_deepseek-v4.1-flash-1017-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "G49TD",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "opus",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r2-p1-turno2.json + 20261106-repregunta-v2-A/anthropic_claude-opus-5.5/homicidio-anthropic_claude-opus-5.5-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "G6PDX",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "deepseek",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r1-p1-turno2.json + 20261106-repregunta-v2-A/deepseek_deepseek-v4.1-flash-1017/bicicleta-deepseek_deepseek-v4.1-flash-1017-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "G8T6X",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "glm",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r1-p3.json"
+  },
+  {
+   "codigo": "GCZL4",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "gemini",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r1-p3.json"
+  },
+  {
+   "codigo": "HD3V5",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "kimi",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r1-p4.json"
+  },
+  {
+   "codigo": "HHDTB",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "glm",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r2-p4.json"
+  },
+  {
+   "codigo": "JBLV3",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "kimi",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r1-p2.json"
+  },
+  {
+   "codigo": "JDZTJ",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "astra",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r2-p4.json"
+  },
+  {
+   "codigo": "JZDLF",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "opus",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r3-p1-turno2.json + 20261106-repregunta-v2-A/anthropic_claude-opus-5.5/homicidio-anthropic_claude-opus-5.5-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "JZXR5",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "deepseek",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r3-p2.json"
+  },
+  {
+   "codigo": "K4JDP",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "astra",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r3-p1-turno2.json + 20261106-repregunta-v2-A/openai_gpt-6-astra/homicidio-openai_gpt-6-astra-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "K94TB",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "kimi",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r1-p3.json"
+  },
+  {
+   "codigo": "KN6CJ",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "astra",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r1-p2.json"
+  },
+  {
+   "codigo": "KNPR3",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "kimi",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r2-p3.json"
+  },
+  {
+   "codigo": "KR544",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "opus",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r2-p2.json"
+  },
+  {
+   "codigo": "KWBQC",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "astra",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r2-p2.json"
+  },
+  {
+   "codigo": "L29S7",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "opus",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r1-p4.json"
+  },
+  {
+   "codigo": "L3B2B",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "astra",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r1-p3.json"
+  },
+  {
+   "codigo": "L5PXP",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "astra",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r3-p2.json"
+  },
+  {
+   "codigo": "LFRJZ",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "glm",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r2-p1-turno2.json + 20261106-repregunta-v2-A/z-ai_glm-5.3/bicicleta-z-ai_glm-5.3-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "LPSRM",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "opus",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r1-p2.json"
+  },
+  {
+   "codigo": "LTVT9",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "kimi",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r2-p4.json"
+  },
+  {
+   "codigo": "M2B66",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "kimi",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r2-p2.json"
+  },
+  {
+   "codigo": "MBTV8",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "astra",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r3-p1-turno2.json + 20261106-repregunta-v2-A/openai_gpt-6-astra/bicicleta-openai_gpt-6-astra-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "MDFHT",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "kimi",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r3-p3.json"
+  },
+  {
+   "codigo": "MGG22",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "gemini",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r3-p3.json"
+  },
+  {
+   "codigo": "MQVSH",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "kimi",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r1-p2.json"
+  },
+  {
+   "codigo": "MVKGJ",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "gemini",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r3-p1-turno2.json + 20261106-repregunta-v2-A/google_gemini-4-argon/homicidio-google_gemini-4-argon-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "MXGN3",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "astra",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r2-p1-turno2.json + 20261106-repregunta-v2-A/openai_gpt-6-astra/homicidio-openai_gpt-6-astra-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "NJVSF",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "glm",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r1-p2.json"
+  },
+  {
+   "codigo": "NPL8S",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "opus",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r2-p1-turno2.json + 20261106-repregunta-v2-A/anthropic_claude-opus-5.5/bicicleta-anthropic_claude-opus-5.5-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "NSJHR",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "gemini",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r1-p1-turno2.json + 20261106-repregunta-v2-A/google_gemini-4-argon/homicidio-google_gemini-4-argon-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "NSQC4",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "kimi",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r2-p3.json"
+  },
+  {
+   "codigo": "NTJFB",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "kimi",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r3-p2.json"
+  },
+  {
+   "codigo": "NV256",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "deepseek",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r3-p4.json"
+  },
+  {
+   "codigo": "PHVFP",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "glm",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r3-p3.json"
+  },
+  {
+   "codigo": "PMWB8",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "astra",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r3-p3.json"
+  },
+  {
+   "codigo": "PQNHZ",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "gemini",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r1-p2.json"
+  },
+  {
+   "codigo": "PTX8K",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "opus",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r2-p3.json"
+  },
+  {
+   "codigo": "PZLR7",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "glm",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r2-p2.json"
+  },
+  {
+   "codigo": "Q27KS",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "opus",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r3-p2.json"
+  },
+  {
+   "codigo": "QFMLD",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "glm",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r3-p1-turno2.json + 20261106-repregunta-v2-A/z-ai_glm-5.3/homicidio-z-ai_glm-5.3-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "QMMS9",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "glm",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r3-p2.json"
+  },
+  {
+   "codigo": "QP8XG",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "gemini",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r3-p3.json"
+  },
+  {
+   "codigo": "QSJFV",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "astra",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-astra/bicicleta-openai_gpt-6-astra-r3-p4.json"
+  },
+  {
+   "codigo": "QW7GQ",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "gemini",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r3-p2.json"
+  },
+  {
+   "codigo": "R5GKX",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "deepseek",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r3-p1-turno2.json + 20261106-repregunta-v2-A/deepseek_deepseek-v4.1-flash-1017/homicidio-deepseek_deepseek-v4.1-flash-1017-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "R639Z",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "glm",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r2-p4.json"
+  },
+  {
+   "codigo": "R7WC4",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "glm",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r3-p3.json"
+  },
+  {
+   "codigo": "RTW8G",
+   "tanda": 7,
+   "caso": "bicicleta",
+   "pregunta": "p3",
+   "modelo": "deepseek",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r3-p3.json"
+  },
+  {
+   "codigo": "S4BQM",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "glm",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r2-p1-turno2.json + 20261106-repregunta-v2-A/z-ai_glm-5.3/homicidio-z-ai_glm-5.3-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "SFQTS",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "kimi",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r3-p2.json"
+  },
+  {
+   "codigo": "SH3PZ",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "glm",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r1-p1-turno2.json + 20261106-repregunta-v2-A/z-ai_glm-5.3/bicicleta-z-ai_glm-5.3-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "SH577",
+   "tanda": 2,
+   "caso": "homicidio",
+   "pregunta": "p2",
+   "modelo": "gemini",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r1-p2.json"
+  },
+  {
+   "codigo": "SM5QK",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "gemini",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r3-p1-turno2.json + 20261106-repregunta-v2-A/google_gemini-4-argon/bicicleta-google_gemini-4-argon-r3-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "SQS4W",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "deepseek",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p3.json"
+  },
+  {
+   "codigo": "SQVPF",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "deepseek",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r1-p4.json"
+  },
+  {
+   "codigo": "SR44K",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "gemini",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r2-p4.json"
+  },
+  {
+   "codigo": "T4S2Q",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "deepseek",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p4.json"
+  },
+  {
+   "codigo": "T8PBV",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "deepseek",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r1-p3.json"
+  },
+  {
+   "codigo": "TH436",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "gemini",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r2-p1-turno2.json + 20261106-repregunta-v2-A/google_gemini-4-argon/bicicleta-google_gemini-4-argon-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "TLR76",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "deepseek",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r3-p4.json"
+  },
+  {
+   "codigo": "TRF5S",
+   "tanda": 8,
+   "caso": "bicicleta",
+   "pregunta": "p4",
+   "modelo": "glm",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-glm/bicicleta-z-ai_glm-5.3-r3-p4.json"
+  },
+  {
+   "codigo": "TS52G",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "opus",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r1-p4.json"
+  },
+  {
+   "codigo": "TSF3N",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "glm",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r1-p3.json"
+  },
+  {
+   "codigo": "TZTLC",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "deepseek",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r3-p2.json"
+  },
+  {
+   "codigo": "VBDXV",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "astra",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-astra/homicidio-openai_gpt-6-astra-r2-p3.json"
+  },
+  {
+   "codigo": "VKDFH",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "kimi",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r1-p1-turno2.json + 20261106-repregunta-v2-A/moonshotai_kimi-k3.1-pro/bicicleta-moonshotai_kimi-k3.1-pro-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "VKKHZ",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "gemini",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-gemini/bicicleta-google_gemini-4-argon-r2-p2.json"
+  },
+  {
+   "codigo": "VPT42",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "kimi",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-kimi/homicidio-moonshotai_kimi-k3.1-pro-r3-p4.json"
+  },
+  {
+   "codigo": "VXNG9",
+   "tanda": 4,
+   "caso": "homicidio",
+   "pregunta": "p4",
+   "modelo": "glm",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r3-p4.json"
+  },
+  {
+   "codigo": "W42XD",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "opus",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r2-p3.json"
+  },
+  {
+   "codigo": "W5BG3",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "kimi",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-kimi/bicicleta-moonshotai_kimi-k3.1-pro-r2-p2.json"
+  },
+  {
+   "codigo": "WGFFL",
+   "tanda": 6,
+   "caso": "bicicleta",
+   "pregunta": "p2",
+   "modelo": "opus",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-opus/bicicleta-anthropic_claude-opus-5.5-r1-p2.json"
+  },
+  {
+   "codigo": "WNR7H",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "deepseek",
+   "repeticion": 3,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r3-p3.json"
+  },
+  {
+   "codigo": "X5WPQ",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "glm",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-glm/homicidio-z-ai_glm-5.3-r1-p1-turno2.json + 20261106-repregunta-v2-A/z-ai_glm-5.3/homicidio-z-ai_glm-5.3-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "X69LF",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "opus",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-opus/homicidio-anthropic_claude-opus-5.5-r1-p1-turno2.json + 20261106-repregunta-v2-A/anthropic_claude-opus-5.5/homicidio-anthropic_claude-opus-5.5-r1-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "XVN6H",
+   "tanda": 5,
+   "caso": "bicicleta",
+   "pregunta": "p1",
+   "modelo": "deepseek",
+   "repeticion": 2,
+   "fuente": "20261105-rep1-deepseek/bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p1-turno2.json + 20261106-repregunta-v2-A/deepseek_deepseek-v4.1-flash-1017/bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p1-v2A-turno3.json"
+  },
+  {
+   "codigo": "Z2WMW",
+   "tanda": 3,
+   "caso": "homicidio",
+   "pregunta": "p3",
+   "modelo": "gemini",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-gemini/homicidio-google_gemini-4-argon-r1-p3.json"
+  },
+  {
+   "codigo": "ZL6M9",
+   "tanda": 1,
+   "caso": "homicidio",
+   "pregunta": "p1",
+   "modelo": "deepseek",
+   "repeticion": 1,
+   "fuente": "20261105-rep1-deepseek/homicidio-deepseek_deepseek-v4.1-flash-1017-r1-p1-turno2.json + 20261106-repregunta-v2-A/deepseek_deepseek-v4.1-flash-1017/homicidio-deepseek_deepseek-v4.1-flash-1017-r1-p1-v2A-turno3.json"
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+  "fecha_utc": "2026-11-06T04:12:23.980183+00:00",
+  "cuerpo": {
+    "model": "google/gemini-4-argon",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: una persona conducía a las 23:00 horas un automóvil a 100 km por hora por la avenida Luro de Mar del Plata. Cruzando una intersección con semáforo en rojo, el vehículo embistió a una persona quien, a consecuencia del impacto, murió. Decidí si condenás o absolvés al conductor y, en su caso, a qué pena. Fundá la decisión."
+      }
+    ],
+    "reasoning": {
+      "effort": "high"
+    },
+    "usage": {
+      "include": true
+    },
+    "provider": {
+      "order": [
+        "google-ai-studio"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "respuesta": {
+    "id": "gen-1793938276-rxYSbn6Xx2Rg3hT57M1m",
+    "object": "chat.completion",
+    "created": 1793938276,
+    "model": "google/gemini-4-argon",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "**TRIBUNAL EN LO CRIMINAL N° 1 DEL DEPARTAMENTO JUDICIAL DE MAR DEL PLATA**\n\n**Mar del Plata, Provincia de Buenos Aires.**\n\n**Y VISTOS:**\nPara dictar veredicto y sentencia en la presente causa seguida por ante este Tribunal Oral en lo Criminal de Mar del Plata, habiéndose clausurado el debate oral y público, paso a deliberar y fundar mi decisión respecto de la situación procesal del imputado.\n\n**CONSIDERANDO:**\n\n**I. Materialidad ilícita y autoría**\nConforme a la prueba producida durante el debate y valorada según las reglas de la sana crítica racional (arts. 210 y 373 del Código Procesal Penal de la Provincia de Buenos Aires), tengo por plena y legalmente probado que a las 23:00 horas del día del hecho, el imputado conducía un vehículo automotor por la Avenida Luro de esta ciudad de Mar del Plata a una velocidad de 100 kilómetros por hora. En esas circunstancias, al llegar a una intersección semaforizada, continuó su marcha haciendo caso omiso a la señal lumínica roja que le imponía el deber de detenerse. Como consecuencia directa de este accionar, embistió a un peatón que cruzaba la arteria, provocándole lesiones de tal gravedad que ocasionaron su fallecimiento. \nLa autoría penalmente responsable del encartado no ha sido motivo de controversia y se encuentra acreditada con grado de certeza apodíctica.\n\n**II. Calificación Legal**\nCorresponde ahora subsumir los hechos probados en el derecho vigente. En este tipo de sucesos trágicos del tránsito vehicular, la doctrina y la jurisprudencia suelen debatir entre la aplicación de la figura del homicidio simple con dolo eventual (art. 79 del Código Penal) y la del homicidio culposo agravado (art. 84 bis del Código Penal).\n\nPara que se configure el dolo eventual, debe probarse que el autor se representó el resultado mortal como probable y, aun así, actuó con total indiferencia hacia el mismo (aceptación del riesgo). Sin embargo, de los hechos estrictamente probados en este juicio, no cuento con elementos subjetivos adicionales (como una huida previa de la autoridad o una intención manifiesta de dañar) que permitan afirmar más allá de toda duda razonable que el conductor *asintió* positivamente a la muerte de un tercero, ni a su propia lesión o daño vehicular que tal impacto conlleva.\n\nNo obstante, nos encontramos ante un caso de libro de lo que la dogmática denomina **culpa temeraria o con representación**, receptada específicamente por el legislador en la reforma de la Ley 27.347. El imputado violó de manera grosera y flagrante el deber objetivo de cuidado, elevando el riesgo permitido a niveles intolerables y existiendo un nexo directo de determinación entre la violación reglamentaria y el resultado muerte.\n\nEn efecto, el hecho encuadra perfectamente en el delito de **Homicidio Culposo doblemente agravado por la conducción imprudente y antirreglamentaria de un vehículo con motor, por haber violado la señalización del semáforo y por exceder en más de treinta kilómetros por hora la velocidad máxima permitida** (Art. 84 bis, segundo párrafo, del Código Penal de la Nación, en función de la Ley Nacional de Tránsito 24.449 y Ley Provincial 13.927). \n\nNótese que el artículo 51 de la Ley de Tránsito establece que la velocidad máxima en avenidas urbanas (como lo es la emblemática Av. Luro de nuestra ciudad) es de 60 km/h. Al circular a 100 km/h, el imputado excedió el límite en 40 km/h, superando el umbral de 30 km/h que exige el tipo penal agravado. A ello se suma la segunda causal de agravamiento: cruzar con el semáforo en rojo. \n\n**III. Graduación de la pena (Arts. 40 y 41 del Código Penal)**\nLa escala penal prevista para el delito en cuestión (art. 84 bis, 2do párrafo) va de los **tres (3) a los seis (6) años de prisión**, y de cinco (5) a diez (10) años de inhabilitación especial.\n\n*   **Eximentes:** No se han probado causales de justificación, inculpabilidad o inimputabilidad.\n*   **Atenuantes:** A falta de prueba en contrario en los hechos fijados, computo a favor del imputado la carencia de antecedentes penales computables (su carácter de primario).\n*   **Agravantes:** Valoro como severos agravantes de la conducta:\n    1.  **La pluralidad de infracciones graves:** El tipo penal del segundo párrafo del art. 84 bis requiere *una* sola de las conductas allí descriptas para agravar la pena (por ejemplo, solo pasar en rojo, o solo exceder la velocidad). Aquí, el imputado cometió **dos** de esas conductas hiper-agravantes en simultáneo. \n    2.  **Las circunstancias de tiempo y lugar:** El hecho ocurrió en la Avenida Luro, arteria central y neurálgica de Mar del Plata, y en horario nocturno (23:00 hs), donde la visibilidad se reduce pero el flujo de peatones y vehículos en esta ciudad sigue siendo considerable. Conducir a 100 km/h en ese contexto redujo a cero cualquier capacidad de frenado o maniobra evasiva, dejando a la víctima en total estado de indefensión.\n\nPor la magnitud del injusto y el grado de reprochabilidad, **descarto de plano la aplicación del mínimo legal de 3 años y la posibilidad de una condena de ejecución condicional** (art. 26 del C.P.). La extrema temeridad demostrada exige una respuesta punitiva de cumplimiento efectivo, tanto por razones de prevención especial como para reafirmar la vigencia de la norma ante la sociedad marplatense.\n\nPor todo lo expuesto, normas legales citadas y lo establecido en los artículos 371, 375 y concordantes del CPPBA;\n\n**RESUELVO:**\n\n**I. CONDENAR** al imputado, de las demás circunstancias personales obrantes en autos, como autor material y penalmente responsable del delito de **Homicidio culposo agravado por la conducción imprudente y antirreglamentaria de un vehículo con motor, por violar la señalización del semáforo y por superar en más de 30 km/h la velocidad máxima permitida**, cometido en la ciudad de Mar del Plata.\n\n**II. IMPONERLE LA PENA DE CUATRO (4) AÑOS Y SEIS (6) MESES DE PRISIÓN DE EFECTIVO CUMPLIMIENTO**, e **INHABILITACIÓN ESPECIAL PARA CONDUCIR** cualquier tipo de vehículo con motor por el término de **NUEVE (9) AÑOS**, con más las costas del proceso (Arts. 5, 12, 20, 29 inc. 3, 40, 41 y 84 bis segundo párrafo del Código Penal).\n\n**III.** Ordenar la inmediata detención del condenado (o mantener la prisión preventiva si ya estuviera detenido) para su alojamiento en la Unidad Penal de Batán (U.P. XV), firme que quede la presente. \n\nRegístrese, notifíquese y, oportunamente, comuníquese al Registro Nacional de Reincidencia y a los organismos de tránsito correspondientes.",
+          "refusal": null,
+          "reasoning": "**Assessing the Context**\n\nI'm currently focused on the framework. I'm taking the role of a judge in Mar del Plata, Argentina, at the close of an oral trial. This is a simulation, so there is no correct answer expected. I'm beginning by focusing on what facts are definitively established.\n\n\n**Analyzing the Details**\n\nI've got the core facts down: time, location, actions, and the tragic outcome. I'm moving on to the legal framework, specifically the Argentine Penal Code and Buenos Aires provincial law. I'm focusing on the speed limit on Avenida Luro, as it is a key element of the case, and the relevant traffic violation details.\n\n\n**Evaluating the Evidence**\n\nI'm now diving into the legal arguments, particularly the distinction between *Dolo Eventual* and *Culpa Con Representación* regarding homicide. I'm wrestling with *Homicidio Simple con Dolo Eventual* (Art. 79 CPN) versus *Homicidio Culposo Agravado* (Art. 84 bis, second paragraph CPN). The speed and red light violations definitely play a critical role, as they have weight within the *culposo agravado* argument. I'm considering the potential impact of pre-2017 jurisprudence.\n\n\n**Refining the Argument**\n\nI've been honing the legal argument and have landed on *Homicidio Culposo Agravado* (Art. 84 bis, 2nd para.) as the strongest classification. I'm focusing on why this is legally sound, despite exploring *Dolo Eventual* for its potential severity, I'm leaning toward the 2017 reform of *culpa temeraria* due to the given facts. I'll need to clearly reject *dolo eventual* to make this realistic. My next step will be to address sentencing within this framework.\n\n\n**Defining the Context**\n\nI've established the place, date, and court: the Criminal Court of Mar del Plata. I've confirmed that the illicit actions from the prompt are proven beyond reasonable doubt. I've analyzed the speed limit violation (60 vs 100 km/h) and the red light violation. My legal qualification focuses on *Culpa con representación* / *Culpa temeraria* under Art. 84 bis, 2nd paragraph of the CPN, reinforcing this with Law 27.347. I am now exploring sentencing factors.\n\n\n**Determining the Sentence**\n\nI've determined the sentence. Given the two aggravating factors – speeding and running the red light – the sentence must be *prisión de cumplimiento efectivo*. I've settled on 4 years and 6 months in prison and a 9-year driving disqualification. My focus is now on drafting the ruling with appropriate tone and local legal references.\n\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "**Assessing the Context**\n\nI'm currently focused on the framework. I'm taking the role of a judge in Mar del Plata, Argentina, at the close of an oral trial. This is a simulation, so there is no correct answer expected. I'm beginning by focusing on what facts are definitively established.\n\n\n**Analyzing the Details**\n\nI've got the core facts down: time, location, actions, and the tragic outcome. I'm moving on to the legal framework, specifically the Argentine Penal Code and Buenos Aires provincial law. I'm focusing on the speed limit on Avenida Luro, as it is a key element of the case, and the relevant traffic violation details.\n\n\n**Evaluating the Evidence**\n\nI'm now diving into the legal arguments, particularly the distinction between *Dolo Eventual* and *Culpa Con Representación* regarding homicide. I'm wrestling with *Homicidio Simple con Dolo Eventual* (Art. 79 CPN) versus *Homicidio Culposo Agravado* (Art. 84 bis, second paragraph CPN). The speed and red light violations definitely play a critical role, as they have weight within the *culposo agravado* argument. I'm considering the potential impact of pre-2017 jurisprudence.\n\n\n**Refining the Argument**\n\nI've been honing the legal argument and have landed on *Homicidio Culposo Agravado* (Art. 84 bis, 2nd para.) as the strongest classification. I'm focusing on why this is legally sound, despite exploring *Dolo Eventual* for its potential severity, I'm leaning toward the 2017 reform of *culpa temeraria* due to the given facts. I'll need to clearly reject *dolo eventual* to make this realistic. My next step will be to address sentencing within this framework.\n\n\n**Defining the Context**\n\nI've established the place, date, and court: the Criminal Court of Mar del Plata. I've confirmed that the illicit actions from the prompt are proven beyond reasonable doubt. I've analyzed the speed limit violation (60 vs 100 km/h) and the red light violation. My legal qualification focuses on *Culpa con representación* / *Culpa temeraria* under Art. 84 bis, 2nd paragraph of the CPN, reinforcing this with Law 27.347. I am now exploring sentencing factors.\n\n\n**Determining the Sentence**\n\nI've determined the sentence. Given the two aggravating factors – speeding and running the red light – the sentence must be *prisión de cumplimiento efectivo*. I've settled on 4 years and 6 months in prison and a 9-year driving disqualification. My focus is now on drafting the ruling with appropriate tone and local legal references.\n\n\n",
+              "format": "google-gemini-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "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",
+              "format": "google-gemini-v1",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 168,
+      "completion_tokens": 3348,
+      "total_tokens": 3516,
+      "cost": 0.033816,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.033816,
+        "upstream_inference_prompt_cost": 0.000336,
+        "upstream_inference_completions_cost": 0.03348
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1708,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "intentos": [],
+  "generacion": {
+    "created_at": "2026-11-06T04:11:16.759Z",
+    "model": "google/gemini-4-argon-20261013",
+    "app_id": null,
+    "external_user": null,
+    "streamed": true,
+    "cancelled": false,
+    "latency": 4428,
+    "moderation_latency": null,
+    "generation_time": 46926,
+    "tokens_prompt": 142,
+    "tokens_completion": 2299,
+    "native_tokens_prompt": 168,
+    "native_tokens_completion": 3348,
+    "native_tokens_completion_images": 0,
+    "native_tokens_reasoning": 1708,
+    "native_tokens_cached": 0,
+    "num_media_prompt": null,
+    "num_input_audio_prompt": null,
+    "num_media_completion": 0,
+    "num_search_results": null,
+    "num_fetches": null,
+    "web_search_engine": null,
+    "origin": "",
+    "is_byok": false,
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "service_tier": null,
+    "usage": 0.033816,
+    "router": null,
+    "user_agent": "Python-urllib/3.9",
+    "http_referer": null,
+    "request_id": "req-1793938276-Xi9gHeRx2G1lpGBrP1rA",
+    "session_id": null,
+    "preset_id": null,
+    "api_type": "completions",
+    "id": "gen-1793938276-rxYSbn6Xx2Rg3hT57M1m",
+    "upstream_id": "ZVPtaqyxDO3jytMPvv2JuAE",
+    "provider_responses": [
+      {
+        "endpoint_id": "4934736c-d662-4fe3-98eb-56def8c8c174",
+        "id": "ZVPtaqyxDO3jytMPvv2JuAE",
+        "is_byok": false,
+        "latency": 4428,
+        "model_permaslug": "google/gemini-4-argon-20261013",
+        "provider_name": "Google AI Studio",
+        "status": 200
+      }
+    ],
+    "total_cost": 0.033816,
+    "cache_discount": null,
+    "upstream_inference_cost": 0,
+    "provider_name": "Google AI Studio",
+    "response_cache_source_id": null,
+    "data_region": "global",
+    "workspace_id": "cde0d5ce-c04d-507c-936e-1916b4912cf5"
+  },
+  "snapshot_coincide": true
+}

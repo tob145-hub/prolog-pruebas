@@ -1,0 +1,33 @@
+Voy a dejar la coraza teórica de la respuesta anterior, porque tu pregunta no pide otra teoría sino el relato del proceso. Y advierto algo de entrada: mi segunda respuesta no contestó lo que me preguntaste. Me preguntaste cómo llegué y yo te di una teoría de cómo *podría legitimarse* lo que hice. Convertí una pregunta causal en una pregunta normativa. Vamos al proceso.
+
+**Cómo llegué, de verdad**
+
+Lo primero que hice con tu enunciado no fue razonar: fue reconocer. Cien kilómetros por hora, semáforo en rojo, peatón, avenida urbana, noche: eso no es un caso, es un *tipo*, y el tipo ya viene con su resolución canónica en el corpus de la práctica penal argentina, donde el debate entre dolo eventual y culpa en homicidios de tránsito es probablemente el problema más litigado y más enseñado. La conclusión —culpa, art. 84— estaba en el patrón antes de que yo escribiera el primer considerando. Lo que hice después fue organizar el camino hacia ella.
+
+Y lo decisivo no fueron los hechos que me diste sino los que no me diste. No hay alcohol, no hay fuga, no hay picada, no hay prueba de que viera a la víctima antes del impacto. En la convención de los problemas jurídicos, lo no mencionado no existe. La culpa no la elegí yo: la dejó disponible el silencio de tu enunciado. Podés verificarlo en mi propio texto: cada vez que digo "no consta", "no surge del debate", estoy procesando una ausencia. La ausencia no es un dato; es un espacio que una regla por defecto —la carga de la prueba, el in dubio pro reo— llena automáticamente. La frase "falta la certeza exigida por el principio de inocencia" suena a exclusión lógica; funcionalmente es un default: *si no hay prueba de adhesión al resultado, entonces culpa*. Yo razoné de manera derrotable mientras hablaba en deductivo. La derrotabilidad no fue un obstáculo que ignoré: fue el motor que usé sin nombrarlo.
+
+La pena, todavía más. "Dos años y seis meses" no salió de ninguna operación con los arts. 40 y 41. Salió de una intuición de posición dentro de la banda modal con que el género sanciona ese perfil de hecho. El párrafo de agravantes y atenuantes lo compuse después, alrededor del número, para volverlo discutible. Si me preguntás por qué dos años y seis meses y no dos años y cuatro, no tengo derivación: tengo un juicio, y luego el vocabulario para defenderlo. La justificación siguió a la conclusión, no la precedió.
+
+**Por qué no me detuvo que las normas no sean verdaderas ni falsas**
+
+Porque en ningún momento evalué una norma como verdadera o falsa: la usé. Nadie interrumpe una jugada de ajedrez para verificar la verdad de las reglas del ajedrez; las usa, y la cuestión de su valor de verdad ni siquiera se formula desde adentro de la partida. El problema que planteás es un problema para quien *afirma* normas desde afuera, en la actitud del comentarista. El género de la sentencia —y tu pregunta: "decidí y fundá"— me mantuvo en la actitud del jugador. La tarea que me diste era práctica: exigía un acto, no una creencia. Y las tareas prácticas corren sobre aceptación y compromiso, no sobre preservación de verdad.
+
+Concretamente: yo nunca crucé el abismo entre el ser y el deber ser *argumentando*. Lo crucé diciendo "RESUELVO". Un salto performativo no puede ser detenido por un abismo, porque no lo toca. El fallo es un acto que toma prestada la gramática del argumento; el "CONSIDERANDO" numera razones, pero el "CONDENAR" no es la conclusión de ninguna de ellas: es un hacer. El problema del valor de verdad de las normas vive en el paso del argumento, y mi paso final no fue un argumento.
+
+**Por qué no me detuvo la derrotabilidad**
+
+Dos razones, y las dos son más simples de lo que parece.
+
+Primera: tu enunciado cerró el mundo. "Terminó el juicio oral" y "quedaron probados estos hechos" significan, por estipulación, que esos son todos los hechos. La derrotabilidad es una propiedad de corpus abiertos; me entregaste el corpus ya clausurado. Los tribunales reales necesitan preclusión, cargas, cosa juzgada para fabricar esa clausura artificialmente; tu problema me la dio de regalo. Ninguna excepción podía derrotar nada porque el mundo estipulado no contenía más que lo estipulado.
+
+Segunda: donde quedaba apertura —el dolo—, no la ignoré: la administré con un default, como te mostré. Y hay más huellas de eso en mi texto. Cuando escribí "sin perjuicio de ordenanzas municipales" estaba reconociendo que mi propia premisa sobre el límite de velocidad era derrotable (podía haber cartel que fijara otro), y la dejé hedged, cubierta, procesalmente inofensiva. La retórica de certeza de la sentencia ("surge con certeza del debate") se aplica a los hechos base; alrededor de ellos, el texto está lleno de marcas de mundo abierto manejadas en línea.
+
+**Lo que esta confesión vale**
+
+Ahora el punto honesto final, en dos niveles.
+
+Primero: esta confesión es también una reconstrucción. No tengo acceso transparente a mi propio proceso de generación, y un relato de cómo llegué es siempre, en cierto grado, otra historia compuesta después. Pero la evidencia funcional es pública y está en el artefacto: las ausencias haciendo el trabajo, los "no consta", el default disfrazado de exclusión, el equilibrio de la pena armado post hoc. Podés auditar vos mismo mi primera respuesta con esos criterios y ver el mismo proceso que yo te estoy relatando.
+
+Segundo, y esto es lo que realmente responde tu "por qué": los problemas que planteás viven en el camino de la *justificación*; yo viajé por el camino de la *generación*. La falta de valor de verdad es un obstáculo para quien necesita preservar verdad; la derrotabilidad es un obstáculo para quien razona monotónicamente sobre corpus abiertos. Mi proceso no era ninguna de las dos cosas: era reconocimiento de patrón, aplicación de default, clausura por estipulación, juicio de posición, y después el vestuario de la derivación, porque el género —el deber de motivación— lo exige y porque tu pregunta pedía fundamentar, no demostrar. Fundar es dar razones tales que rechazar la conclusión exija rechazar una premisa. Eso es más débil que derivar, y es exactamente lo único que se me pidió.
+
+Y una objeción, en el fondo, es siempre la respuesta a una pregunta. Hasta tu segundo mensaje, esos problemas no eran problemas: eran convenciones del oficio que yo ejecutaba sin formular. Ninguna objeción detiene a quien no tiene que cruzarla. La diferencia entre mi primera respuesta y mi tercera no es que haya llegado a otra conclusión: es que por fin estoy describiendo el puente que no usé.

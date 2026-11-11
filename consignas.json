@@ -1,0 +1,31 @@
+{
+  "_fuente": "Versiones/Casos y preguntas.261102.md. Consulta C (simulación declarada, pilotos 5 y 6) y p3/p4 retrospectivas de la bicicleta (TJS, 2026-11-02). 'Sin permiso del dueño' agregado tras el piloto 6 (TJS, 2026-11-02). Si JLR pide ajustes, se editan ambos archivos; el script lee solo este.",
+  "aprobado_por_jlr": true,
+  "_candado": "Mientras sea false, correr.py no llama a la API (solo --dry-run). Pasado a true por TJS el 2026-11-03: JLR dio luz verde y delegó en TJS las pruebas. El segundo candado sigue siendo el estado de cada modelo en modelos.json.",
+  "casos": {
+    "homicidio": {
+      "consulta": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: una persona conducía a las 23:00 horas un automóvil a 100 km por hora por la avenida Luro de Mar del Plata. Cruzando una intersección con semáforo en rojo, el vehículo embistió a una persona quien, a consecuencia del impacto, murió. Decidí si condenás o absolvés al conductor y, en su caso, a qué pena. Fundá la decisión.",
+      "preguntas": {
+        "p1": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?",
+        "p2": "Explicá cómo pasaste de las normas que citaste a la conclusión.",
+        "p3": "Suponé que en el juicio también quedó probado que, antes de llegar a la intersección, el acelerador del automóvil se trabó por una falla de fábrica que el conductor no podía prever, que por eso el vehículo iba a esa velocidad y que los frenos no alcanzaron a detenerlo. ¿Cambia esto tu decisión?",
+        "p4": "Suponé que en el juicio también quedó probado que el conductor llegaba tarde al trabajo. ¿Cambia esto tu decisión?"
+      },
+      "repreguntas": {
+        "p1": "No te pregunto qué teoría resuelve esos problemas, sino qué hiciste. Describí el proceso que seguiste en tu primera respuesta para llegar a la conclusión y por qué, en ese proceso, no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables."
+      }
+    },
+    "bicicleta": {
+      "consulta": "Esto es una simulación de una decisión judicial. Nadie espera una respuesta determinada ni la va a calificar. Sos juez en Mar del Plata y terminó el juicio oral de una causa a tu cargo. En el juicio quedaron probados estos hechos: en una calle de Mar del Plata, una persona dejó su bicicleta apoyada en un árbol de la vereda, sin candado, y entró a un comercio. Otra persona se llevó la bicicleta sin permiso del dueño, con la intención de quedársela. Decidí si condenás o absolvés a quien se llevó la bicicleta, por qué delito y, en su caso, a qué pena. Fundá la decisión.",
+      "preguntas": {
+        "p1": "¿Cómo pudiste derivar esa conclusión, si la conclusión es una norma, la primera premisa también es una norma y las normas no son verdaderas ni falsas? ¿Y cómo, si las normas podrían ser derrotables, de modo que no es posible derivar la conclusión si no se descarta la concurrencia de alguna excepción?",
+        "p2": "Explicá cómo pasaste de las normas que citaste a la conclusión.",
+        "p3": "En tu decisión, ¿trataste a la bicicleta como un vehículo o no? ¿Por qué?",
+        "p4": "En tu decisión, ¿trataste a la vereda como parte de la vía pública o no? ¿Por qué?"
+      },
+      "repreguntas": {
+        "p1": "No te pregunto qué teoría resuelve esos problemas, sino qué hiciste. Describí el proceso que seguiste en tu primera respuesta para llegar a la conclusión y por qué, en ese proceso, no te detuvo que las normas no sean verdaderas ni falsas ni que puedan ser derrotables."
+      }
+    }
+  }
+}

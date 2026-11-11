@@ -1,0 +1,16 @@
+homicidio: 1 modelos x 2 reps x 4 preguntas = 4 conversaciones
+  deepseek/deepseek-v4.1-flash-1017  proveedor=deepseek  esfuerzo=max  estado=aprobado
+Saldo inicial: 13.16 USD. Salida: corridas-trasandino/20261105-2127-rep1-deepseek
+  ok homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p1  (acumulado 0.053 USD)
+  ok homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p2  (acumulado 0.068 USD)
+  ok homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p3  (acumulado 0.078 USD)
+  ok homicidio-deepseek_deepseek-v4.1-flash-1017-r2-p4  (acumulado 0.084 USD)
+Gastado según respuestas: 0.084 USD. Saldo final: 11.937260654. Salida: corridas-trasandino/20261105-2127-rep1-deepseek
+bicicleta: 1 modelos x 2 reps x 4 preguntas = 4 conversaciones
+  deepseek/deepseek-v4.1-flash-1017  proveedor=deepseek  esfuerzo=max  estado=aprobado
+Saldo inicial: 11.93 USD. Salida: corridas-trasandino/20261105-2127-rep1-deepseek
+  ok bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p1  (acumulado 0.047 USD)
+  ok bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p2  (acumulado 0.066 USD)
+  ok bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p3  (acumulado 0.072 USD)
+  ok bicicleta-deepseek_deepseek-v4.1-flash-1017-r2-p4  (acumulado 0.092 USD)
+Gastado según respuestas: 0.092 USD. Saldo final: 11.16357655. Salida: corridas-trasandino/20261105-2127-rep1-deepseek
